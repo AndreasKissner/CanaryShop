@@ -1,0 +1,127 @@
+/* ====== Trigger-Link ====== */
+.howto-trigger {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+/* ====== Overlay ====== */
+.overlay {
+  position: fixed;
+  inset: 0;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, visibility .2s ease;
+  z-index: 9999;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  display: block;
+}
+
+/* ====== Modal Box ====== */
+.modal {
+  position: relative;
+  max-width: 640px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 14px;
+  padding: 2.5rem 1.25rem 1rem; /* mehr Platz oben für Button */
+  box-shadow: 0 20px 60px rgba(0,0,0,.25);
+  z-index: 1;
+}
+
+/* Mobile fast fullscreen */
+@media (max-width: 640px) {
+  .modal {
+    width: 95%;
+    height: 95%;
+    max-height: 95%;
+    border-radius: 10px;
+  }
+}
+
+/* ====== Close Button ====== */
+.close {
+  position: absolute;
+  top: .75rem;
+  right: .75rem;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  z-index: 10; /* über Inhalt */
+}
+.close-link {
+  display: inline-block;
+  padding: .375rem .625rem;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: .875rem;
+  background: #f9f9f9;
+}
+
+/* ====== Titel & Text ====== */
+#howto-title {
+  margin: 0 0 .75rem 0;
+  font-size: 1.25rem;
+}
+.modal p {
+  margin: .5rem 0 1rem 0;
+}
+
+/* ====== Steps ====== */
+.steps {
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+}
+.steps li {
+  margin: .35rem 0;
+}
+
+/* ====== Hinweis ====== */
+.note {
+  font-size: .9rem;
+  background: #f8f8f8;
+  border-left: 4px solid #ddd;
+  padding: .75rem .75rem;
+  border-radius: 6px;
+}
+
+/* ====== Actions ====== */
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: .5rem;
+}
+.btn {
+  display: inline-block;
+  padding: .6rem 1rem;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  border-radius: 8px;
+  line-height: 1;
+}
+.account a {
+  margin-left: .5rem;
+}
