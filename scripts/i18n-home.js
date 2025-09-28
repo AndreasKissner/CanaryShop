@@ -52,8 +52,10 @@ const DICT = {
     howto_step4: "Amazon account: To complete the purchase, you need a free Amazon account.",
     howto_account_text: "Don’t have an Amazon account yet?",
     howto_account_link: "Create one for free here",
-    howto_disclosure: "Note: If you buy via our shop, we receive a small commission from Amazon. The price remains the same for you.",
-    howto_ok: "Got it"
+    howto_disclosure: "Note: If you make a purchase through our shop, we receive a small commission from the seller. The price remains the same for you.",
+    howto_ok: "Got it",
+    legal_Notice: "Legal Notice",
+    privacy_Policy: "Privacy Policy"
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
@@ -83,8 +85,10 @@ const DICT = {
     howto_step4: "Amazon-Konto: Für den Kauf brauchst du ein kostenloses Amazon-Konto.",
     howto_account_text: "Du hast noch kein Amazon-Konto?",
     howto_account_link: "Hier kostenlos erstellen",
-    howto_disclosure: "Hinweis: Wenn du über unseren Shop bei Amazon einkaufst, erhalten wir eine kleine Provision von Amazon. Für dich bleibt der Preis gleich.",
-    howto_ok: "Verstanden"
+    howto_disclosure: "Hinweis: Wenn du über unseren Shop einkaufst, erhalten wir eine kleine Provision von Veräufer. Für dich bleibt der Preis gleich.",
+    howto_ok: "Verstanden",
+    legal_Notice: "Impressum",
+    privacy_Policy: "Datenschutz"
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
@@ -112,9 +116,12 @@ const DICT = {
     howto_step4: "Compte Amazon : pour finaliser ton achat, il te faut un compte Amazon gratuit.",
     howto_account_text: "Tu n’as pas encore de compte Amazon ?",
     howto_account_link: "Crée-en un gratuitement ici",
-    howto_disclosure: "Remarque : si tu achètes via notre boutique, nous recevons une petite commission d’Amazon. Le prix reste identique pour toi.",
-    howto_ok: "Compris"
+    howto_disclosure: "Remarque : Si vous effectuez un achat via notre boutique, nous recevons une petite commission du vendeur. Le prix reste le même pour vous.",
+    howto_ok: "Compris",
+    legal_Notice: "Mentions légales",
+    privacy_Policy: "Politique de confidentialité"
   },
+
   it: {
     headline: "CanaryHub Affiliate Shop",
     subheadline: "Trova il tuo negozio nella tua lingua.",
@@ -141,8 +148,10 @@ const DICT = {
     howto_step4: "Account Amazon: per completare l’acquisto serve un account Amazon gratuito.",
     howto_account_text: "Non hai ancora un account Amazon?",
     howto_account_link: "Creane uno gratis qui",
-    howto_disclosure: "Nota: Se acquisti su Amazon tramite il nostro shop, riceviamo una piccola commissione. Per te il prezzo non cambia.",
-    howto_ok: "Ho capito"
+    howto_disclosure: "Nota: Se acquisti tramite il nostro shop, riceviamo una piccola commissione dal venditore. Per te il prezzo rimane invariato.",
+    howto_ok: "Ho capito",
+    legal_Notice: "Note legali",
+    privacy_Policy: "Informativa sulla privacy"
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -170,8 +179,10 @@ const DICT = {
     howto_step4: "Cuenta de Amazon: Para finalizar la compra necesitas una cuenta gratuita de Amazon.",
     howto_account_text: "¿Todavía no tienes una cuenta de Amazon?",
     howto_account_link: "Crea una aquí gratis",
-    howto_disclosure: "Nota: Si compras en Amazon a través de nuestra tienda, recibimos una pequeña comisión. Para ti el precio no cambia.",
-    howto_ok: "Entendido"
+    howto_disclosure: "Nota: Si realizas una compra a través de nuestra tienda, recibimos una pequeña comisión del vendedor. Para ti el precio se mantiene igual.",
+    howto_ok: "Entendido",
+    legal_Notice: "Aviso legal",
+    privacy_Policy: "Política de privacidad"
   }
 };
 

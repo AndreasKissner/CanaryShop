@@ -1,7 +1,4 @@
-/* ==========================================================================
-   CanaryHub – Beach Theme (hell, frisch, farbenfroh)
-   Mit Farbpalette aus deinem Projekt
-   ========================================================================== */
+
 
 :root {
   /* 🌞 Primärfarben */
@@ -52,6 +49,8 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .site-header,
@@ -75,17 +74,16 @@ body {
   background:
     linear-gradient(180deg,
       #FFF8CC 0%,
-      /* Himmel leicht wärmer gelblich */
       var(--sea) 30%,
-      /* Meer Türkis */
       #ffcc80 65%,
-      /* heller Sand → mehr Orange */
       var(--primary-orange) 100%
-      /* Sand dunkler/kräftiger Orange */
     );
   background-attachment: fixed;
   background-size: cover;
-  /* Gradient immer über die komplette Fläche */
+
+  /* ✨ Ergänzungen für Footer unten */
+  display: flex;
+  flex-direction: column;
 }
 
 .container-header {
@@ -122,6 +120,8 @@ body {
 
 
 .container-main {
+  
+  flex: 1; /* nimmt den Platz zwischen Header und Footer ein */
   width: min(1100px, 90vw);
   margin-inline: auto;
   display: flex;
@@ -217,6 +217,7 @@ video {
 
 /* Footer */
 .site-footer {
+  margin-top: auto;
   background: linear-gradient(to right, var(--primary-orange), var(--gold));
   color: #fff;
 }
@@ -236,6 +237,8 @@ video {
 .footer-nav {
   display: flex;
   gap: 25px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .footer-nav a {
@@ -252,6 +255,9 @@ video {
   background: rgba(255, 255, 255, 0.4);
   color: var(--primary-orange);
   transform: translateY(-3px) scale(1.05);
+}
+.propritär{
+  font-size: 24px;
 }
 
 .link-container {

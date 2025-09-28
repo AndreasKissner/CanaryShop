@@ -1,0 +1,58 @@
+.container-datenschutz {
+    flex: none;
+}
+
+.legal {
+    margin: 0 30px;
+}
+
+#google_translate_element {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* Google trans */
+.lang-menu {
+    margin: 20px 0;
+
+}
+
+.lang-menu button {
+    margin: 6px;
+    padding: 24px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f9f9f9, #eaeaea);
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lang-menu button:hover {
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Entfernt das Übersetzungsbanner oben */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+.goog-te-menu-frame.skiptranslate {
+    display: none !important;
+}
+
+/* Verhindert, dass body nach unten gedrückt wird */
+body {
+    top: 0px !important;
+}
+
+/* Versteckt das Dropdown selbst */
+#google_translate_element {
+    display: none !important;
+}

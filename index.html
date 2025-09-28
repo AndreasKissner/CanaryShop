@@ -31,10 +31,11 @@
 
         <!-- modal how function -->
         <!-- Trigger-Link (öffnet Overlay via :target, kein JS nötig) -->
-        <a href="#howto-overlay" class="howto-trigger" data-i18n="howto_trigger">So funktioniert unser Shop</a>
+        <a href="#" class="howto-trigger" data-i18n="howto_trigger">So funktioniert unser Shop</a>
 
         <!-- Overlay -->
-        <div id="howto-overlay" class="overlay" aria-hidden="true">
+        <div id="howto-overlay" class="overlay" inert>
+
           <!-- Klick auf den Hintergrund schließt das Overlay -->
           <a href="#" class="overlay-backdrop" aria-hidden="true" tabindex="-1"></a>
 
@@ -67,8 +68,8 @@
 
             <p class="account">
               <span data-i18n="howto_account_text">Du hast noch kein Amazon-Konto?</span>
-              <a href="https://www.amazon.de/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2F%3F_encoding%3DUTF8%26adgrpid%3D154228170936%26gad_source%3D1%26hvadid%3D675212901583%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9056144%26hvnetw%3Dg%26hvpone%3D%26hvpos%3D%26hvptwo%3D%26hvqmt%3De%26hvrand%3D2034931995940932647%26hvtargid%3Dkwd-10573980%26hydadcr%3D10627_2211717%26language%3Den_GB%26ref%3Dpd_sl_7qhccgoot7_e%26tag%3Dgoogdeaen-21%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=deflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" target="_blank" rel="noopener"
-                data-i18n="howto_account_link">Hier kostenlos erstellen</a>
+              <a href="https://www.amazon.de/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2F%3F_encoding%3DUTF8%26adgrpid%3D154228170936%26gad_source%3D1%26hvadid%3D675212901583%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9056144%26hvnetw%3Dg%26hvpone%3D%26hvpos%3D%26hvptwo%3D%26hvqmt%3De%26hvrand%3D2034931995940932647%26hvtargid%3Dkwd-10573980%26hydadcr%3D10627_2211717%26language%3Den_GB%26ref%3Dpd_sl_7qhccgoot7_e%26tag%3Dgoogdeaen-21%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=deflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+                target="_blank" rel="noopener" data-i18n="howto_account_link">Hier kostenlos erstellen</a>
             </p>
 
             <p class="note" data-i18n="howto_disclosure">
@@ -128,15 +129,16 @@
     <div class="container-footer">
       <small>&copy; <span id="year"></span> CanaryHub Shop</small>
 
-
+<p>Design by: Epsylon</p>
       <nav class="footer-nav">
-        <a href="/impressum.html">Impressum</a> |
-        <a href="/datenschutz.html">Datenschutz</a>
+        <a href="./html/impressum.html" data-i18n="legal_Notice">Impressum</a> 
+        <p class="propritär">CanaryHub by L. und A. Kissner</p>
+        <a href="./html/datenschutz.html" data-i18n="privacy_Policy">Datenschutz</a>
       </nav>
     </div>
   </footer>
 
-
+  <script src="./scripts/functionOverlay.js"></script>
   <script src="./scripts/i18n-home.js" defer></script>
 </body>
 

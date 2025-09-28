@@ -23,7 +23,7 @@
   align-items: center;
 }
 
-.overlay:target {
+.overlay.is-open {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
