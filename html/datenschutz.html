@@ -4,11 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CanaryHub AffiliateShop – Start</title>
-  <!-- Globale Styles -->
+  <title>CanaryHub AffiliateShop Datenschutz</title>
   <link rel="stylesheet" href="/style.css">
 
-  <!-- Spezifische Styles für HowFunction / Startseite -->
   <link rel="stylesheet" href="/styles/legal-notice.css">
   <link rel="stylesheet" href="/styles/howfunction.css">
 </head>
@@ -29,14 +27,11 @@
     <section class="section">
       <div class="link-container">
 
-        <a href="https://canaryhub.community" class="floating-link" target="_blank">
-          Go to CanaryHub.community
-        </a>
-
         <!-- modal how function -->
         <!-- Trigger-Link (öffnet Overlay via :target, kein JS nötig) -->
+        <a href="../index.html" class="start-seite" data-i18n="start_seite">Startseite</a>
+        <a href="https://canaryhub.community" class="floating-link" target="_blank">Go to CanaryHub.community</a>
         <a href="#howto-overlay" class="howto-trigger" data-i18n="howto_trigger">So funktioniert unser Shop</a>
-
         <!-- Overlay -->
         <div id="howto-overlay" class="overlay" inert>
 
@@ -94,7 +89,7 @@
 
 
   <section class="legal">
-    <h1>Datenschutzerklärung</h1>
+    <h1 class="datenschutz">Datenschutzerklärung</h1>
     <div class="lang-menu">
       <button data-lang="de">🇩🇪 Deutsch</button>
       <button data-lang="en">🇬🇧 English</button>
@@ -684,7 +679,9 @@
       Widgets oder Rabatt-Codes gehören können) auf die Angebote und Leistungen von Drittanbietern ein (zusammenfassend
       bezeichnet als "Affiliate-Links"). Wenn Nutzer den Affiliate-Links folgen, bzw. anschließend die Angebote
       wahrnehmen, können wir von diesen Drittanbietern eine Provision oder sonstige Vorteile erhalten (zusammenfassend
-      bezeichnet als "Provision").</p>
+      bezeichnet als "Provision"). Wir als Webseitenbetreiber agieren lediglich als Zwischenhändler und wählen für Sie
+      nur die besten Angebote aus. Wir übernehmen keine Garantie oder Rücknahme für über Affiliate-Links gekaufte
+      Artikel; hierfür ist ausschließlich der direkte Verkäufer verantwortlich</p>
     <p>Um nachverfolgen zu können, ob die Nutzer die Angebote eines von uns eingesetzten Affiliate-Links wahrgenommen
       haben, ist es notwendig, dass die jeweiligen Drittanbieter erfahren, dass die Nutzer einem innerhalb unseres
       Onlineangebotes eingesetzten Affiliate-Link gefolgt sind. Die Zuordnung der Affiliate-Links zu den jeweiligen
@@ -889,12 +886,13 @@
 
 
       <nav class="footer-nav">
-        <a href="/impressum.html" data-i18n="legal_Notice">Impressum</a>
-        <p class="propritär">CanaryHub by L. und A. Kissner</p>
-        <a href="/datenschutz.html" data-i18n="privacy_Policy">Datenschutz</a>
+        <a href="./impressum.html" data-i18n="legal_Notice">Impressum</a>
+        <a href="#" data-i18n="privacy_Policy">Datenschutz</a>
       </nav>
     </div>
   </footer>
+
+
   <!-- Erst deine eigene JS -->
   <script src="/scripts/google-trans.js"></script>
 

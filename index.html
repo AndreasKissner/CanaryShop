@@ -88,40 +88,56 @@
         Dieses Beispiel-Video ist ein Platzhalter. Hier kannst du dein MP4 hochladen oder einen Embed nutzen.
       </p>
       <video controls width="100%" poster="assets/img/canaryBeach.png">
-        <source src="./assets/vids/bigvideo.mp4" type="video/mp4">
+        <source src="./assets/vids/bigvideo-VEED.mp4" type="video/mp4">
         Dein Browser unterstützt das Video-Tag nicht.
       </video>
     </section>
 
     <!-- Shop-Auswahl -->
     <section class="section">
-      <h2 data-i18n="choose_shop">Wähle deinen Shop</h2>
+      <h2 class="your-boutique" data-i18n="choose_shop">Wähle deinen Shop</h2>
       <div class="grid">
-        <a class="tile" href="/de/">
+
+        <a class="tile disabled" href="/de/" data-i18n-tooltip="tooltip_de">
           <span class="tile-title" data-i18n="shop_de">Shop Deutsch und Schweiz</span>
-          <!--   <span class="tile-sub" data-i18n="shop_de_sub">Klick</span> -->
         </a>
-        <a class="tile" href="/en/">
+        <a class="tile disabled" href="/en/" data-i18n-tooltip="tooltip_en">
           <span class="tile-title" data-i18n="shop_en">Shop English</span>
-          <!--       <span class="tile-sub" data-i18n="shop_en_sub">Amazon.co.uk/COM • £/$</span> -->
         </a>
-        <a class="tile" href="/fr/">
+        <a class="tile disabled" href="/fr/" data-i18n-tooltip="tooltip_fr">
           <span class="tile-title" data-i18n="shop_fr">Boutique Français</span>
-          <!--          <span class="tile-sub" data-i18n="shop_fr_sub">Amazon.fr • €</span> -->
         </a>
-        <a class="tile" href="/it/">
+        <a class="tile disabled" href="/it/" data-i18n-tooltip="tooltip_it">
           <span class="tile-title" data-i18n="shop_it">Negozio Italiano</span>
-          <!--   <span class="tile-sub" data-i18n="shop_it_sub">Amazon.it • €</span> -->
         </a>
-        <a class="tile" href="/es/">
+        <a class="tile disabled" href="/es/" data-i18n-tooltip="tooltip_es">
           <span class="tile-title" data-i18n="shop_es">Tienda Español</span>
-          <!--  <span class="tile-sub" data-i18n="shop_es_sub">Amazon.es • €</span> -->
         </a>
-        <a class="tile" href="/intl/">
+        <a class="tile disabled" href="/intl/" data-i18n-tooltip="tooltip_intl">
           <span class="tile-title" data-i18n="shop_intl">International (EN)</span>
-          <!--      <span class="tile-sub" data-i18n="shop_intl_sub">Fallback • Mixed</span> -->
         </a>
       </div>
+      <!-- Script for blocked Button -->
+      <script>
+        const translations = {
+          tooltip_de: "Bald verfügbar",
+          tooltip_en: "Coming soon",
+          tooltip_fr: "Bientôt disponible",
+          tooltip_it: "Disponibile presto",
+          tooltip_es: "Próximamente",
+          tooltip_intl: "Coming soon"
+        };
+
+        document.querySelectorAll('.tile.disabled').forEach(link => {
+          // Klicks blockieren
+          link.addEventListener('click', e => e.preventDefault());
+
+          // Tooltip Text setzen
+          const key = link.getAttribute('data-i18n-tooltip');
+          link.setAttribute('data-tooltip', translations[key]);
+        });
+        /* --- */
+      </script>
     </section>
   </main>
 
@@ -129,10 +145,11 @@
     <div class="container-footer">
       <small>&copy; <span id="year"></span> CanaryHub Shop</small>
 
-<p>Design by: Epsylon</p>
+
       <nav class="footer-nav">
-        <a href="./html/impressum.html" data-i18n="legal_Notice">Impressum</a> 
-        <p class="propritär">CanaryHub by L. und A. Kissner</p>
+        <a href="./html/impressum.html" data-i18n="legal_Notice">Impressum</a>
+
+
         <a href="./html/datenschutz.html" data-i18n="privacy_Policy">Datenschutz</a>
       </nav>
     </div>
@@ -140,6 +157,7 @@
 
   <script src="./scripts/functionOverlay.js"></script>
   <script src="./scripts/i18n-home.js" defer></script>
+
 </body>
 
 </html>

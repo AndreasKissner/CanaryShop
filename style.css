@@ -1,5 +1,3 @@
-
-
 :root {
   /* 🌞 Primärfarben */
   --primary-yellow: #fdcc0d;
@@ -57,7 +55,6 @@
 .container-main,
 .site-footer {
   background: transparent;
-  /* Hintergrund sichtbar lassen */
 }
 
 
@@ -66,22 +63,16 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  /* wichtig für den kompletten Hintergrund */
   color: var(--text);
   font: 16px/1.6 system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-
-  /* Beach-Gradient: Himmel → Meer → Sand → mehr Orange */
   background:
     linear-gradient(180deg,
       #FFF8CC 0%,
       var(--sea) 30%,
       #ffcc80 65%,
-      var(--primary-orange) 100%
-    );
+      var(--primary-orange) 100%);
   background-attachment: fixed;
   background-size: cover;
-
-  /* ✨ Ergänzungen für Footer unten */
   display: flex;
   flex-direction: column;
 }
@@ -95,19 +86,18 @@ body {
   gap: 20px;
 }
 
-.function-link{
-              /* Abstand von links – anpassbar */
-  color: var(--primary-orange); /* orange Farbe */
+.function-link {
+  color: var(--primary-orange);
   font-weight: bold;
   font-size: 1.5rem;
-  font-style: italic;        /* leicht schräg */
+  font-style: italic;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.1); /* leicht transparent */
+  background: rgba(255, 255, 255, 0.1);
   padding: 6px 12px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
-  z-index: 9999;             /* immer im Vordergrund */
+  z-index: 9999;
 }
 
 .function-link:hover {
@@ -116,12 +106,8 @@ body {
   background: rgba(255, 165, 0, 0.4);
 }
 
-
-
-
 .container-main {
-  
-  flex: 1; /* nimmt den Platz zwischen Header und Footer ein */
+  flex: 1;
   width: min(1100px, 90vw);
   margin-inline: auto;
   display: flex;
@@ -149,7 +135,6 @@ body {
   width: 100%;
   min-width: 210px;
   max-width: 500px;
-
 }
 
 .section {
@@ -158,6 +143,7 @@ body {
 
 .muted {
   color: var(--muted);
+  margin: 20px 0;
 }
 
 /* Grid für Shop-Kacheln */
@@ -191,7 +177,6 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 14px 40px rgba(0, 0, 0, .16);
   border-color: rgba(255, 209, 102, .45);
-  /* sun effect */
 }
 
 .tile-title {
@@ -208,7 +193,7 @@ body {
 /* Video */
 video {
   display: block;
-  width: 70%;
+  width: 80%;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
@@ -256,29 +241,24 @@ video {
   color: var(--primary-orange);
   transform: translateY(-3px) scale(1.05);
 }
-.propritär{
-  font-size: 24px;
-}
 
 .link-container {
-  display: flex;          /* nebeneinander */
-  align-items: center;    /* vertikal zentriert */
-gap: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
-/* link canary comminty */
 .floating-link {
-  color: var(--primary-orange);  /* orange Farbe */
+  color: var(--primary-orange);
   font-weight: bold;
   font-size: 1.5rem;
- /*  transform: rotate(-10deg);  */   /* leicht schräg */
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.1); /* optional, leicht transparent */
+  background: rgba(255, 255, 255, 0.1);
   padding: 6px 12px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
-  z-index: 9999;            /* immer im Vordergrund */
+  z-index: 9999;
 }
 
 .floating-link:hover {
@@ -287,60 +267,119 @@ gap: 50px;
   background: rgba(255, 165, 0, 0.4);
 }
 
+.your-boutique{
+text-align: center;
+}
+
+/* Button blovcked */
+.tile.disabled::after {
+  content: attr(data-tooltip); /* Dynamisch aus JS gesetzt */
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  font-size: 13px;
+  z-index: 10;
+}
+
+.tile.disabled::before {
+  content: "";
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 10;
+}
+
+.tile.disabled:hover::after,
+.tile.disabled:hover::before {
+  opacity: 1;
+}
+/* --- */
 
 
 /* media quaries */
 
-@media(max-width:1100px){
- .link-container{
-  flex-direction: column;
- }
+@media(max-width:1100px) {
+  .link-container {
+    flex-direction: column;
+  }
 
-  .section{
+  .section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 
-@media(max-width:670px){
-  .container-main{
+
+@media(max-width:750px) {
+  .footer-nav {
+    flex-direction: column;
+  }
+}
+
+
+
+@media(max-width:670px) {
+  .container-main {
     flex-direction: column;
   }
 
-  .section{
+  .section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-}
 
-@media(max-width:670px){
-  .container-header{
+  .container-header {
     flex-direction: column;
   }
+
   .floating-link {
     text-align: center;
-  font-size: 1.1rem;
+    font-size: 1.1rem;
   }
 }
 
-@media(max-width:500px){
-.function-link {
-  box-shadow:none;
+
+
+@media(max-width:500px) {
+  .function-link {
+    box-shadow: none;
+  }
+
+  .function-link:hover {
+    background: none;
+  }
+
+  .propritär {
+    font-size: 16px;
+  }
 }
 
-.function-link:hover {
-  background:none;
-}
-}
+@media(max-width:380px) {
 
-@media(max-width:380px){
-h1,h2, p.muted{
-  text-align: center;
-}
+  h1,
+  h2,
+  p.muted {
+    text-align: center;
+  }
 
-.header-link{
-  font-size: 1.3rem;
-}
+  .header-link {
+    font-size: 1.3rem;
+  }
 }

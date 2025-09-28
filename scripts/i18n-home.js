@@ -55,7 +55,8 @@ const DICT = {
     howto_disclosure: "Note: If you make a purchase through our shop, we receive a small commission from the seller. The price remains the same for you.",
     howto_ok: "Got it",
     legal_Notice: "Legal Notice",
-    privacy_Policy: "Privacy Policy"
+    privacy_Policy: "Privacy Policy",
+    start_seite : "Home"
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
@@ -88,7 +89,8 @@ const DICT = {
     howto_disclosure: "Hinweis: Wenn du über unseren Shop einkaufst, erhalten wir eine kleine Provision von Veräufer. Für dich bleibt der Preis gleich.",
     howto_ok: "Verstanden",
     legal_Notice: "Impressum",
-    privacy_Policy: "Datenschutz"
+    privacy_Policy: "Datenschutz",
+    start_seite: "Startseite"
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
@@ -119,7 +121,8 @@ const DICT = {
     howto_disclosure: "Remarque : Si vous effectuez un achat via notre boutique, nous recevons une petite commission du vendeur. Le prix reste le même pour vous.",
     howto_ok: "Compris",
     legal_Notice: "Mentions légales",
-    privacy_Policy: "Politique de confidentialité"
+    privacy_Policy: "Politique de confidentialité",
+    start_seite : "Accueil"
   },
 
   it: {
@@ -151,7 +154,8 @@ const DICT = {
     howto_disclosure: "Nota: Se acquisti tramite il nostro shop, riceviamo una piccola commissione dal venditore. Per te il prezzo rimane invariato.",
     howto_ok: "Ho capito",
     legal_Notice: "Note legali",
-    privacy_Policy: "Informativa sulla privacy"
+    privacy_Policy: "Informativa sulla privacy",
+    start_seite : "Home"
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -182,7 +186,9 @@ const DICT = {
     howto_disclosure: "Nota: Si realizas una compra a través de nuestra tienda, recibimos una pequeña comisión del vendedor. Para ti el precio se mantiene igual.",
     howto_ok: "Entendido",
     legal_Notice: "Aviso legal",
-    privacy_Policy: "Política de privacidad"
+    privacy_Policy: "Política de privacidad",
+    start_seite : "Inicio"
+
   }
 };
 
