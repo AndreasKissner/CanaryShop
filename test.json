@@ -1,0 +1,23 @@
+{
+  "product-card-1": {
+    "title": "Dyson V15 Detect",
+    "description": "Smarter Akkustaubsauger mit Laseraufsatz, starker Saugleistung und Partikelsensor.",
+    "price": "€ 599,00",
+    "toArticle": "http.linkto Amayon",
+    "images": {
+      "image_1": { "src": "www.png", "alt": "Bild 1" },
+      "image_2": { "src": "d.jpeg", "alt": "Bild 2" },
+      "image_3": { "src": "test.png", "alt": "Bild 3" }
+    }
+  },
+  "product-card-2": {
+    "title": "Samsung Jet 90",
+    "description": "Kabelloser Staubsauger mit starker Saugkraft und flexiblem Aufsatzsystem.",
+    "price": "€ 499,00",
+    "toArticle": "http.linkto Samsung",
+    "images": {
+      "image_1": { "src": "samsung1.png", "alt": "Bild 1" },
+      "image_2": { "src": "samsung2.png", "alt": "Bild 2" }
+    }
+  }
+}
