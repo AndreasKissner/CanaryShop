@@ -390,6 +390,11 @@ text-align: center;
     text-align: center;
     font-size: 1.1rem;
   }
+  .footer-links-left a.text-link {
+
+    font-size: 16px;
+  
+}
 }
 
 
@@ -415,10 +420,6 @@ text-align: center;
   p.muted {
     text-align: center;
   }
-
-  .footer-links-left {
-    flex-direction: column;
-}
 
   .header-link {
     font-size: 1.3rem;

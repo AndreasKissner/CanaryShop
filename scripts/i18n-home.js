@@ -56,7 +56,15 @@ const DICT = {
     howto_ok: "Got it",
     legal_Notice: "Legal Notice",
     privacy_Policy: "Privacy Policy",
-    start_seite : "Home"
+    start_seite: "Home",
+
+    option_placeholder1: "Shop Categories",
+    option_placeholder1: "Shop Categories",
+    option_placeholder2: "Vacation",
+    option_placeholder3: "Gaming",
+    option_placeholder4: "Fashion Accessories",
+    option_placeholder5: "Sports",
+    option_placeholder6: "Mixed"
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
@@ -90,7 +98,15 @@ const DICT = {
     howto_ok: "Verstanden",
     legal_Notice: "Impressum",
     privacy_Policy: "Datenschutz",
-    start_seite: "Startseite"
+    start_seite: "Startseite",
+
+    option_placeholder1: "Shop Kategorien",
+    option_placeholder1: "Shop Kategorien",
+    option_placeholder2: "Urlaub",
+    option_placeholder3: "Gaming",
+    option_placeholder4: "Mode-Accessoires",
+    option_placeholder5: "Sport",
+    option_placeholder6: "Gemischt"
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
@@ -122,7 +138,15 @@ const DICT = {
     howto_ok: "Compris",
     legal_Notice: "Mentions légales",
     privacy_Policy: "Politique de confidentialité",
-    start_seite : "Accueil"
+    start_seite: "Accueil",
+
+    option_placeholder1: "Catégories de boutique",
+    option_placeholder1: "Catégories de boutique",
+    option_placeholder2: "Vacances",
+    option_placeholder3: "Jeux vidéo",
+    option_placeholder4: "Accessoires de mode",
+    option_placeholder5: "Sport",
+    option_placeholder6: "Mixte"
   },
 
   it: {
@@ -155,7 +179,15 @@ const DICT = {
     howto_ok: "Ho capito",
     legal_Notice: "Note legali",
     privacy_Policy: "Informativa sulla privacy",
-    start_seite : "Home"
+    start_seite: "Home",
+
+    option_placeholder1: "Categorie del negozio",
+    option_placeholder1: "Categorie del negozio",
+    option_placeholder2: "Vacanze",
+    option_placeholder3: "Gaming",
+    option_placeholder4: "Accessori moda",
+    option_placeholder5: "Sport",
+    option_placeholder6: "Misto"
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -187,7 +219,15 @@ const DICT = {
     howto_ok: "Entendido",
     legal_Notice: "Aviso legal",
     privacy_Policy: "Política de privacidad",
-    start_seite : "Inicio"
+    start_seite: "Inicio",
+
+    option_placeholder1: "Categorías de la tienda",
+       option_placeholder1: "Categorías de la tienda",
+    option_placeholder2: "Vacaciones",
+    option_placeholder3: "Juegos",
+    option_placeholder4: "Accesorios de moda",
+    option_placeholder5: "Deportes",
+    option_placeholder6: "Mixto"
 
   }
 };
@@ -226,7 +266,8 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-  const lang = getPreferredLang();
+  /* const lang = getPreferredLang(); */
+  const lang = "en";
   applyTranslations(lang);
   renderDetected(lang);
   // Jahr im Footer setzen
