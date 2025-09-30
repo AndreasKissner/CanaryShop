@@ -1,21 +1,44 @@
 {
-  "anzeigen":{
-  "product-card-1": {
-    "title": "Dyson V11 Advanced, Staubsauger, Nickel/Blau",
-    "description": "60 % mehr Saugleistung als der Dyson V8™.\nBis zu 60 Min. konstante Leistung.\nLCD-Display mit Restlaufzeit & Updates.\nFiltration erfasst 99,99 % der Partikel (ab 0,3 Mikron).\nMotorbar™ Reinigungskopf mit Anti-Tangle Technologie.\nInklusive: Kombi-, Spalt- & Haarschraubenwerkzeug, Wandhalterung.",
-    "price": "Zum aktuellen Preis",
-    "toArticle": "https://www.amazon.de/Dyson-V11-Advanced-Staubsauger-Nickel/dp/B0D7MQP6L6?_encoding=UTF8&pd_rd_w=aV4Mv&content-id=amzn1.sym.490e70d5-fc69-4dc2-ae1e-f45652e7cc86%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=490e70d5-fc69-4dc2-ae1e-f45652e7cc86&pf_rd_r=HBMAGP49BHQQE65ERPYN&pd_rd_wg=bquVq&pd_rd_r=177fc96b-27a3-4dbf-99c4-17d21e3bd36a&linkCode=ll1&tag=canaryhub-21&linkId=e81f1f58378dab9d0bcee2dff43f91a2&language=de_DE&ref_=as_li_ss_tl",
-    "image_1": {
-      "src": "assets/img/pupImg/dyson.png",
-      "alt": "Dysen Stausauger"
+  "anzeigen": {
+    "product-card-1": {
+      "description": "60 % mehr Saugleistung als der Dyson V8™.\nBis zu 60 Min. konstante Leistung.\nLCD-Display mit Restlaufzeit & Updates.\nFiltration erfasst 99,99 % der Partikel (ab 0,3 Mikron).\nMotorbar™ Reinigungskopf mit Anti-Tangle Technologie.\nInklusive: Kombi-, Spalt- & Haarschraubenwerkzeug, Wandhalterung.",
+      "images": {
+        "img1": {
+          "alt": "Dyson Staubsauger 1",
+          "src": "assets/img/pupImg/dyson.png"
+        },
+        "img2": {
+          "alt": "Dyson Staubsauger 2",
+          "src": "assets/img/pupImg/dyson-side.png"
+        },
+        "img3": {
+          "alt": "Dyson Staubsauger 3",
+          "src": "assets/img/pupImg/dyson-detail.png"
+        }
+      },
+      "price": "https://www.amazon.de/Dyson-V11-Advanced-Staubsauger-Nickel/dp/B0D7MQP6L6?_encoding=UTF8&pd_rd_w=aV4Mv&content-id=amzn1.sym.490e70d5-fc69-4dc2-ae1e-f45652e7cc86%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=490e70d5-fc69-4dc2-ae1e-f45652e7cc86&pf_rd_r=HBMAGP49BHQQE65ERPYN&pd_rd_wg=bquVq&pd_rd_r=177fc96b-27a3-4dbf-99c4-17d21e3bd36a&linkCode=ll1&tag=canaryhub-21&linkId=e81f1f58378dab9d0bcee2dff43f91a2&language=de_DE&ref_=as_li_ss_tl",
+      "title": "Dyson V11 Advanced, Staubsauger, Nickel/Blau",
+      "toArticle": "https://www.amazon.de/Dyson-V11-Advanced-Staubsauger-Nickel/dp/B0D7MQP6L6?_encoding=UTF8&pd_rd_w=aV4Mv&content-id=amzn1.sym.490e70d5-fc69-4dc2-ae1e-f45652e7cc86%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=490e70d5-fc69-4dc2-ae1e-f45652e7cc86&pf_rd_r=HBMAGP49BHQQE65ERPYN&pd_rd_wg=bquVq&pd_rd_r=177fc96b-27a3-4dbf-99c4-17d21e3bd36a&linkCode=ll1&tag=canaryhub-21&linkId=e81f1f58378dab9d0bcee2dff43f91a2&language=de_DE&ref_=as_li_ss_tl"
+    },
+    "product-card-2": {
+      "description": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54 – stilvolle Damen-Sonnenbrille mit 2 Jahren internationaler Garantie und Top-Bewertungen auf Amazon.",
+           "images": {
+        "img1": {
+          "alt": "Img 1",
+          "src": "../../assets/img/pupImg/guccibrille.png"
+        },
+        "img2": {
+          "alt": "Dyson Staubsauger 2",
+          "src": "assets/img/pupImg/dyson-side.png"
+        },
+        "img3": {
+          "alt": "Dyson Staubsauger 3",
+          "src": "assets/img/pupImg/dyson-detail.png"
+        }
+      },
+      "price": "Zum aktuellen Preis",
+      "title": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54",
+      "toArticle": "https://www.amazon.de/Gucci-Sonnenbrillen-GG0956S-Black-Damen/dp/B093BBN45F?dib=eyJ2IjoiMSJ9.iEXXjb_PzNBJ3-_ujk0to26DG6522-TNKhbZCX554IPvqsg9nXyo51ZDW3VWjA3H1Tg6YmtAOlShwRMVmNAUqoB5akzBDmbxf9VWmSbffmZ6Yuqo1aDhHlvt1PJGT-189r8vx75CLp52aELMerNTKnaxWxyYyFkNfuIizphzJ84-RhEZZl2cZrX4HKKhPZi-ZSwsgZS5Crx4SOR_eroMVVpvOPu5wPMq1BCNQ346-TlToUVMeIPGQUDfipeV9QFwqXFNFSTuNvTdBzvDygDnPBHs_sJVFlVmcuO68NideGI.lcxPzLSxZGYu-hidi8o97op3O9sXq4hEF0V-FMs61Hs&dib_tag=se&keywords=gucci+brille&qid=1759218643&sr=8-11&linkCode=ll1&tag=canaryhub-21&linkId=126e15634df4b637012c7c0de7185e8a&language=de_DE&ref_=as_li_ss_tl"
     }
-  },
-  "product-card-2": {
-    "title": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54",
-    "description": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54 – stilvolle Damen-Sonnenbrille mit 2 Jahren internationaler Garantie und Top-Bewertungen auf Amazon.",
-    "price": "Zum aktuellen Preis",
-    "toArticle": "https://www.amazon.de/Gucci-Sonnenbrillen-GG0956S-Black-Damen/dp/B093BBN45F?dib=eyJ2IjoiMSJ9.iEXXjb_PzNBJ3-_ujk0to26DG6522-TNKhbZCX554IPvqsg9nXyo51ZDW3VWjA3H1Tg6YmtAOlShwRMVmNAUqoB5akzBDmbxf9VWmSbffmZ6Yuqo1aDhHlvt1PJGT-189r8vx75CLp52aELMerNTKnaxWxyYyFkNfuIizphzJ84-RhEZZl2cZrX4HKKhPZi-ZSwsgZS5Crx4SOR_eroMVVpvOPu5wPMq1BCNQ346-TlToUVMeIPGQUDfipeV9QFwqXFNFSTuNvTdBzvDygDnPBHs_sJVFlVmcuO68NideGI.lcxPzLSxZGYu-hidi8o97op3O9sXq4hEF0V-FMs61Hs&dib_tag=se&keywords=gucci+brille&qid=1759218643&sr=8-11&linkCode=ll1&tag=canaryhub-21&linkId=126e15634df4b637012c7c0de7185e8a&language=de_DE&ref_=as_li_ss_tl",
-    "image_1": { "src": "assets/img/pupImg/guccibrille.png", "alt": "Bild 1" }
   }
-}
 }

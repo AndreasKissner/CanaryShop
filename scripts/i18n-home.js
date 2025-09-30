@@ -49,7 +49,7 @@ const DICT = {
     howto_step1: "Choose your language: Click the button with your language to open the shop in your language.",
     howto_step2: "Browse products: Explore the categories and click on the items you are interested in.",
     howto_step3: "Go to Amazon: When you click on a product, you’ll be redirected to Amazon. There you can add it to your cart and pay.",
-    howto_step3a : "We search daily for the best prices for you. Therefore, prices may change from day to day – so check back with us regularly.",
+    howto_step3a: "We search daily for the best prices for you. Therefore, prices may change from day to day – so check back with us regularly.",
     howto_step4: "Amazon account: To complete the purchase, you need a free Amazon account.",
     howto_account_text: "Don’t have an Amazon account yet?",
     howto_account_link: "Create one for free here",
@@ -291,8 +291,8 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-  /* const lang = getPreferredLang(); */
-  const lang = "fr";
+  const lang = getPreferredLang();
+  /*   const lang = "fr"; */
   applyTranslations(lang);
   renderDetected(lang);
   // Jahr im Footer setzen

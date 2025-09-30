@@ -1,16 +1,29 @@
 .product-card {
   width: 100%;
-  max-width: 340px;            /* maximale Breite für Desktop */
+  max-width: 340px;
   background: #fffdf7;
   border-radius: 16px;
   box-shadow: 0 6px 18px rgba(0,0,0,.15);
   overflow: hidden;
   font-family: system-ui, sans-serif;
+
   display: flex;
   flex-direction: column;
-  margin: 12px auto;           /* Abstand zwischen Cards */
+  justify-content: space-between;  /* verteilt Header/Body/Footer */
+  min-height: 495px;               /* gleiche Höhe für alle */
+  margin: 12px auto;
 }
 
+.product-container{
+        width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 40px;
+}
 /* --- Slider Container --- */
 .product-card__slider {
   position: relative;
