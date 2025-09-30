@@ -127,6 +127,7 @@ body {
 }
 
 .site-header p {
+  text-align: center;
   margin: .5rem 0 0;
   color: var(--muted);
 }
@@ -144,6 +145,9 @@ body {
 .muted {
   color: var(--muted);
   margin: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+
 }
 
 /* Grid für Shop-Kacheln */
@@ -296,6 +300,9 @@ video {
   transition: all 0.3s ease;
   z-index: 9999;
 }
+.function{
+  font-size: 19px ;
+}
 
 .floating-link:hover {
   transform: rotate(-10deg) scale(1.1);
@@ -345,6 +352,9 @@ text-align: center;
   opacity: 1;
 }
 
+.info-partner{
+  text-align: center;}
+
 /* --- */
 
 /* media quaries */
@@ -353,6 +363,11 @@ text-align: center;
   .link-container {
     flex-direction: column;
   }
+
+  .muted {
+ text-align: center;
+
+}
 
   .section {
     display: flex;
@@ -391,9 +406,7 @@ text-align: center;
     font-size: 1.1rem;
   }
   .footer-links-left a.text-link {
-
     font-size: 16px;
-  
 }
 }
 
@@ -406,6 +419,10 @@ text-align: center;
 
   .function-link:hover {
     background: none;
+  }
+
+  .footer-links-left a.text-link {
+    text-align: center;
   }
 
   .propritär {

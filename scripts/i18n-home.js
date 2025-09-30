@@ -49,6 +49,7 @@ const DICT = {
     howto_step1: "Choose your language: Click the button with your language to open the shop in your language.",
     howto_step2: "Browse products: Explore the categories and click on the items you are interested in.",
     howto_step3: "Go to Amazon: When you click on a product, you’ll be redirected to Amazon. There you can add it to your cart and pay.",
+    howto_step3a : "We search daily for the best prices for you. Therefore, prices may change from day to day – so check back with us regularly.",
     howto_step4: "Amazon account: To complete the purchase, you need a free Amazon account.",
     howto_account_text: "Don’t have an Amazon account yet?",
     howto_account_link: "Create one for free here",
@@ -66,7 +67,9 @@ const DICT = {
     option_placeholder5: "Sports",
     option_placeholder6: "Mixed",
 
-    info_partner: "As an Amazon Associate, we earn from qualifying purchases."
+    info_partner: "As an Amazon Associate, we earn from qualifying purchases.",
+
+    shop_idee: "Shop Recommendation"
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
@@ -93,6 +96,7 @@ const DICT = {
     howto_step1: "Sprache wählen: Klicke auf den Button mit deiner Sprache, um den Shop in deiner Sprache zu öffnen.",
     howto_step2: "Produkte ansehen: Stöbere in den Kategorien und klicke auf Artikel, die dich interessieren.",
     howto_step3: "Weiter zu Amazon: Beim Klick auf ein Produkt wirst du zu Amazon weitergeleitet. Dort kannst du den Artikel in den Warenkorb legen und bezahlen.",
+    howto_step3a: "Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern – schauen Sie am besten regelmäßig bei uns vorbei.",
     howto_step4: "Amazon-Konto: Für den Kauf brauchst du ein kostenloses Amazon-Konto.",
     howto_account_text: "Du hast noch kein Amazon-Konto?",
     howto_account_link: "Hier kostenlos erstellen",
@@ -110,7 +114,9 @@ const DICT = {
     option_placeholder5: "Sport",
     option_placeholder6: "Gemischt",
 
-    info_partner: "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
+    info_partner: "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.",
+
+    shop_idee: "Shopempfehlung"
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
@@ -135,6 +141,7 @@ const DICT = {
     howto_step1: "Choisis ta langue : clique sur le bouton correspondant pour ouvrir la boutique dans ta langue.",
     howto_step2: "Découvre les produits : parcours les catégories et clique sur les articles qui t’intéressent.",
     howto_step3: "Aller sur Amazon : en cliquant sur un produit, tu es redirigé vers Amazon. Tu peux ensuite l’ajouter au panier et payer.",
+    howto_step3a: "Nous recherchons quotidiennement les meilleurs prix pour vous. Ainsi, les prix peuvent varier d’un jour à l’autre – revenez nous voir régulièrement.",
     howto_step4: "Compte Amazon : pour finaliser ton achat, il te faut un compte Amazon gratuit.",
     howto_account_text: "Tu n’as pas encore de compte Amazon ?",
     howto_account_link: "Crée-en un gratuitement ici",
@@ -152,7 +159,9 @@ const DICT = {
     option_placeholder5: "Sport",
     option_placeholder6: "Mixte",
 
-    info_partner: "En tant que partenaire Amazon, nous gagnons sur les achats éligibles."
+    info_partner: "En tant que partenaire Amazon, nous gagnons sur les achats éligibles.",
+
+    shop_idee: "Recommandation de boutique"
   },
 
   it: {
@@ -178,6 +187,7 @@ const DICT = {
     howto_step1: "Scegli la lingua: clicca sul pulsante con la tua lingua per aprire lo shop nella tua lingua.",
     howto_step2: "Guarda i prodotti: esplora le categorie e clicca sugli articoli che ti interessano.",
     howto_step3: "Vai su Amazon: cliccando su un prodotto vieni reindirizzato su Amazon. Lì puoi aggiungerlo al carrello e pagare.",
+    howto_step3a: "Cerchiamo ogni giorno i migliori prezzi per te. Pertanto, i prezzi possono variare di giorno in giorno – controlla regolarmente il nostro sito.",
     howto_step4: "Account Amazon: per completare l’acquisto serve un account Amazon gratuito.",
     howto_account_text: "Non hai ancora un account Amazon?",
     howto_account_link: "Creane uno gratis qui",
@@ -195,7 +205,9 @@ const DICT = {
     option_placeholder5: "Sport",
     option_placeholder6: "Misto",
 
-    info_partner: "In qualità di affiliato Amazon guadagniamo dagli acquisti idonei."
+    info_partner: "In qualità di affiliato Amazon guadagniamo dagli acquisti idonei.",
+
+    shop_idee: "Consiglio del negozio"
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -220,6 +232,7 @@ const DICT = {
     howto_step1: "Elige tu idioma: Haz clic en el botón con tu idioma para abrir la tienda en tu idioma.",
     howto_step2: "Mira los productos: Explora las categorías y haz clic en los artículos que te interesen.",
     howto_step3: "Ir a Amazon: Al hacer clic en un producto serás dirigido a Amazon. Allí puedes añadirlo al carrito y pagar.",
+    howto_step3a: "Buscamos a diario los mejores precios para usted. Por ello, los precios pueden cambiar de un día para otro; visite nuestra página con regularidad.",
     howto_step4: "Cuenta de Amazon: Para finalizar la compra necesitas una cuenta gratuita de Amazon.",
     howto_account_text: "¿Todavía no tienes una cuenta de Amazon?",
     howto_account_link: "Crea una aquí gratis",
@@ -237,7 +250,9 @@ const DICT = {
     option_placeholder5: "Deportes",
     option_placeholder6: "Mixto",
 
-    info_partner_es: "Como afiliado de Amazon, ganamos con las compras que califican."
+    info_partner_es: "Como afiliado de Amazon, ganamos con las compras que califican.",
+
+    shop_idee: "Recomendación de tienda"
 
   }
 };
