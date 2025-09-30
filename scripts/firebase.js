@@ -1,4 +1,4 @@
-const BASE_URL = "https://apifortest-766c5-default-rtdb.europe-west1.firebasedatabase.app/";
+const BASE_URL = "https://apifortest-766c5-default-rtdb.europe-west1.firebasedatabase.app/anzeigen";
 
 async function getDatas(path =""){
     try{
@@ -9,6 +9,7 @@ async function getDatas(path =""){
         console.log(`[Info:] All Data's load! Status: ${response.status}`);
         let responseToJson = await response.json();
         console.log(responseToJson);
+        return responseToJson
     }catch(error){
         console.error("Requst Error", error.message);
     }
