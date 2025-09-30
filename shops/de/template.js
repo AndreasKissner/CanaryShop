@@ -19,7 +19,7 @@ function getCardTemplate(){
       Smarter Akkustaubsauger mit Laseraufsatz, starker Saugleistung und Partikelsensor.
     </p>
     <div class="product-card__meta" id="meta-1" data-i18n="product_meta">
-      <span class="product-card__price" id="price-1" data-i18n="product_price">€ 599,00</span>
+      <span class="product-card__price" id="price-1" data-i18n="product_price">Zum aktuellen Preis</span>
       <a href="#" class="product-card__btn" id="btn-1" data-i18n="product_btn">
         Zum Angebot
       </a>

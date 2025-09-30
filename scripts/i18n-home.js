@@ -64,7 +64,9 @@ const DICT = {
     option_placeholder3: "Gaming",
     option_placeholder4: "Fashion Accessories",
     option_placeholder5: "Sports",
-    option_placeholder6: "Mixed"
+    option_placeholder6: "Mixed",
+
+    info_partner: "As an Amazon Associate, we earn from qualifying purchases."
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
@@ -106,7 +108,9 @@ const DICT = {
     option_placeholder3: "Gaming",
     option_placeholder4: "Mode-Accessoires",
     option_placeholder5: "Sport",
-    option_placeholder6: "Gemischt"
+    option_placeholder6: "Gemischt",
+
+    info_partner: "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
@@ -146,7 +150,9 @@ const DICT = {
     option_placeholder3: "Jeux vidéo",
     option_placeholder4: "Accessoires de mode",
     option_placeholder5: "Sport",
-    option_placeholder6: "Mixte"
+    option_placeholder6: "Mixte",
+
+    info_partner: "En tant que partenaire Amazon, nous gagnons sur les achats éligibles."
   },
 
   it: {
@@ -187,7 +193,9 @@ const DICT = {
     option_placeholder3: "Gaming",
     option_placeholder4: "Accessori moda",
     option_placeholder5: "Sport",
-    option_placeholder6: "Misto"
+    option_placeholder6: "Misto",
+
+    info_partner: "In qualità di affiliato Amazon guadagniamo dagli acquisti idonei."
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -222,12 +230,14 @@ const DICT = {
     start_seite: "Inicio",
 
     option_placeholder1: "Categorías de la tienda",
-       option_placeholder1: "Categorías de la tienda",
+    option_placeholder1: "Categorías de la tienda",
     option_placeholder2: "Vacaciones",
     option_placeholder3: "Juegos",
     option_placeholder4: "Accesorios de moda",
     option_placeholder5: "Deportes",
-    option_placeholder6: "Mixto"
+    option_placeholder6: "Mixto",
+
+    info_partner_es: "Como afiliado de Amazon, ganamos con las compras que califican."
 
   }
 };
@@ -267,7 +277,7 @@ function renderDetected(lang) {
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
   /* const lang = getPreferredLang(); */
-  const lang = "en";
+  const lang = "fr";
   applyTranslations(lang);
   renderDetected(lang);
   // Jahr im Footer setzen
