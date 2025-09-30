@@ -3,7 +3,7 @@ function getCardTemplate(info, i) {
   <article class="product-card" id="product-card-${i}" data-i18n="product_card">
     <div class="product-card__slider" id="slider-${i}" data-i18n="product_slider">
       <div class="product-card__slides" id="slides-${i}" data-i18n="product_slides">
-           <img src="${info.images[0].src}" alt="${info.images[0].alt}">
+        ${info.images}
       </div>
       <button class="slider-btn prev" id="prev-${i}" data-i18n="slider_prev">‹</button>
       <button class="slider-btn next" id="next-${i}" data-i18n="slider_next">›</button>
@@ -16,23 +16,22 @@ function getCardTemplate(info, i) {
       <p class="product-card__desc" id="desc-${i}" data-i18n="product_desc">
         ${info.description}
       </p>
-     <div class="product-card__meta" id="meta-${i}" data-i18n="product_meta">
-  <a href="${info.price}" 
-     class="product-card__price product-card__btn" 
-     id="price-${i}" 
-     data-i18n="product_price" 
-     target="_blank">
-    Zum TOP Preis
-  </a>
-  <a href="${info.toArticle}" 
-     class="product-card__btn" 
-     id="btn-${i}" 
-     data-i18n="product_btn" 
-     target="_blank">
-    Zum Angebot
-  </a>
-</div>
-
+      <div class="product-card__meta" id="meta-${i}" data-i18n="product_meta">
+        <a href="${info.price}" 
+           class="product-card__price product-card__btn" 
+           id="price-${i}" 
+           data-i18n="product_price" 
+           target="_blank">
+          Zum TOP Preis
+        </a>
+        <a href="${info.toArticle}" 
+           class="product-card__btn" 
+           id="btn-${i}" 
+           data-i18n="product_btn" 
+           target="_blank">
+          Zum Angebot
+        </a>
+      </div>
     </div>
   </article>`;
 }

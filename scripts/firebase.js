@@ -15,6 +15,30 @@ async function getDatas(path =""){
     }
 }
 
+async function postData(path = "", data = {}) {
+    try {
+        let response = await fetch(BASE_URL + path + ".json", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (!response.ok) {
+            throw new Error(`[HTTP ERROR!] Status: ${response.status}`);
+        }
+
+        let responseToJson = await response.json();
+        console.log("[Info:] Data posted successfully!", responseToJson);
+        return responseToJson;
+    } catch (error) {
+        console.error("Request Error", error.message);
+    }
+}
+
 window.addEventListener("load", () => {
-  getDatas();
+    getDatas();
+    postData("", { name: "Andi" }); // Testeintrag
 });
+

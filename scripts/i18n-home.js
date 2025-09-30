@@ -122,7 +122,7 @@ const DICT = {
     headline: "CanaryHub Affiliate Shop",
     subheadline: "Trouvez votre boutique dans votre langue.",
     video_title: "Comment fonctionne notre boutique",
-    video_desc: "C’est ce qui nous distingue. Nous recherchons la qualité pour vous.",
+    video_desc: "Ce qui nous distingue : Nous sélectionnons la meilleure qualité pour vous",
     choose_shop: "Choisissez votre boutique",
     shop_de: "Boutique Allemand",
     shop_de_sub: "Amazon.de • €",
@@ -159,7 +159,7 @@ const DICT = {
     option_placeholder5: "Sport",
     option_placeholder6: "Mixte",
 
-    info_partner: "En tant que partenaire Amazon, nous gagnons sur les achats éligibles.",
+    info_partner: "En tant que partenaire Amazon, nous percevons une commission sur les achats éligibles",
 
     shop_idee: "Recommandation de boutique"
   },
@@ -291,8 +291,8 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-  const lang = getPreferredLang();
-  /*   const lang = "fr"; */
+ /*   const lang = getPreferredLang();  */
+    const lang = "fr";  
   applyTranslations(lang);
   renderDetected(lang);
   // Jahr im Footer setzen

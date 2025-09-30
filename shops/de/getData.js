@@ -8,16 +8,15 @@ async function getImgFomObject(imgJson){
 
 async function imgToArray(cardEl){
   let imgKeyObj = await getImgFomObject(cardEl);
-  let imgs = [];
+  let imgs = "";
   for (let i = 0; i < imgKeyObj.length; i++) {
     const imgIndex = imgKeyObj[i];
     let imgEl = cardEl.images[imgIndex];
-    imgs.push(imgEl);
-     console.log(imgEl);
+    imgs += `<img src="${imgEl.src}" alt="${imgEl.alt}">`;
   }
- 
-  return imgs;
+  return imgs;   // jetzt ist es ein fertiger String mit allen <img>
 }
+
 
 
 async function getKeyFromObj(responseJson){
@@ -38,7 +37,7 @@ async function objToArray() {
         cardId: index,
         title: cardEl.title,
         description : cardEl.description,
-          images: await imgToArray(cardEl),  
+        images: await imgToArray(cardEl),  
         price : cardEl.price,
         toArticle : cardEl.toArticle
       })

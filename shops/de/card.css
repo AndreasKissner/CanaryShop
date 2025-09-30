@@ -35,22 +35,20 @@
   align-items: center;
   justify-content: center;
 }
-
 .product-card__slides {
   display: flex;
-  width: 100%;
   height: 100%;
   transition: transform 0.4s ease;
 }
 
 .product-card__slides img {
-  width: 100%;
+  flex: 0 0 100%;     /* jedes Bild nimmt 100% der Slider-Breite */
   height: 100%;
-  object-fit: contain;          /* Bild IMMER komplett sichtbar */
+  object-fit: contain;
   object-position: center;
-  flex-shrink: 0;
   background: #fff;
 }
+
 
 /* --- Slider Buttons --- */
 .slider-btn {
