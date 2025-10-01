@@ -291,8 +291,8 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
- /*   const lang = getPreferredLang();  */
-    const lang = "fr";  
+  const lang = getPreferredLang();  
+  /*   const lang = "fr";   */
   applyTranslations(lang);
   renderDetected(lang);
   // Jahr im Footer setzen

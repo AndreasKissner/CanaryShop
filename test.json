@@ -5,15 +5,15 @@
       "images": {
         "img1": {
           "alt": "Dyson Staubsauger 1",
-          "src": "../../assets/img/pupImg/dyson.png"
+          "src": "../../assets/img/pupImg/annonce/dyson.png"
         },
         "img2": {
           "alt": "logo",
-          "src": "../../assets/img/pupImg/pup2.png"
+          "src": "../../assets/img/pupImg/annonce/pup2.png"
         },
         "img3": {
           "alt": "logo2",
-          "src": "../../assets/img/pup2.png"
+          "src": "../../assets/img/pupImg/annonce/pup2.png"
         }
       },
       "price": "https://www.amazon.de/Dyson-V11-Advanced-Staubsauger-Nickel/dp/B0D7MQP6L6?_encoding=UTF8&pd_rd_w=aV4Mv&content-id=amzn1.sym.490e70d5-fc69-4dc2-ae1e-f45652e7cc86%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=490e70d5-fc69-4dc2-ae1e-f45652e7cc86&pf_rd_r=HBMAGP49BHQQE65ERPYN&pd_rd_wg=bquVq&pd_rd_r=177fc96b-27a3-4dbf-99c4-17d21e3bd36a&linkCode=ll1&tag=canaryhub-21&linkId=e81f1f58378dab9d0bcee2dff43f91a2&language=de_DE&ref_=as_li_ss_tl",
@@ -25,20 +25,40 @@
       "images": {
         "img1": {
           "alt": "Img 1",
-          "src": "../../assets/img/pupImg/guccibrille.png"
+          "src": "../../assets/img/pupImg/annonce/guccibrille.png"
         },
         "img2": {
           "alt": "Logo",
-          "src": "../../assets/img/pupImg/logocanarylink.png"
+          "src": "../../assets/img/pupImg/annonce/logocanarylink.png"
         },
         "img3": {
           "alt": "Dyson Staubsauger 3",
-          "src": "../../assets/img/pupImg/pup2.png"
+          "src": "../../assets/img/pupImg/annonce//pup2.png"
         }
       },
       "price": "https://www.amazon.de/Gucci-Sonnenbrillen-GG0956S-Black-Damen/dp/B093BBN45F?dib=eyJ2IjoiMSJ9.iEXXjb_PzNBJ3-_ujk0to26DG6522-TNKhbZCX554IPvqsg9nXyo51ZDW3VWjA3H1Tg6YmtAOlShwRMVmNAUqoB5akzBDmbxf9VWmSbffmZ6Yuqo1aDhHlvt1PJGT-189r8vx75CLp52aELMerNTKnaxWxyYyFkNfuIizphzJ84-RhEZZl2cZrX4HKKhPZi-ZSwsgZS5Crx4SOR_eroMVVpvOPu5wPMq1BCNQ346-TlToUVMeIPGQUDfipeV9QFwqXFNFSTuNvTdBzvDygDnPBHs_sJVFlVmcuO68NideGI.lcxPzLSxZGYu-hidi8o97op3O9sXq4hEF0V-FMs61Hs&dib_tag=se&keywords=gucci+brille&qid=1759218643&sr=8-11&linkCode=ll1&tag=canaryhub-21&linkId=126e15634df4b637012c7c0de7185e8a&language=de_DE&ref_=as_li_ss_tl",
       "title": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54",
       "toArticle": "https://www.amazon.de/Gucci-Sonnenbrillen-GG0956S-Black-Damen/dp/B093BBN45F?dib=eyJ2IjoiMSJ9.iEXXjb_PzNBJ3-_ujk0to26DG6522-TNKhbZCX554IPvqsg9nXyo51ZDW3VWjA3H1Tg6YmtAOlShwRMVmNAUqoB5akzBDmbxf9VWmSbffmZ6Yuqo1aDhHlvt1PJGT-189r8vx75CLp52aELMerNTKnaxWxyYyFkNfuIizphzJ84-RhEZZl2cZrX4HKKhPZi-ZSwsgZS5Crx4SOR_eroMVVpvOPu5wPMq1BCNQ346-TlToUVMeIPGQUDfipeV9QFwqXFNFSTuNvTdBzvDygDnPBHs_sJVFlVmcuO68NideGI.lcxPzLSxZGYu-hidi8o97op3O9sXq4hEF0V-FMs61Hs&dib_tag=se&keywords=gucci+brille&qid=1759218643&sr=8-11&linkCode=ll1&tag=canaryhub-21&linkId=126e15634df4b637012c7c0de7185e8a&language=de_DE&ref_=as_li_ss_tl"
+    },
+        "product-card-3": {
+      "description": "Playseat® Formula Instinct - F1® Edition",
+      "images": {
+        "img1": {
+          "alt": "Playset",
+          "src": "../../assets/img/pupImg/annonce/f1.png"
+        },
+        "img2": {
+          "alt": "Logo",
+          "src": "../../assets/img/pupImg/annonce/logocanarylink.png"
+        },
+        "img3": {
+          "alt": "Dyson Staubsauger 3",
+          "src": "../../assets/img/pupImg/annonce//pup2.png"
+        }
+      },
+      "price": "https://www.amazon.de/Playseat%C2%AE-Formula-Instinct-F1%C2%AE-Edition/dp/B0D6CQY3CK?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3B17NTDJ15N3W&dib=eyJ2IjoiMSJ9.aQFo0EzwtX6VyuGIMmSt9jSBI1PYZF174BJO9eEXBazHDlpPg8NZyAPz253URChhPnpmTJgMKqGQGhBCn7z9Qrw_uVEVJPSlXj1PL5WNKw7bXT8JbVUpsXYpd9PEvG2hGNLbsJaQMFHxYj3JPO2HWijeGBy-CiemiSdPpLFwAhj6Jj-wUmdnQr1bvJfq9uFxd7TfBbwV2IFn6iDDQkoQ8FJSchwYi66Npp9prEy-nD8.cz8ntsHlFhgpuOPrMP9QURZqSl51sR8X1n_Nyry9-vs&dib_tag=se&keywords=rennstuhl+f1&qid=1759309621&sprefix=rennstuhl+f1%2Caps%2C87&sr=8-3&linkCode=ll1&tag=canaryhub-21&linkId=f620af0d8a53e3a18c89dce3dc5d7716&language=de_DE&ref_=as_li_ss_tl",
+      "title": "Erleben Sie echte F1-Renngefühle mit dem Playseat Formel Instinct – F1 Edition! 🏎️\nFür Fahrer jeden Alters bietet der Sitz maximalen Komfort dank modularer Polsterung für Rücken und Schultern.\nDas X-Adapt Schnellverschluss-System sorgt für stabile Lenkradbefestigung,\nund die Pedale lassen sich flexibel in Winkel, Höhe und Länge anpassen – für präzises, realistisches Renn-Feeling.",
+      "toArticle": "https://www.amazon.de/Playseat%C2%AE-Formula-Instinct-F1%C2%AE-Edition/dp/B0D6CQY3CK?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3B17NTDJ15N3W&dib=eyJ2IjoiMSJ9.aQFo0EzwtX6VyuGIMmSt9jSBI1PYZF174BJO9eEXBazHDlpPg8NZyAPz253URChhPnpmTJgMKqGQGhBCn7z9Qrw_uVEVJPSlXj1PL5WNKw7bXT8JbVUpsXYpd9PEvG2hGNLbsJaQMFHxYj3JPO2HWijeGBy-CiemiSdPpLFwAhj6Jj-wUmdnQr1bvJfq9uFxd7TfBbwV2IFn6iDDQkoQ8FJSchwYi66Npp9prEy-nD8.cz8ntsHlFhgpuOPrMP9QURZqSl51sR8X1n_Nyry9-vs&dib_tag=se&keywords=rennstuhl+f1&qid=1759309621&sprefix=rennstuhl+f1%2Caps%2C87&sr=8-3&linkCode=ll1&tag=canaryhub-21&linkId=f620af0d8a53e3a18c89dce3dc5d7716&language=de_DE&ref_=as_li_ss_tl"
     }
   }
 }

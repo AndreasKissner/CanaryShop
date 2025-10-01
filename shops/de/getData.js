@@ -30,8 +30,6 @@ async function objToArray() {
     for (let i = 0; i < keysInObject.length; i++) {
       const index = keysInObject[i];
       let cardEl = responseJson[index];
-      console.log("INDEX:",index);
-      console.log("Elements", cardEl);
 
       window.cardsInfo.push({
         cardId: index,
@@ -42,8 +40,6 @@ async function objToArray() {
         toArticle : cardEl.toArticle
       })
     }
-
-    console.log(window.cardsInfo);
     renderCards();
 }
 
