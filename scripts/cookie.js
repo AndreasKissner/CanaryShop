@@ -29,13 +29,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function loadAnalytics() {
+  // Google Tag Script dynamisch laden
   const scriptTag = document.createElement("script");
-  scriptTag.src = "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX";
+  scriptTag.src = "https://www.googletagmanager.com/gtag/js?id=G-WR0QYRDREN";
   scriptTag.async = true;
   document.head.appendChild(scriptTag);
 
+  // Analytics initialisieren
   window.dataLayer = window.dataLayer || [];
   function gtag(){ dataLayer.push(arguments); }
   gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'G-WR0QYRDREN');
 }
