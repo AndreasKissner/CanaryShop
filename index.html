@@ -22,6 +22,19 @@
       </p>
     </div>
   </header>
+<div id="cookie-overlay">
+  <div id="cookie-banner">
+    <p data-i18n="cookie_message">
+      Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.
+    </p>
+    <div id="cookie-buttons">
+      <button id="accept-cookies" data-i18n="cookie_accept">Akzeptieren</button>
+      <button id="decline-cookies" data-i18n="cookie_decline">Ablehnen</button>
+    </div>
+  </div>
+</div>
+
+
 
   <main class="container-main">
     <section class="section">
@@ -64,7 +77,8 @@
                 Warenkorb legen und bezahlen.
               </li>
               <li data-i18n="howto_step3a">
-                Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern – schauen Sie am besten regelmäßig bei uns vorbei.
+                Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern – schauen
+                Sie am besten regelmäßig bei uns vorbei.
               </li>
               <li data-i18n="howto_step4">
                 Amazon-Konto: Für den Kauf brauchst du ein kostenloses Amazon-Konto.
@@ -149,7 +163,7 @@
 
   <footer class="site-footer">
     <div class="container-footer">
-         <p class="info-partner" data-i18n="info_partner" >Als Amazon-Partner verdienen wir an qualifizierten Verkäufen</p>
+      <p class="info-partner" data-i18n="info_partner">Als Amazon-Partner verdienen wir an qualifizierten Verkäufen</p>
       <small>&copy; <span id="year"></span> CanaryHub Shop</small>
 
       <nav class="footer-nav">
@@ -174,9 +188,11 @@
     </div>
   </footer>
 
+<!-- Cookie Overlay -->
 
 
 
+  <script src="./scripts/cookie.js"></script>
   <script src="./scripts/functionOverlay.js"></script>
   <script src="./scripts/i18n-home.js" defer></script>
 
