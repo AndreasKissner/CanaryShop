@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>CanaryHub AffiliateShop – Start</title>
   <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
-
   <link rel="stylesheet" href="./styles/cookie.css">
   <link rel="stylesheet" href="./styles/howfunction.css">
   <link rel="stylesheet" href="./style.css">
@@ -22,18 +21,50 @@
       </p>
     </div>
   </header>
+
   <!-- Cookie Banner-->
-<div id="cookie-overlay">
-  <div id="cookie-banner">
-    <p data-i18n="cookie_message">
-      Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.
-    </p>
-    <div id="cookie-buttons">
-      <button id="accept-cookies" data-i18n="cookie_accept">Akzeptieren</button>
-      <button id="decline-cookies" data-i18n="cookie_decline">Ablehnen</button>
+  <div id="cookie-overlay">
+    <div id="cookie-banner">
+      <p data-i18n="cookie_message">
+        Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.
+      </p>
+      <div id="cookie-buttons">
+        <button id="accept-cookies" data-i18n="cookie_accept">Akzeptieren</button>
+        <button id="decline-cookies" data-i18n="cookie_decline">Ablehnen</button>
+        <button id="more-info" data-i18n="cookie_more">Mehr Infos</button>
+      </div>
     </div>
   </div>
+  <!-- Overlay für Details -->
+ <div id="cookie-info-overlay" class="d-none">
+  <div id="cookie-info-box">
+    <h2 data-i18n="cookie_details_title">Cookie-Details</h2>
+    <ul>
+      <li>
+        <strong data-i18n="cookie_essential_title">Essentiell:</strong> 
+        <span data-i18n="cookie_essential_text">
+          notwendig für die Nutzung der Kontaktseite (falls vorhanden) und 
+          Google Translate zur Übersetzung der Seite.
+        </span>
+      </li>
+      <li>
+        <strong data-i18n="cookie_statistic_title">Statistik:</strong> 
+        <span data-i18n="cookie_statistic_text">
+          für anonyme Nutzungsdaten, um die Seite zu verbessern.  
+          Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).
+        </span>
+      </li>
+    </ul>
+    <p style="margin-top:15px;" data-i18n="cookie_note">
+      Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf 
+      „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt.  
+      Diese helfen uns, Inhalte und Funktionen zu optimieren.
+    </p>
+    <button id="close-info" data-i18n="cookie_close">Schließen</button>
+  </div>
 </div>
+
+
 
   <main class="container-main">
     <section class="section">
@@ -102,10 +133,11 @@
         </div>
       </div>
       <!-- end modal how function -->
+
       <p class="muted" data-i18n="video_desc">
         Dieses Beispiel-Video ist ein Platzhalter. Hier kannst du dein MP4 hochladen oder einen Embed nutzen.
       </p>
-      <video controls width="100%" poster="assets/img/canaryBeach.png">
+      <video controls width="100%" poster="assets/img/logoCanary.png">
         <source src="./assets/vids/bigvideo-VEED.mp4" type="video/mp4">
         Dein Browser unterstützt das Video-Tag nicht.
       </video>
@@ -119,7 +151,6 @@
         <a class="tile" href="../shops\de\de.html">
           <span class="tile-title" data-i18n="shop_de">Shop Deutsch und Schweiz</span>
         </a>
-
         <a class="tile disabled" href="/en/" data-i18n-tooltip="tooltip_en">
           <span class="tile-title" data-i18n="shop_en">Shop English</span>
         </a>
@@ -135,7 +166,9 @@
         <a class="tile disabled" href="/intl/" data-i18n-tooltip="tooltip_intl">
           <span class="tile-title" data-i18n="shop_intl">International (EN)</span>
         </a>
+
       </div>
+
       <!-- Script for blocked Button -->
       <script>
         const translations = {
@@ -186,10 +219,6 @@
       </nav>
     </div>
   </footer>
-
-<!-- Cookie Overlay -->
-
-
 
   <script src="./scripts/cookie.js"></script>
   <script src="./scripts/functionOverlay.js"></script>

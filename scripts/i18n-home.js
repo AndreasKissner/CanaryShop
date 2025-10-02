@@ -69,7 +69,21 @@ const DICT = {
 
     info_partner: "As an Amazon Associate, we earn from qualifying purchases.",
 
-    shop_idee: "Shop Recommendation"
+    shop_idee: "Shop Recommendation",
+
+    cookie_message: "This website uses cookies to give you the best experience.",
+    cookie_accept: "Accept",
+    cookie_decline: "Decline",
+    cookie_more: "More info",
+
+    cookie_details_title: "Cookie Details",
+    cookie_essential_title: "Essential:",
+    cookie_essential_text: "Required for using the contact page (if available) and Google Translate for translating the site.",
+    cookie_statistic_title: "Statistics:",
+    cookie_statistic_text: "For anonymous usage data to improve the site. Example: Google Analytics (only loaded if you consent).",
+    cookie_note: "Note: Google Analytics is only activated if you click “Accept”. Anonymous information about website usage is collected to help us improve content and features.",
+    cookie_close: "Close"
+
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
@@ -116,7 +130,21 @@ const DICT = {
 
     info_partner: "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.",
 
-    shop_idee: "Shopempfehlung"
+    shop_idee: "Shopempfehlung",
+
+    cookie_message: "Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.",
+    cookie_accept: "Akzeptieren",
+    cookie_decline: "Ablehnen",
+    cookie_more: "Mehr Infos",
+
+    cookie_details_title: "Cookie-Details",
+    cookie_essential_title: "Essentiell:",
+    cookie_essential_text: "notwendig für die Nutzung der Kontaktseite (falls vorhanden) und Google Translate zur Übersetzung der Seite.",
+    cookie_statistic_title: "Statistik:",
+    cookie_statistic_text: "für anonyme Nutzungsdaten, um die Seite zu verbessern. Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).",
+    cookie_note: "Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt. Diese helfen uns, Inhalte und Funktionen zu optimieren.",
+    cookie_close: "Schließen"
+
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
@@ -161,7 +189,21 @@ const DICT = {
 
     info_partner: "En tant que partenaire Amazon, nous percevons une commission sur les achats éligibles",
 
-    shop_idee: "Recommandation de boutique"
+    shop_idee: "Recommandation de boutique",
+
+    cookie_message: "Ce site utilise des cookies pour vous offrir la meilleure expérience.",
+    cookie_accept: "Accepter",
+    cookie_decline: "Refuser",
+
+    cookie_details_title: "Détails des cookies",
+    cookie_essential_title: "Essentiel :",
+    cookie_essential_text: "Nécessaire pour l’utilisation de la page de contact (si disponible) et Google Translate pour la traduction du site.",
+    cookie_statistic_title: "Statistiques :",
+    cookie_statistic_text: "Pour des données d’utilisation anonymes afin d’améliorer le site. Exemple : Google Analytics (chargé uniquement si vous acceptez).",
+    cookie_note: "Remarque : Google Analytics est uniquement activé si vous cliquez sur « Accepter ». Des informations anonymes sur l’utilisation du site sont collectées pour nous aider à améliorer les contenus et fonctionnalités.",
+    cookie_close: "Fermer",
+    cookie_more: "Plus d'infos"
+
   },
 
   it: {
@@ -207,7 +249,23 @@ const DICT = {
 
     info_partner: "In qualità di affiliato Amazon guadagniamo dagli acquisti idonei.",
 
-    shop_idee: "Consiglio del negozio"
+    shop_idee: "Consiglio del negozio",
+
+    cookie_message: "Questo sito utilizza i cookie per offrirti la migliore esperienza.",
+    cookie_accept: "Accetta",
+    cookie_decline: "Rifiuta",
+
+    cookie_details_title: "Dettagli sui cookie",
+    cookie_essential_title: "Essenziale:",
+    cookie_essential_text: "Necessario per l’uso della pagina di contatto (se disponibile) e Google Translate per tradurre il sito.",
+    cookie_statistic_title: "Statistiche:",
+    cookie_statistic_text: "Per dati di utilizzo anonimi al fine di migliorare il sito. Esempio: Google Analytics (caricato solo se acconsenti).",
+    cookie_note: "Nota: Google Analytics viene attivato solo se fai clic su “Accetta”. Vengono raccolte informazioni anonime sull’utilizzo del sito per aiutarci a migliorare contenuti e funzionalità.",
+    cookie_close: "Chiudi",
+
+    cookie_more: "Altre info"
+
+
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -252,7 +310,21 @@ const DICT = {
 
     info_partner_es: "Como afiliado de Amazon, ganamos con las compras que califican.",
 
-    shop_idee: "Recomendación de tienda"
+    shop_idee: "Recomendación de tienda",
+
+    cookie_message: "Este sitio web utiliza cookies para brindarte la mejor experiencia.",
+    cookie_accept: "Aceptar",
+    cookie_decline: "Rechazar",
+
+    cookie_details_title: "Detalles de cookies",
+    cookie_essential_title: "Esencial:",
+    cookie_essential_text: "Necesario para usar la página de contacto (si está disponible) y Google Translate para traducir el sitio.",
+    cookie_statistic_title: "Estadísticas:",
+    cookie_statistic_text: "Para datos de uso anónimos con el fin de mejorar el sitio. Ejemplo: Google Analytics (solo se carga si das tu consentimiento).",
+    cookie_note: "Nota: Google Analytics solo se activa si haces clic en “Aceptar”. Se recopila información anónima sobre el uso del sitio para ayudarnos a mejorar contenidos y funciones.",
+    cookie_close: "Cerrar",
+    cookie_more: "Más información"
+
 
   }
 };
@@ -291,8 +363,14 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-  const lang = getPreferredLang();  
-  /*   const lang = "fr";   */
+  /*   const lang = getPreferredLang(); */
+
+  /* const lang = "fr";  */
+ const lang = "en"; 
+    /*  const lang = "es";   */
+  /*  const lang = "it";  */
+
+
   applyTranslations(lang);
   renderDetected(lang);
   // Jahr im Footer setzen

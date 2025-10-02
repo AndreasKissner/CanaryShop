@@ -41,3 +41,13 @@ function loadAnalytics() {
   gtag('js', new Date());
   gtag('config', 'G-WR0QYRDREN');
 }
+
+
+/* Overlay Info */
+document.getElementById("more-info").addEventListener("click", () => {
+  document.getElementById("cookie-info-overlay").classList.remove("d-none");
+});
+
+document.getElementById("close-info").addEventListener("click", () => {
+  document.getElementById("cookie-info-overlay").classList.add("d-none");
+});
