@@ -364,10 +364,9 @@ function renderDetected(lang) {
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
   /*   const lang = getPreferredLang(); */
-
   /* const lang = "fr";  */
- const lang = "en"; 
-    /*  const lang = "es";   */
+  const lang = "en";
+  /*  const lang = "es";  */
   /*  const lang = "it";  */
 
 
