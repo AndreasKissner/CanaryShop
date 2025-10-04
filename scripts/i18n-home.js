@@ -26,7 +26,7 @@ function getPreferredLang() {
 const DICT = {
   en: {
     headline: "CanaryHub Affiliate Shop",
-    subheadline: "Find your shop in your language.",
+    subheadline: "Languages",
     video_title: "How our shop works",
     video_desc: "This is what sets us apart. We look for quality for you.",
     choose_shop: "Choose your shop",
@@ -82,7 +82,7 @@ const DICT = {
     cookie_statistic_title: "Statistics:",
     cookie_statistic_text: "For anonymous usage data to improve the site. Example: Google Analytics (only loaded if you consent).",
     cookie_note: "Note: Google Analytics is only activated if you click “Accept”. Anonymous information about website usage is collected to help us improve content and features.",
-    cookie_close: "Close"
+    cookie_close: "Close",
 
     shop_idee: "Shop Recommendation",
 
@@ -102,7 +102,7 @@ const DICT = {
   },
   de: {
     headline: "CanaryHub Affiliate Shop",
-    subheadline: "Finde deinen Shop in deiner Sprache.",
+    subheadline: "Sprachen",
     video_title: "So funktioniert unser Shop",
     video_desc: "Das zeichnet uns aus. Wir suchen Qualität für Sie",
     choose_shop: "Wähle deinen Shop",
@@ -158,7 +158,7 @@ const DICT = {
     cookie_statistic_title: "Statistik:",
     cookie_statistic_text: "für anonyme Nutzungsdaten, um die Seite zu verbessern. Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).",
     cookie_note: "Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt. Diese helfen uns, Inhalte und Funktionen zu optimieren.",
-    cookie_close: "Schließen"
+    cookie_close: "Schließen",
 
     shop_idee: "Shopempfehlung",
 
@@ -178,7 +178,7 @@ const DICT = {
   },
   fr: {
     headline: "CanaryHub Affiliate Shop",
-    subheadline: "Trouvez votre boutique dans votre langue.",
+    subheadline: "Langues",
     video_title: "Comment fonctionne notre boutique",
     video_desc: "Ce qui nous distingue : Nous sélectionnons la meilleure qualité pour vous",
     choose_shop: "Choisissez votre boutique",
@@ -232,7 +232,7 @@ const DICT = {
     cookie_statistic_text: "Pour des données d’utilisation anonymes afin d’améliorer le site. Exemple : Google Analytics (chargé uniquement si vous acceptez).",
     cookie_note: "Remarque : Google Analytics est uniquement activé si vous cliquez sur « Accepter ». Des informations anonymes sur l’utilisation du site sont collectées pour nous aider à améliorer les contenus et fonctionnalités.",
     cookie_close: "Fermer",
-    cookie_more: "Plus d'infos"
+    cookie_more: "Plus d'infos",
 
     shop_idee: "Recommandation de boutique",
 
@@ -253,7 +253,7 @@ const DICT = {
 
   it: {
     headline: "CanaryHub Affiliate Shop",
-    subheadline: "Trova il tuo negozio nella tua lingua.",
+    subheadline: "Lingue",
     video_title: "Come funziona il nostro shop",
     video_desc: "Questo è ciò che ci distingue. Cerchiamo qualità per voi",
     choose_shop: "Scegli il tuo negozio",
@@ -308,7 +308,7 @@ const DICT = {
     cookie_note: "Nota: Google Analytics viene attivato solo se fai clic su “Accetta”. Vengono raccolte informazioni anonime sull’utilizzo del sito per aiutarci a migliorare contenuti e funzionalità.",
     cookie_close: "Chiudi",
 
-    cookie_more: "Altre info"
+    cookie_more: "Altre info",
 
 
     shop_idee: "Consiglio del negozio",
@@ -331,7 +331,7 @@ const DICT = {
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
-    subheadline: "Encuentra tu tienda en tu idioma.",
+    subheadline: "Idiomas",
     video_title: "Cómo funciona nuestra tienda",
     video_desc: "Esto es lo que nos distingue. Buscamos calidad para usted",
     choose_shop: "Elige tu tienda",
@@ -385,7 +385,7 @@ const DICT = {
     cookie_statistic_text: "Para datos de uso anónimos con el fin de mejorar el sitio. Ejemplo: Google Analytics (solo se carga si das tu consentimiento).",
     cookie_note: "Nota: Google Analytics solo se activa si haces clic en “Aceptar”. Se recopila información anónima sobre el uso del sitio para ayudarnos a mejorar contenidos y funciones.",
     cookie_close: "Cerrar",
-    cookie_more: "Más información"
+    cookie_more: "Más información",
 
     shop_idee: "Recomendación de tienda",
 
@@ -440,8 +440,8 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-     const lang = getPreferredLang();
-  /* const lang = "fr";  */
+     const lang = getPreferredLang(); 
+   //const lang = "fr";  
  /*  const lang = "en"; */
   /*  const lang = "es";  */
   /*  const lang = "it";  */
