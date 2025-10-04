@@ -1,40 +1,43 @@
 .product-card {
   width: 100%;
   max-width: 340px;
+  height: 495px; /* fixe Höhe */
   background: #fffdf7;
   border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,.15);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .15);
   overflow: hidden;
   font-family: system-ui, sans-serif;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  /* verteilt Header/Body/Footer */
-  min-height: 495px;               /* gleiche Höhe für alle */
+  justify-content: space-between;
   margin: 12px auto;
 }
 
-.product-container{
-        width: 100%;
-    max-width: 1100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    flex-wrap: wrap;
-    gap: 40px;
+.product-container {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 40px;
 }
+
 /* --- Slider Container --- */
 .product-card__slider {
   position: relative;
   width: 100%;
-  aspect-ratio: 16/10;         /* Höhe automatisch proportional */
+  aspect-ratio: 16/10;
+  /* Höhe automatisch proportional */
   overflow: hidden;
   background: #fefaf5;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .product-card__slides {
   display: flex;
   height: 100%;
@@ -42,7 +45,8 @@
 }
 
 .product-card__slides img {
-  flex: 0 0 100%;     /* jedes Bild nimmt 100% der Slider-Breite */
+  flex: 0 0 100%;
+  /* jedes Bild nimmt 100% der Slider-Breite */
   height: 100%;
   object-fit: contain;
   object-position: center;
@@ -55,7 +59,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: none;
   font-size: 20px;
@@ -67,11 +71,16 @@
 }
 
 .slider-btn:hover {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
-.slider-btn.prev { left: 8px; }
-.slider-btn.next { right: 8px; }
+.slider-btn.prev {
+  left: 8px;
+}
+
+.slider-btn.next {
+  right: 8px;
+}
 
 /* --- Body --- */
 .product-card__body {
@@ -96,7 +105,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* damit es bei kleinen Screens nicht bricht */
+  flex-wrap: wrap;
+  /* damit es bei kleinen Screens nicht bricht */
   gap: 8px;
 }
 
@@ -119,7 +129,7 @@
 
 .product-card__btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255,126,95,.4);
+  box-shadow: 0 4px 12px rgba(255, 126, 95, .4);
 }
 
 /* --- Responsive Layout --- */

@@ -1,0 +1,153 @@
+/* Overlay blockiert komplette Seite */
+#cookie-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6); /* Abdunkeln */
+  display: flex;
+  justify-content: center; /* horizontal zentrieren */
+  align-items: center;     /* vertikal zentrieren */
+  z-index: 9999;
+}
+
+/* Banner in der Mitte */
+#cookie-banner {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Text */
+#cookie-banner p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Buttons nebeneinander */
+#cookie-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#cookie-buttons button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Akzeptieren */
+#accept-cookies {
+  background-color: #4CAF50;
+  color: #fff;
+}
+#accept-cookies:hover {
+  background-color: #43a047;
+}
+
+/* Ablehnen */
+#decline-cookies {
+  background-color: #f44336;
+  color: #fff;
+}
+#decline-cookies:hover {
+  background-color: #e53935;
+}
+
+/* Oberlay info */
+#cookie-info-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  backdrop-filter: blur(4px); /* Hintergrund verschwommen */
+}
+
+#cookie-info-box {
+  background: rgba(255, 255, 255, 0.85); /* halbtransparent für Glassmorphism */
+  padding: 30px;
+  border-radius: 16px;
+  width: 420px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  color: #333;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+#cookie-info-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #111;
+}
+
+#cookie-info-box p {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  color: #444;
+}
+
+#cookie-info-box .btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#cookie-info-box button {
+  flex: 1;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#cookie-info-box button.accept {
+  background: #4caf50;
+  color: white;
+}
+
+#cookie-info-box button.accept:hover {
+  background: #45a047;
+}
+
+#cookie-info-box button.decline {
+  background: #f44336;
+  color: white;
+}
+
+#cookie-info-box button.decline:hover {
+  background: #e53935;
+}
+
+#cookie-info-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+.d-none {
+  display: none !important;
+}
+
+

@@ -1,0 +1,16 @@
+# Aktivierung der Rewrite Engine (falls nötig)
+Options +FollowSymLinks
+RewriteEngine On
+
+# Standard: richtige Auslieferung von XML-Dateien
+AddType application/xml .xml
+AddType text/xml .xml
+
+# Erzwinge für alle XML-Dateien den Content-Type
+<FilesMatch "\.xml$">
+  ForceType application/xml
+  Header set Content-Type "application/xml; charset=UTF-8"
+</FilesMatch>
+
+# Optional: UTF-8 sicherstellen
+AddDefaultCharset UTF-8

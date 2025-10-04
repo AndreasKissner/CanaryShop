@@ -4,9 +4,34 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>CanaryHub AffiliateShop – Start</title>
-    <title>CanaryHub AffiliateShop – Start</title>
- <link rel="icon" type="image/png" href="../../assets/favicon/favicon.png">
+
+    <title>CanaryHub Affiliate Shop – Deutschsprachige Produkte</title>
+
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="CanaryHub Affiliate Shop: Entdecke Produkte auf Deutsch" />
+    <meta property="og:description" content="Finde sorgfältig ausgewählte Produkte in unserem deutschsprachigen Affiliate-Shop für die Kanarischen Inseln." />
+    <meta property="og:image" content="https://www.yourwebsite.com/assets/img/GcanaryShop.png" />
+    <meta property="og:url" content="https://www.yourwebsite.com/shops/de/de.html" />
+    <meta property="og:type" content="product.group" />
+    <meta property="og:locale" content="de_DE" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@yourtwitterhandle" />
+    <meta name="twitter:title" content="CanaryHub Affiliate Shop: Deutsch" />
+    <meta name="twitter:description" content="Entdecke ausgewählte Produkte in unserem deutschen Shop auf Amazon.de für die Kanarischen Inseln." />
+    <meta name="twitter:image" content="https://www.yourwebsite.com/assets/img/GcanaryShop.png" />
+
+    <link rel="canonical" href="https://www.yourwebsite.com/shops/de/de.html" />
+    <link rel="alternate" href="https://www.yourwebsite.com/shops/de/de.html" hreflang="de" />
+    <link rel="alternate" href="https://www.yourwebsite.com/shops/en/en.html" hreflang="en" />
+    <link rel="alternate" href="https://www.yourwebsite.com/shops/fr/fr.html" hreflang="fr" />
+    <link rel="alternate" href="https://www.yourwebsite.com/shops/it/it.html" hreflang="it" />
+    <link rel="alternate" href="https://www.yourwebsite.com/shops/es/es.html" hreflang="es" />
+    <link rel="alternate" href="https://www.yourwebsite.com/index.html" hreflang="x-default" />
+
+    <link rel="icon" type="image/png" href="../../assets/favicon/favicon.png">
+    <link rel="stylesheet" href="../../styles/cookie.css">
     <link rel="stylesheet" href="../../styles/howfunction.css">
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="deu.css">
@@ -23,6 +48,47 @@
 
         </div>
     </header>
+      <!-- Cookie Banner-->
+  <div id="cookie-overlay">
+    <div id="cookie-banner">
+      <p data-i18n="cookie_message">
+        Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.
+      </p>
+      <div id="cookie-buttons">
+        <button id="accept-cookies" data-i18n="cookie_accept">Akzeptieren</button>
+        <button id="decline-cookies" data-i18n="cookie_decline">Ablehnen</button>
+        <button id="more-info" data-i18n="cookie_more">Mehr Infos</button>
+      </div>
+    </div>
+  </div>
+    <!-- Overlay für Details -->
+ <div id="cookie-info-overlay" class="d-none">
+  <div id="cookie-info-box">
+    <h2 data-i18n="cookie_details_title">Cookie-Details</h2>
+    <ul>
+      <li>
+        <strong data-i18n="cookie_essential_title">Essentiell:</strong> 
+        <span data-i18n="cookie_essential_text">
+          notwendig für die Nutzung der Kontaktseite (falls vorhanden) und 
+          Google Translate zur Übersetzung der Seite.
+        </span>
+      </li>
+      <li>
+        <strong data-i18n="cookie_statistic_title">Statistik:</strong> 
+        <span data-i18n="cookie_statistic_text">
+          für anonyme Nutzungsdaten, um die Seite zu verbessern.  
+          Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).
+        </span>
+      </li>
+    </ul>
+    <p style="margin-top:15px;" data-i18n="cookie_note">
+      Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf 
+      „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt.  
+      Diese helfen uns, Inhalte und Funktionen zu optimieren.
+    </p>
+    <button id="close-info" data-i18n="cookie_close">Schließen</button>
+  </div>
+</div>
 
     <main class="container-main-de">
         <h2 class="shop-idee" data-i18n="shop_idee">Shopempfehlungen</h2>
@@ -148,6 +214,7 @@
         </div>
     </footer>
     <script src="../../scripts/firebase.js"></script>
+    <script src="../../scripts/cookie.js" defer></script>
     <script src="getData.js"></script>
     <script src="./template.js"></script>
     <script src="./render.js"></script>
