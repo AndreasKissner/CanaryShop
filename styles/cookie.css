@@ -36,6 +36,7 @@
 #cookie-buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -84,6 +85,7 @@
 #cookie-info-box {
   background: rgba(255, 255, 255, 0.85); /* halbtransparent für Glassmorphism */
   padding: 30px;
+  margin: 0 10px;
   border-radius: 16px;
   width: 420px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);

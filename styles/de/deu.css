@@ -4,11 +4,9 @@
     align-items: center;
 }
 
-
 .link-container-de {
     display: flex;
     gap: 20px;
-
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -18,7 +16,7 @@
     align-items: center;
 }
 
-/* Haupt-Dropdown */
+
 .dropdown-class {
     width: 100%;
     max-width: 200px;
@@ -32,7 +30,6 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
-    /* Pfeil als Hintergrundbild */
     background-image: url('data:image/svg+xml;utf8,<svg fill="%23007BFF" height="12" viewBox="0 0 10 6" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0l5 6 5-6z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -76,4 +73,11 @@
     height: auto;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+.lang-title{
+    color: rgb(127, 125, 125);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
 }
