@@ -97,7 +97,17 @@ const DICT = {
     cookie_statistic_title: "Statistics:",
     cookie_statistic_text: "For anonymous usage data to improve the site. Example: Google Analytics (only loaded if you consent).",
     cookie_note: "Note: Google Analytics is only activated if you click “Accept”. Anonymous information about website usage is collected to help us improve content and features.",
-    cookie_close: "Close"
+    cookie_close: "Close",
+
+    //Category
+    select_placeholder: "Choose a category",
+    category_angebote: "Offers",
+    category_haushalt: "Household",
+    category_gaming: "Gaming",
+    category_computer: "Computer",
+    category_gesundheit: "Health",
+    category_sport: "Sports",
+    category_mode: "Fashion & Accessories"
 
   },
   de: {
@@ -173,7 +183,17 @@ const DICT = {
     cookie_statistic_title: "Statistik:",
     cookie_statistic_text: "für anonyme Nutzungsdaten, um die Seite zu verbessern. Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).",
     cookie_note: "Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt. Diese helfen uns, Inhalte und Funktionen zu optimieren.",
-    cookie_close: "Schließen"
+    cookie_close: "Schließen",
+
+    //category
+    select_placeholder: "Kategorie wählen",
+    category_angebote: "Angebote",
+    category_haushalt: "Haushalt",
+    category_gaming: "Gaming",
+    category_computer: "Computer",
+    category_gesundheit: "Gesundheit",
+    category_sport: "Sport",
+    category_mode: "Mode & Accessoires"
 
   },
   fr: {
@@ -247,7 +267,17 @@ const DICT = {
     cookie_statistic_text: "Pour des données d’utilisation anonymes afin d’améliorer le site. Exemple : Google Analytics (chargé uniquement si vous acceptez).",
     cookie_note: "Remarque : Google Analytics est uniquement activé si vous cliquez sur « Accepter ». Des informations anonymes sur l’utilisation du site sont collectées pour nous aider à améliorer les contenus et fonctionnalités.",
     cookie_close: "Fermer",
-    cookie_more: "Plus d'infos"
+    cookie_more: "Plus d'infos",
+
+    //Category
+    select_placeholder: "Choisir une catégorie",
+    category_angebote: "Offres",
+    category_haushalt: "Maison",
+    category_gaming: "Jeux vidéo",
+    category_computer: "Informatique",
+    category_gesundheit: "Santé",
+    category_sport: "Sport",
+    category_mode: "Mode & Accessoires"
 
   },
 
@@ -325,7 +355,17 @@ const DICT = {
     cookie_note: "Nota: Google Analytics viene attivato solo se fai clic su “Accetta”. Vengono raccolte informazioni anonime sull’utilizzo del sito per aiutarci a migliorare contenuti e funzionalità.",
     cookie_close: "Chiudi",
 
-    cookie_more: "Altre info"
+    cookie_more: "Altre info",
+
+    //category
+    select_placeholder: "Scegli una categoria",
+    category_angebote: "Offerte",
+    category_haushalt: "Casa",
+    category_gaming: "Gaming",
+    category_computer: "Computer",
+    category_gesundheit: "Salute",
+    category_sport: "Sport",
+    category_mode: "Moda e accessori"
 
 
   },
@@ -400,7 +440,17 @@ const DICT = {
     cookie_statistic_text: "Para datos de uso anónimos con el fin de mejorar el sitio. Ejemplo: Google Analytics (solo se carga si das tu consentimiento).",
     cookie_note: "Nota: Google Analytics solo se activa si haces clic en “Aceptar”. Se recopila información anónima sobre el uso del sitio para ayudarnos a mejorar contenidos y funciones.",
     cookie_close: "Cerrar",
-    cookie_more: "Más información"
+    cookie_more: "Más información",
+
+    //Category
+    select_placeholder: "Elige una categoría",
+    category_angebote: "Ofertas",
+    category_haushalt: "Hogar",
+    category_gaming: "Videojuegos",
+    category_computer: "Informática",
+    category_gesundheit: "Salud",
+    category_sport: "Deportes",
+    category_mode: "Moda y accesorios"
 
 
   }
@@ -440,9 +490,9 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-     const lang = getPreferredLang(); 
-   //const lang = "fr";  
- /*  const lang = "en"; */
+  const lang = getPreferredLang();
+  // const lang = "fr";
+  //const lang = "en"; 
   /*  const lang = "es";  */
   /*  const lang = "it";  */
 
