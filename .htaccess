@@ -1,4 +1,4 @@
-# Aktivierung der Rewrite Engine (falls nötig)
+# Rewrite Engine
 Options +FollowSymLinks
 RewriteEngine On
 
@@ -12,5 +12,23 @@ AddType text/xml .xml
   Header set Content-Type "application/xml; charset=UTF-8"
 </FilesMatch>
 
-# Optional: UTF-8 sicherstellen
+# UTF-8 Standard
 AddDefaultCharset UTF-8
+
+# Caching statischer Dateien
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ico|jpg|jpeg|png|gif|webp|avif|js|css|woff2?)$">
+    Header unset Cache-Control
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# Gzip-Kompression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# (Optional) Brotli falls verfügbar
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
+</IfModule>

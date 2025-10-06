@@ -234,7 +234,7 @@ video {
 /* Container für linke Seite (Textlinks) */
 .footer-links-left {
   display: flex;
-  gap: 20px;
+  gap: 60px;
 }
 
 /* Container für rechte Seite (Icons) */
@@ -249,7 +249,7 @@ video {
   font-weight: bold;
   text-decoration: none;
   font-size: 24px;        /* kleiner als Icon */
-  line-height: 1.2;       /* schmalere Höhe */
+       /* schmalere Höhe */
   padding: 6px 6px;       /* minimaler Rahmen */
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.2);
