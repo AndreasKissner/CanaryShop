@@ -234,7 +234,7 @@ video {
 /* Container für linke Seite (Textlinks) */
 .footer-links-left {
   display: flex;
-  gap: 55px;
+  gap: 60px;
 }
 
 /* Container für rechte Seite (Icons) */
