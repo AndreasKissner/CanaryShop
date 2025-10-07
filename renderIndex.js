@@ -9,7 +9,7 @@ function toggleLangMenue() {
 
         // Sprachbuttons initialisieren
         initLangButtons();
-    }
+    }  
 }
 
 function initLangButtons() {
