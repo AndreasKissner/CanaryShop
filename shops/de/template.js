@@ -7,7 +7,7 @@ function getCardTemplate(info, i) {
     </div>
       <button class="slider-btn prev" id="prev-${i}" data-i18n="slider_prev"><img class="slider-img" src="../../assets/img/icons/left.png" alt="Left Icon"></button>
       <button class="slider-btn next" id="next-${i}" data-i18n="slider_next"><img class="slider-img" src="../../assets/img/icons/right.png" alt="Right Icon"></button>
-    </div>
+    </div>   
 
     <div class="product-card__body" id="body-${i}" data-i18n="product_body">
       <h3 class="product-card__title" id="title-${i}" data-i18n="product_title">

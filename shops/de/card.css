@@ -59,13 +59,14 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background: rgba(42, 22, 3, 0.5);
+  color: #302804;
   border: none;
   font-size: 20px;
   padding: 6px 10px;
-  cursor: pointer;
-  border-radius: 50%;
+  cursor: pointer; 
+  display: flex;
+  border-radius: 25%;
   transition: background .2s;
   z-index: 10;
 }
