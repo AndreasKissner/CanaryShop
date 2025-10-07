@@ -367,7 +367,6 @@ const DICT = {
     category_sport: "Sport",
     category_mode: "Moda e accessori"
 
-
   },
   es: {
     headline: "CanaryHub Affiliate Shop",
@@ -451,8 +450,6 @@ const DICT = {
     category_gesundheit: "Salud",
     category_sport: "Deportes",
     category_mode: "Moda y accesorios"
-
-
   }
 };
 
@@ -489,17 +486,25 @@ function renderDetected(lang) {
 }
 
 /** Init on DOM ready */
+/** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-  const lang = getPreferredLang();
-  // const lang = "fr";
-  //const lang = "en"; 
-  /*  const lang = "es";  */
-  /*  const lang = "it";  */
+  // 🌍 Sprache hier einmalig global definieren
+  window.currentLang = getPreferredLang(); // erkennt "de", "fr", "en", "it", "es" usw.
+ /*  if (!window.currentLang) {
+    window.currentLang = "de"; // Testweise – kann später dynamisch geändert werden
+  } */
 
+  // Übersetzungen anwenden
+  // @ts-ignore
+  applyTranslations(window.currentLang);
+  renderDetected(window.currentLang);
 
-  applyTranslations(lang);
-  renderDetected(lang);
   // Jahr im Footer setzen
   const y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
+
+  // 🟢 globale Funktion für andere Skripte
+  window.getPreferredLang = function () {
+    return window.currentLang;
+  };
 });

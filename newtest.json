@@ -1,6 +1,9 @@
 {
   "anzeigen": {
-    "product-card-1": {
+    "de": {
+      "kategorien": {
+        "angebote": {
+          "product-card-1": {
       "description": "60 % mehr Saugleistung als der Dyson V8™.\nBis zu 60 Min. konstante Leistung.\nLCD-Display mit Restlaufzeit & Updates.\nFiltration erfasst 99,99 % der Partikel (ab 0,3 Mikron).\nMotorbar™ Reinigungskopf mit Anti-Tangle Technologie.\nInklusive: Kombi-, Spalt- & Haarschraubenwerkzeug, Wandhalterung.",
       "images": {
         "img1": {
@@ -19,26 +22,402 @@
       "price": "https://www.amazon.de/Dyson-V11-Advanced-Staubsauger-Nickel/dp/B0D7MQP6L6?_encoding=UTF8&pd_rd_w=aV4Mv&content-id=amzn1.sym.490e70d5-fc69-4dc2-ae1e-f45652e7cc86%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=490e70d5-fc69-4dc2-ae1e-f45652e7cc86&pf_rd_r=HBMAGP49BHQQE65ERPYN&pd_rd_wg=bquVq&pd_rd_r=177fc96b-27a3-4dbf-99c4-17d21e3bd36a&linkCode=ll1&tag=canaryhub-21&linkId=e81f1f58378dab9d0bcee2dff43f91a2&language=de_DE&ref_=as_li_ss_tl",
       "title": "Dyson V11 Advanced, Staubsauger, Nickel/Blau",
       "toArticle": "https://www.amazon.de/Dyson-V11-Advanced-Staubsauger-Nickel/dp/B0D7MQP6L6?_encoding=UTF8&pd_rd_w=aV4Mv&content-id=amzn1.sym.490e70d5-fc69-4dc2-ae1e-f45652e7cc86%3Aamzn1.symc.752cde0b-d2ce-4cce-9121-769ea438869e&pf_rd_p=490e70d5-fc69-4dc2-ae1e-f45652e7cc86&pf_rd_r=HBMAGP49BHQQE65ERPYN&pd_rd_wg=bquVq&pd_rd_r=177fc96b-27a3-4dbf-99c4-17d21e3bd36a&linkCode=ll1&tag=canaryhub-21&linkId=e81f1f58378dab9d0bcee2dff43f91a2&language=de_DE&ref_=as_li_ss_tl"
-    },
-    "product-card-2": {
-      "description": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54 – stilvolle Damen-Sonnenbrille mit 2 Jahren internationaler Garantie und Top-Bewertungen auf Amazon.",
+    }
+        },
+        "haushalt": {
+       "product-card-1": {
+      "description": "ZELLEN Original-Batteriezellen zum Ersetzen alter Akkus (Modell: Tianneng 18650 TNLi-ITR.10S5P-ICR18650-26FM).\nPassend für viele E-Bikes und Pedelecs (z. B. Biria City, Cyco Alu-E-Bike, Hanseatic 28\" RH 53, Sport Curtis / Aldi-Modelle 2013).\nKompatible Marken: MiFa, Rex, Cyco, Zündapp, Biria, Aldi/Lidl, Calvin, McKenzie, Rabeneick u.v.m.\nZertifikate: BATSO, TÜV, CE, RoHS.",
       "images": {
         "img1": {
-          "alt": "Img 1",
-          "src": "../../assets/img/pupImg/annonce/guccibrille.png"
+          "alt": "Air Pods Apple",
+          "src": "../../assets/img/pupImg/annonce/akku.png"
         },
         "img2": {
           "alt": "Logo",
           "src": "../../assets/img/pupImg/annonce/logocanarylink.png"
         },
         "img3": {
-          "alt": "Dyson Staubsauger 3",
-          "src": "../../assets/img/pupImg/annonce/pup2.png"
+          "alt": "Logo",
+          "src": "../../assets/img/pupImg/annonce//pup2.png"
         }
       },
-      "price": "https://www.amazon.de/Gucci-Sonnenbrillen-GG0956S-Black-Damen/dp/B093BBN45F?dib=eyJ2IjoiMSJ9.iEXXjb_PzNBJ3-_ujk0to26DG6522-TNKhbZCX554IPvqsg9nXyo51ZDW3VWjA3H1Tg6YmtAOlShwRMVmNAUqoB5akzBDmbxf9VWmSbffmZ6Yuqo1aDhHlvt1PJGT-189r8vx75CLp52aELMerNTKnaxWxyYyFkNfuIizphzJ84-RhEZZl2cZrX4HKKhPZi-ZSwsgZS5Crx4SOR_eroMVVpvOPu5wPMq1BCNQ346-TlToUVMeIPGQUDfipeV9QFwqXFNFSTuNvTdBzvDygDnPBHs_sJVFlVmcuO68NideGI.lcxPzLSxZGYu-hidi8o97op3O9sXq4hEF0V-FMs61Hs&dib_tag=se&keywords=gucci+brille&qid=1759218643&sr=8-11&linkCode=ll1&tag=canaryhub-21&linkId=126e15634df4b637012c7c0de7185e8a&language=de_DE&ref_=as_li_ss_tl",
-      "title": "GUCCI Womens GG0956S Sunglasses, Black-Black-Grey, 54",
-      "toArticle": "https://www.amazon.de/Gucci-Sonnenbrillen-GG0956S-Black-Damen/dp/B093BBN45F?dib=eyJ2IjoiMSJ9.iEXXjb_PzNBJ3-_ujk0to26DG6522-TNKhbZCX554IPvqsg9nXyo51ZDW3VWjA3H1Tg6YmtAOlShwRMVmNAUqoB5akzBDmbxf9VWmSbffmZ6Yuqo1aDhHlvt1PJGT-189r8vx75CLp52aELMerNTKnaxWxyYyFkNfuIizphzJ84-RhEZZl2cZrX4HKKhPZi-ZSwsgZS5Crx4SOR_eroMVVpvOPu5wPMq1BCNQ346-TlToUVMeIPGQUDfipeV9QFwqXFNFSTuNvTdBzvDygDnPBHs_sJVFlVmcuO68NideGI.lcxPzLSxZGYu-hidi8o97op3O9sXq4hEF0V-FMs61Hs&dib_tag=se&keywords=gucci+brille&qid=1759218643&sr=8-11&linkCode=ll1&tag=canaryhub-21&linkId=126e15634df4b637012c7c0de7185e8a&language=de_DE&ref_=as_li_ss_tl"
+      "price": "https://www.amazon.de/HANERIDE-Tianneng-Ersatzakku-TNLi-ITR-Batterien/dp/B07YTSX68J?crid=2YGUEVCQZ1JBC&dib=eyJ2IjoiMSJ9.J5Ov5lzbE6_lnzzCO-gq9WwRL6LOldKwYKCL6mt2-XoSHifDqN4Xd5BaM9vwPNOH4Y4VqUIf0i1phEmoKPWxcOIh4nfvaKHl4kywKAIdjzMyG2U3WfawK3DWMb55glSsSrTOanhZkhe1bb-2wyTtqzcC-Hctrj1wp7m2pQUBWZcM4PfjVowxoPPWrADzh8WV0HY0RMRd0-sHMby7E9AMtQ.M7C9dd48Rs0XlYMj8uzTE2Ght6xHaXcn_Ag464v20_U&dib_tag=se&keywords=mifa+e+Bike+akku&qid=1759400131&sprefix=mifa+e+bike+akku%2Caps%2C153&sr=8-15&linkCode=ll1&tag=canaryhub-21&linkId=1d78f6810daf687af8fdf3da3fc97650&language=de_DE&ref_=as_li_ss_tl",
+      "title": "Originaler Tianneng Ersatzakku 36V 13Ah 468Wh TNLi-ITR 18650 E-Bike Pedelec Batterien für VAUN MiFA Fischer Curtis Biria iCycle Calvin Camax Cyco,UVM.",
+      "toArticle": "https://www.amazon.de/HANERIDE-Tianneng-Ersatzakku-TNLi-ITR-Batterien/dp/B07YTSX68J?crid=2YGUEVCQZ1JBC&dib=eyJ2IjoiMSJ9.J5Ov5lzbE6_lnzzCO-gq9WwRL6LOldKwYKCL6mt2-XoSHifDqN4Xd5BaM9vwPNOH4Y4VqUIf0i1phEmoKPWxcOIh4nfvaKHl4kywKAIdjzMyG2U3WfawK3DWMb55glSsSrTOanhZkhe1bb-2wyTtqzcC-Hctrj1wp7m2pQUBWZcM4PfjVowxoPPWrADzh8WV0HY0RMRd0-sHMby7E9AMtQ.M7C9dd48Rs0XlYMj8uzTE2Ght6xHaXcn_Ag464v20_U&dib_tag=se&keywords=mifa+e+Bike+akku&qid=1759400131&sprefix=mifa+e+bike+akku%2Caps%2C153&sr=8-15&linkCode=ll1&tag=canaryhub-21&linkId=1d78f6810daf687af8fdf3da3fc97650&language=de_DE&ref_=as_li_ss_tl"
+    }
+        },
+        "handy": {
+          "product-card-1": {
+            "title": "Samsung Galaxy S24",
+            "description": "5G, AMOLED, Top-Kamera – neueste Generation.",
+            "images": { "img1": { "alt": "Samsung Galaxy", "src": "img/de/handy1.png" } },
+            "price": "€899",
+            "toArticle": "https://amazon.de/samsung"
+          }
+        },
+        "gaming": {
+        "product-card-1": {
+      "description": "Erlebe blitzschnelles Laden mit der ultraschnellen SSD, beeindruckendes haptisches Feedback, adaptive Trigger und 3D-Audio. Die PS5 bietet realistische Grafik mit Raytracing, 4K- und 8K-Unterstützung sowie flüssiges Gameplay bis zu 120 FPS. Dank HDR-Technologie und Tempest 3D AudioTech wirst du vollständig in deine Spielewelt eintauchen.",
+      "images": {
+        "img1": {
+          "alt": "Playstation 5",
+          "src": "../../assets/img/pupImg/annonce/ps5.png"
+        },
+        "img2": {
+          "alt": "Logo",
+          "src": "../../assets/img/pupImg/annonce/logocanarylink.png"
+        },
+        "img3": {
+          "alt": "Logo",
+          "src": "../../assets/img/pupImg/annonce//pup2.png"
+        }
+      },
+      "price": "https://www.amazon.de/Playstation-Digital-Konsole-ohne-Disc-Laufwerk/dp/B08H98GVK8?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=V2F3F5879EW7&dib=eyJ2IjoiMSJ9.l113ss-K9BYdZgV5U0ngO51lBazlgxG0L-MbqZVz4HBKPgAapDu1KPqaBZS4xbsIbQpE6LBnsPJ9FfdpOsz-VRwMtgyfPFLoh4bTd7ldu1LD22Qbp8MXCX-sib2wwt2B_oYd4XZ8xyx-EF5rM0bImmZtsYxhgfXCes_CufTsa_EBR_3-MYp5dUWqUbflHvAjOBhN4tWPq4XxtcIUUNUWF7MFO3Xnp32wx0SRxw0wxqk.Wr_iaVZnTdYYLyUTZclG-jQou-_6FPJRH--cXmM7na4&dib_tag=se&keywords=playstation+5+pro&qid=1759689717&sprefix=playstation+5+pro%2Caps%2C104&sr=8-16&linkCode=ll1&tag=canaryhub-21&linkId=f32796476ed6809b929e4d0d2db78a84&language=de_DE&ref_=as_li_ss_tl",
+      "title": "Playstation 5 Digital Konsole",
+      "toArticle": "https://www.amazon.de/Playstation-Digital-Konsole-ohne-Disc-Laufwerk/dp/B08H98GVK8?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=V2F3F5879EW7&dib=eyJ2IjoiMSJ9.l113ss-K9BYdZgV5U0ngO51lBazlgxG0L-MbqZVz4HBKPgAapDu1KPqaBZS4xbsIbQpE6LBnsPJ9FfdpOsz-VRwMtgyfPFLoh4bTd7ldu1LD22Qbp8MXCX-sib2wwt2B_oYd4XZ8xyx-EF5rM0bImmZtsYxhgfXCes_CufTsa_EBR_3-MYp5dUWqUbflHvAjOBhN4tWPq4XxtcIUUNUWF7MFO3Xnp32wx0SRxw0wxqk.Wr_iaVZnTdYYLyUTZclG-jQou-_6FPJRH--cXmM7na4&dib_tag=se&keywords=playstation+5+pro&qid=1759689717&sprefix=playstation+5+pro%2Caps%2C104&sr=8-16&linkCode=ll1&tag=canaryhub-21&linkId=f32796476ed6809b929e4d0d2db78a84&language=de_DE&ref_=as_li_ss_tl"
+    }
+        },
+        "computer": {
+          "product-card-1": {
+            "title": "Logitech MX Master 3S",
+            "description": "Kabellose Maus mit Präzisions-Scrollrad.",
+            "images": { "img1": { "alt": "Logitech Maus", "src": "img/de/computer1.png" } },
+            "price": "€99",
+            "toArticle": "https://amazon.de/logitech"
+          }
+        },
+        "gesundheit": {
+          "product-card-1": {
+            "title": "Omron Blutdruckmessgerät",
+            "description": "Zuverlässige Messung am Oberarm, klinisch geprüft.",
+            "images": { "img1": { "alt": "Omron Gerät", "src": "img/de/gesundheit1.png" } },
+            "price": "€69",
+            "toArticle": "https://amazon.de/omron"
+          }
+        },
+        "sport": {
+          "product-card-1": {
+            "title": "Adidas Laufschuhe Ultraboost",
+            "description": "Maximaler Komfort bei jedem Schritt.",
+            "images": { "img1": { "alt": "Adidas Schuhe", "src": "img/de/sport1.png" } },
+            "price": "€149",
+            "toArticle": "https://amazon.de/adidas"
+          }
+        },
+        "mode": {
+          "product-card-1": {
+            "title": "GUCCI Sonnenbrille GG0956S",
+            "description": "Luxuriöses Design mit UV400-Schutz.",
+            "images": { "img1": { "alt": "GUCCI Brille", "src": "img/de/mode1.png" } },
+            "price": "€249",
+            "toArticle": "https://amazon.de/gucci"
+          }
+        }
+      }
+    },
+    "en": {
+      "kategorien": {
+        "offers": {
+          "product-card-1": {
+            "title": "Dyson V11 – Powerful Cordless Vacuum",
+            "description": "60 minutes runtime, LCD display, ideal for pet hair.",
+            "images": { "img1": { "alt": "Dyson V11", "src": "img/en/offers1.png" } },
+            "price": "$599",
+            "toArticle": "https://amazon.com/dyson"
+          }
+        },
+        "household": {
+          "product-card-1": {
+            "title": "Philips Air Purifier 2000i Series",
+            "description": "Removes 99.9% of allergens and dust.",
+            "images": { "img1": { "alt": "Air Purifier", "src": "img/en/household1.png" } },
+            "price": "$299",
+            "toArticle": "https://amazon.com/philips"
+          }
+        },
+        "mobile": {
+          "product-card-1": {
+            "title": "Samsung Galaxy S24",
+            "description": "5G smartphone with pro camera system.",
+            "images": { "img1": { "alt": "Samsung Galaxy", "src": "img/en/mobile1.png" } },
+            "price": "$899",
+            "toArticle": "https://amazon.com/samsung"
+          }
+        },
+        "gaming": {
+          "product-card-1": {
+            "title": "PlayStation 5",
+            "description": "Next-gen gaming console with SSD speed.",
+            "images": { "img1": { "alt": "PS5", "src": "img/en/gaming1.png" } },
+            "price": "$549",
+            "toArticle": "https://amazon.com/ps5"
+          }
+        },
+        "computer": {
+          "product-card-1": {
+            "title": "Logitech MX Master 3S",
+            "description": "Wireless mouse with precision scroll wheel.",
+            "images": { "img1": { "alt": "Logitech Mouse", "src": "img/en/computer1.png" } },
+            "price": "$99",
+            "toArticle": "https://amazon.com/logitech"
+          }
+        },
+        "health": {
+          "product-card-1": {
+            "title": "Omron Blood Pressure Monitor",
+            "description": "Accurate upper arm measurement, clinically validated.",
+            "images": { "img1": { "alt": "Omron Device", "src": "img/en/health1.png" } },
+            "price": "$69",
+            "toArticle": "https://amazon.com/omron"
+          }
+        },
+        "sport": {
+          "product-card-1": {
+            "title": "Adidas Ultraboost Running Shoes",
+            "description": "Maximum comfort and energy return.",
+            "images": { "img1": { "alt": "Adidas Shoes", "src": "img/en/sport1.png" } },
+            "price": "$149",
+            "toArticle": "https://amazon.com/adidas"
+          }
+        },
+        "fashion": {
+          "product-card-1": {
+            "title": "GUCCI Sunglasses GG0956S",
+            "description": "Luxury design with UV400 protection.",
+            "images": { "img1": { "alt": "GUCCI Glasses", "src": "img/en/fashion1.png" } },
+            "price": "$249",
+            "toArticle": "https://amazon.com/gucci"
+          }
+        }
+      }
+    },
+    "fr": {
+      "kategorien": {
+        "offres": {
+          "product-card-1": {
+            "title": "Dyson V11 – Aspirateur sans fil puissant",
+            "description": "60 min d’autonomie, écran LCD, idéal pour les animaux.",
+            "images": { "img1": { "alt": "Dyson V11", "src": "img/fr/offres1.png" } },
+            "price": "599 €",
+            "toArticle": "https://amazon.fr/dyson"
+          }
+        },
+        "maison": {
+          "product-card-1": {
+            "title": "Purificateur d’air Philips 2000i",
+            "description": "Élimine 99,9 % des allergènes et poussières.",
+            "images": { "img1": { "alt": "Purificateur d'air", "src": "img/fr/maison1.png" } },
+            "price": "299 €",
+            "toArticle": "https://amazon.fr/philips"
+          }
+        },
+        "telephone": {
+          "product-card-1": {
+            "title": "Samsung Galaxy S24",
+            "description": "5G, appareil photo pro, design moderne.",
+            "images": { "img1": { "alt": "Samsung Galaxy", "src": "img/fr/telephone1.png" } },
+            "price": "899 €",
+            "toArticle": "https://amazon.fr/samsung"
+          }
+        },
+        "jeux": {
+          "product-card-1": {
+            "title": "Sony PlayStation 5",
+            "description": "Console nouvelle génération ultra rapide.",
+            "images": { "img1": { "alt": "PS5", "src": "img/fr/jeux1.png" } },
+            "price": "549 €",
+            "toArticle": "https://amazon.fr/ps5"
+          }
+        },
+        "informatique": {
+          "product-card-1": {
+            "title": "Souris Logitech MX Master 3S",
+            "description": "Souris sans fil avec molette de précision.",
+            "images": { "img1": { "alt": "Souris Logitech", "src": "img/fr/informatique1.png" } },
+            "price": "99 €",
+            "toArticle": "https://amazon.fr/logitech"
+          }
+        },
+        "sante": {
+          "product-card-1": {
+            "title": "Tensiomètre Omron",
+            "description": "Mesure fiable et validée cliniquement.",
+            "images": { "img1": { "alt": "Omron", "src": "img/fr/sante1.png" } },
+            "price": "69 €",
+            "toArticle": "https://amazon.fr/omron"
+          }
+        },
+        "sport": {
+          "product-card-1": {
+            "title": "Chaussures Adidas Ultraboost",
+            "description": "Confort maximal et performance optimale.",
+            "images": { "img1": { "alt": "Adidas", "src": "img/fr/sport1.png" } },
+            "price": "149 €",
+            "toArticle": "https://amazon.fr/adidas"
+          }
+        },
+        "mode": {
+          "product-card-1": {
+            "title": "Lunettes de soleil GUCCI GG0956S",
+            "description": "Style luxueux et protection UV400.",
+            "images": { "img1": { "alt": "GUCCI", "src": "img/fr/mode1.png" } },
+            "price": "249 €",
+            "toArticle": "https://amazon.fr/gucci"
+          }
+        }
+      }
+    },
+    "it": {
+      "kategorien": {
+        "offerte": {
+          "product-card-1": {
+            "title": "Dyson V11 – Aspirapolvere senza fili",
+            "description": "60 minuti di autonomia, schermo LCD, ideale per animali.",
+            "images": { "img1": { "alt": "Dyson V11", "src": "img/it/offerte1.png" } },
+            "price": "€599",
+            "toArticle": "https://amazon.it/dyson"
+          }
+        },
+        "casa": {
+          "product-card-1": {
+            "title": "Purificatore d’aria Philips 2000i",
+            "description": "Rimuove il 99,9% di allergeni e polveri.",
+            "images": { "img1": { "alt": "Purificatore d’aria", "src": "img/it/casa1.png" } },
+            "price": "€299",
+            "toArticle": "https://amazon.it/philips"
+          }
+        },
+        "telefono": {
+          "product-card-1": {
+            "title": "Samsung Galaxy S24",
+            "description": "5G, fotocamera professionale, schermo AMOLED.",
+            "images": { "img1": { "alt": "Samsung Galaxy", "src": "img/it/telefono1.png" } },
+            "price": "€899",
+            "toArticle": "https://amazon.it/samsung"
+          }
+        },
+        "gaming": {
+          "product-card-1": {
+            "title": "Sony PlayStation 5",
+            "description": "Console di nuova generazione con SSD ultraveloce.",
+            "images": { "img1": { "alt": "PS5", "src": "img/it/gaming1.png" } },
+            "price": "€549",
+            "toArticle": "https://amazon.it/ps5"
+          }
+        },
+        "computer": {
+          "product-card-1": {
+            "title": "Logitech MX Master 3S",
+            "description": "Mouse wireless con rotella di precisione.",
+            "images": { "img1": { "alt": "Mouse Logitech", "src": "img/it/computer1.png" } },
+            "price": "€99",
+            "toArticle": "https://amazon.it/logitech"
+          }
+        },
+        "salute": {
+          "product-card-1": {
+            "title": "Misuratore di pressione Omron",
+            "description": "Misurazione precisa, approvata clinicamente.",
+            "images": { "img1": { "alt": "Omron", "src": "img/it/salute1.png" } },
+            "price": "€69",
+            "toArticle": "https://amazon.it/omron"
+          }
+        },
+        "sport": {
+          "product-card-1": {
+            "title": "Scarpe da corsa Adidas Ultraboost",
+            "description": "Massimo comfort e reattività.",
+            "images": { "img1": { "alt": "Adidas", "src": "img/it/sport1.png" } },
+            "price": "€149",
+            "toArticle": "https://amazon.it/adidas"
+          }
+        },
+        "moda": {
+          "product-card-1": {
+            "title": "Occhiali da sole GUCCI GG0956S",
+            "description": "Design di lusso con protezione UV400.",
+            "images": { "img1": { "alt": "GUCCI", "src": "img/it/moda1.png" } },
+            "price": "€249",
+            "toArticle": "https://amazon.it/gucci"
+          }
+        }
+      }
+    },
+    "es": {
+      "kategorien": {
+        "ofertas": {
+          "product-card-1": {
+            "title": "Dyson V11 – Aspiradora sin cable",
+            "description": "60 minutos de autonomía, pantalla LCD, ideal para mascotas.",
+            "images": { "img1": { "alt": "Dyson V11", "src": "img/es/ofertas1.png" } },
+            "price": "599 €",
+            "toArticle": "https://amazon.es/dyson"
+          }
+        },
+        "hogar": {
+          "product-card-1": {
+            "title": "Purificador de aire Philips 2000i",
+            "description": "Elimina el 99,9% de alérgenos y polvo.",
+            "images": { "img1": { "alt": "Purificador de aire", "src": "img/es/hogar1.png" } },
+            "price": "299 €",
+            "toArticle": "https://amazon.es/philips"
+          }
+        },
+        "movil": {
+          "product-card-1": {
+            "title": "Samsung Galaxy S24",
+            "description": "5G, pantalla AMOLED, cámara profesional.",
+            "images": { "img1": { "alt": "Samsung Galaxy", "src": "img/es/movil1.png" } },
+            "price": "899 €",
+            "toArticle": "https://amazon.es/samsung"
+          }
+        },
+        "juegos": {
+          "product-card-1": {
+            "title": "Sony PlayStation 5",
+            "description": "Consola de nueva generación con SSD ultrarrápido.",
+            "images": { "img1": { "alt": "PS5", "src": "img/es/juegos1.png" } },
+            "price": "549 €",
+            "toArticle": "https://amazon.es/ps5"
+          }
+        },
+        "informatica": {
+          "product-card-1": {
+            "title": "Ratón Logitech MX Master 3S",
+            "description": "Ratón inalámbrico con rueda de precisión.",
+            "images": { "img1": { "alt": "Ratón Logitech", "src": "img/es/informatica1.png" } },
+            "price": "99 €",
+            "toArticle": "https://amazon.es/logitech"
+          }
+        },
+        "salud": {
+          "product-card-1": {
+            "title": "Tensiómetro Omron",
+            "description": "Medición precisa y validada clínicamente.",
+            "images": { "img1": { "alt": "Omron", "src": "img/es/salud1.png" } },
+            "price": "69 €",
+            "toArticle": "https://amazon.es/omron"
+          }
+        },
+        "deporte": {
+          "product-card-1": {
+            "title": "Zapatillas Adidas Ultraboost",
+            "description": "Máxima comodidad y rendimiento.",
+            "images": { "img1": { "alt": "Adidas", "src": "img/es/deporte1.png" } },
+            "price": "149 €",
+            "toArticle": "https://amazon.es/adidas"
+          }
+        },
+        "moda": {
+          "product-card-1": {
+            "title": "Gafas de sol GUCCI GG0956S",
+            "description": "Diseño de lujo con protección UV400.",
+            "images": { "img1": { "alt": "GUCCI", "src": "img/es/moda1.png" } },
+            "price": "249 €",
+            "toArticle": "https://amazon.es/gucci"
+          }
+        }
+      }
     }
   }
 }

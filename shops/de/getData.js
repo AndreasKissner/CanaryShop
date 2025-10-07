@@ -1,12 +1,20 @@
 window.cardsInfo = [];
 
-
-
-async function getImgFomObject(imgJson){
+/**
+ * Holt Bild-Keys aus einem Produktobjekt
+ */
+async function getImgFomObject(imgJson) {
+  if (!imgJson || !imgJson.images || typeof imgJson.images !== "object") {
+    console.warn("⚠️ Keine Bilder im Produkt gefunden:", imgJson);
+    return [];
+  }
   return Object.keys(imgJson.images);
 }
 
-async function imgToArray(cardEl){
+/**
+ * Wandelt Bildobjekte in <img>-HTML um
+ */
+async function imgToArray(cardEl) {
   let imgKeyObj = await getImgFomObject(cardEl);
   let imgs = "";
   for (let i = 0; i < imgKeyObj.length; i++) {
@@ -14,36 +22,87 @@ async function imgToArray(cardEl){
     let imgEl = cardEl.images[imgIndex];
     imgs += `<img src="${imgEl.src}" alt="${imgEl.alt}">`;
   }
-  return imgs;   // jetzt ist es ein fertiger String mit allen <img>
+  return imgs;
 }
 
+/**
+ * Lädt automatisch die richtigen Daten aus Firebase je nach Sprache.
+ */
+async function loadCards() {
+  const lang = getCurrentLang(); // z. B. "fr", "de" usw.
+  const path = ""; // kein "kategorien" mehr anhängen, das macht Firebase selbst
 
+  console.log(`[Info:] Sprache erkannt: ${lang}`);
+  console.log(`[Info:] Lade Daten von: ${BASE_URL + "/" + lang}.json`);
 
-async function getKeyFromObj(responseJson){
-    return Object.keys(responseJson);
-}
+  // Hauptstruktur aus Firebase holen
+  const responseRoot = await getDatas(path);
+  const responseJson = responseRoot?.kategorien; // 🟢 wichtig: Zugriff auf Unterobjekt
 
-async function objToArray() {
-    let responseJson = await getDatas();
-    let keysInObject = await getKeyFromObj(responseJson)
-    
-    for (let i = 0; i < keysInObject.length; i++) {
-      const index = keysInObject[i];
-      let cardEl = responseJson[index];
+  if (!responseJson) {
+    console.warn("⚠️ Keine Daten für diese Sprache gefunden.");
+    return;
+  }
 
+  window.cardsInfo = [];
+
+  // Kategorien (angebote, haushalt, mode, ...)
+  const categories = Object.keys(responseJson);
+  for (let i = 0; i < categories.length; i++) {
+    const cat = categories[i];
+    const products = responseJson[cat];
+
+    const productKeys = Object.keys(products);
+    for (let j = 0; j < productKeys.length; j++) {
+      const key = productKeys[j];
+      const card = products[key];
+
+      // Bilder-HTML erzeugen
+      let imgHTML = "";
+      if (card.images) {
+        const imgKeys = Object.keys(card.images);
+        for (let k = 0; k < imgKeys.length; k++) {
+          const img = card.images[imgKeys[k]];
+          imgHTML += `<img src="${img.src}" alt="${img.alt}">`;
+        }
+      }
+
+      // Karte ins Array pushen
       window.cardsInfo.push({
-        cardId: index,
-        title: cardEl.title,
-        description : cardEl.description,
-        images: await imgToArray(cardEl),  
-        price : cardEl.price,
-        toArticle : cardEl.toArticle
-      })
+        title: card.title || "Kein Titel",
+        description: card.description || "",
+        images: imgHTML,
+        price: card.price || "",
+        toArticle: card.toArticle || "#",
+        category: cat
+      });
     }
-    renderCards();
+  }
+
+  // Karten rendern
+  renderCards();
 }
 
-window.addEventListener("load", async() => {
-  await objToArray();
- 
+/**
+ * Start beim Laden der Seite
+ */
+window.addEventListener("DOMContentLoaded", () => {
+  loadCards();
+});
+
+/**
+ * Sprachumschalter
+ */
+document.addEventListener("click", async (e) => {
+  const btn = e.target.closest("[data-lang]");
+  if (!btn) return; // kein Sprachbutton
+  const newLang = btn.getAttribute("data-lang");
+
+  console.log(`[LangSwitch] Sprache gewechselt zu: ${newLang}`);
+
+  // Sprache global umstellen (überall gültig)
+  window.getPreferredLang = () => newLang;
+
+  // Seite neu laden lassen (mit neuer Sprache)
+  await loadCards();
 });
