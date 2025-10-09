@@ -26,13 +26,14 @@ async function getKeyFromObj(responseJson){
 async function objToArray() {
     let responseJson = await getDatas();
     let keysInObject = await getKeyFromObj(responseJson)
-    
+  
     for (let i = 0; i < keysInObject.length; i++) {
       const index = keysInObject[i];
       let cardEl = responseJson[index];
-
+      
       window.cardsInfo.push({
         cardId: index,
+        udemy: cardEl.udemy,
         title: cardEl.title,
         description : cardEl.description,
         images: await imgToArray(cardEl),  

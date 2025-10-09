@@ -9,7 +9,9 @@ function getCardTemplate(info, i) {
       <button class="slider-btn next" id="next-${i}" data-i18n="slider_next"><img class="slider-img" src="../../assets/img/icons/right.png" alt="Right Icon"></button>
     </div>   
 
+
     <div class="product-card__body" id="body-${i}" data-i18n="product_body">
+    <h1 class="udemy">${info.udemy}</h1> 
       <h3 class="product-card__title" id="title-${i}" data-i18n="product_title">
         ${info.title}
       </h3>

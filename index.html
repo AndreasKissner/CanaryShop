@@ -8,10 +8,11 @@
   <meta name="description"
     content="Entdecke sorgfältig ausgewählte Produkte in unserem mehrsprachigen Affiliate-Shop für die Kanarischen Inseln. Finde deinen Shop in deiner Sprache.">
   <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
-  <link rel="stylesheet" href="./styles/cookie.css">
+
   <link rel="stylesheet" href="./styles/cookie.css">
   <link rel="stylesheet" href="./styles/howfunction.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles/linkwhatsapp.css">
   <meta property="og:title" content="CanaryHub Affiliate Shop" />
   <meta property="og:description"
     content="Entdecke sorgfältig ausgewählte Produkte in unserem mehrsprachigen Affiliate-Shop für die Kanarischen Inseln. Finde deinen Shop in deiner Sprache." />
@@ -37,13 +38,14 @@
       <h1 id="headline" data-i18n="headline">CanaryHub Affiliate Shop</h1>
       <img class="logo-banner" src="./assets/img/canaryhublink.webp" alt="">
       <p id="subheadline" data-i18n="subheadline">
-      Sprachen.
+        Sprachen.
       </p>
-      <button class="lang-button" id="lang-btn" ><img class="burger-img" src="./assets/img/burger-btn.png"
+      <button class="lang-button" id="lang-btn"><img class="burger-img" src="./assets/img/burger-btn.png"
           alt="Burger Button Icon"></button>
-          <div id="lang-menue-buerger" class="d-none"></div>
+      <div id="lang-menue-buerger" class="d-none"></div>
     </div>
   </header>
+
 
   <!-- Cookie Banner-->
   <div id="cookie-overlay">
@@ -92,12 +94,9 @@
   <main class="container-main">
     <section class="section">
       <div class="link-container">
-
         <a href="https://canaryhub.community" class="floating-link" target="_blank">
           Go to CanaryHub.community
         </a>
-
-        <!-- modal how function -->
         <!-- Trigger-Link (öffnet Overlay via :target, kein JS nötig) -->
         <a href="#" class="howto-trigger  function" data-i18n="howto_trigger">So funktioniert unser Shop</a>
 
@@ -112,6 +111,7 @@
             <button class="close" aria-label="Close">
               <a href="#" class="close-link" data-i18n="howto_close">Schließen</a>
             </button>
+
 
             <h2 id="howto-title" data-i18n="howto_title">So funktioniert unser Shop</h2>
             <p data-i18n="howto_intro">
@@ -130,7 +130,8 @@
                 Warenkorb legen und bezahlen.
               </li>
               <li data-i18n="howto_step3a">
-                Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern – schauen
+                Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern –
+                schauen
                 Sie am besten regelmäßig bei uns vorbei.
               </li>
               <li data-i18n="howto_step4">
@@ -155,7 +156,11 @@
           </div>
         </div>
       </div>
+
       <!-- end modal how function -->
+      <section class="pommes-song">
+        <a href="html/pommes.html" class="pommes-link">🎵 Zu den Canary Songs</a>
+      </section>
 
       <p class="muted" data-i18n="video_desc">
         Dieses Beispiel-Video ist ein Platzhalter. Hier kannst du dein MP4 hochladen oder einen Embed nutzen.
@@ -171,7 +176,7 @@
       <h2 class="your-boutique" data-i18n="choose_shop">Wähle deinen Shop</h2>
       <div class="grid">
 
-        <a class="tile" href="../shops\de\de.html">
+        <a class="tile" href="../shops/de/">
           <span class="tile-title" data-i18n="shop_de">Shop Deutsch und Schweiz</span>
         </a>
         <a class="tile disabled" href="/en/" data-i18n-tooltip="tooltip_en">
@@ -189,8 +194,28 @@
         <a class="tile disabled" href="/intl/" data-i18n-tooltip="tooltip_intl">
           <span class="tile-title" data-i18n="shop_intl">International (EN)</span>
         </a>
-
       </div>
+
+      <!-- Whatss app channel -->
+      <section aria-labelledby="canary-whatsapp-heading" class="canary-section">
+        <h2 id="canary-whatsapp-heading" class="visually-hidden">Canary Hub WhatsApp Channel</h2>
+
+        
+        <a class="canary-link" href="https://whatsapp.com/channel/0029VbBZczpA2pL6lqTldE0d" target="_blank"
+          rel="noopener noreferrer" aria-label="Canary Hub WhatsApp Channel öffnen">
+
+          <!-- WhatsApp Icon -->
+          <svg class="canary-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            focusable="false">
+            <path
+              d="M20.52 3.48A11.91 11.91 0 0012 .5C6.21.5 1.5 5.22 1.5 11c0 1.94.52 3.77 1.5 5.36L.5 23.5l7.27-2.21A11.45 11.45 0 0012 22.5c5.79 0 10.5-4.72 10.5-10.5 0-1.96-.53-3.79-1.98-5.52zM12 20.5c-1.02 0-2.02-.15-2.98-.45l-.21-.07-4.32 1.31 1.31-4.13-.07-.22A8.99 8.99 0 013 11c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9z" />
+            <path
+              d="M17.1 14.92c-.31-.16-1.84-.9-2.13-1.01-.29-.12-.5-.16-.71.16-.21.31-.77 1.01-.95 1.22-.17.21-.34.24-.64.08-.31-.16-1.29-.48-2.46-1.51-.9-.79-1.51-1.77-1.69-2.08-.18-.31-.02-.47.13-.62.13-.12.31-.33.46-.5.15-.17.2-.29.31-.48.1-.19.05-.35-.02-.51-.07-.16-.71-1.7-.98-2.33-.26-.61-.53-.53-.71-.53-.18 0-.39-.02-.6-.02-.2 0-.51.08-.78.35-.27.27-1.03 1.01-1.03 2.45 0 1.44 1.05 2.83 1.2 3.03.16.2 2.08 3.3 5.04 4.5 2.96 1.2 2.96.8 3.5.75.54-.05 1.78-.72 2.03-1.42.25-.7.25-1.31.17-1.42-.08-.11-.29-.16-.6-.31z" />
+          </svg>
+
+          <span class="canary-text">Canary Hub auf WhatsApp folgen für exklusive Updates, Videos und Tipps</span>
+        </a>
+      </section>
 
       <!-- Script for blocked Button -->
       <script>
@@ -216,7 +241,10 @@
     </section>
   </main>
 
+
+
   <footer class="site-footer">
+
     <div class="container-footer">
       <p class="info-partner" data-i18n="info_partner">Als Amazon-Partner verdienen wir an qualifizierten Verkäufen</p>
       <small>&copy; <span id="year"></span> CanaryHub Shop</small>
@@ -230,11 +258,12 @@
         <!-- Linke Seite: Text -->
         <div class="footer-links-left">
           <a class="text-link" href="./html/impressum.html" data-i18n="legal_Notice">Impressum</a>
-           <div class="footer-links-right">
-          <a class="icon-link" href="https://www.facebook.com/profile.php?id=61581701555939" target="_blank" title="Facebook">
-            <img src="./assets/img/facebookIcon.png" alt="TikTok">
-          </a>
-        </div>
+          <div class="footer-links-right">
+            <a class="icon-link" href="https://www.facebook.com/profile.php?id=61581701555939" target="_blank"
+              title="Facebook">
+              <img src="./assets/img/facebookIcon.png" alt="TikTok">
+            </a>
+          </div>
           <a class="text-link" href="./html/datenschutz.html" data-i18n="privacy_Policy">Datenschutz</a>
         </div>
 
@@ -245,7 +274,9 @@
           </a>
         </div>
       </nav>
+
     </div>
+
   </footer>
   <script src="./templateIndex.js"></script>
   <script src="./renderIndex.js"></script>

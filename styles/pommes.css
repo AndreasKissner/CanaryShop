@@ -1,0 +1,144 @@
+/* Hintergrund mit Platzhalter-Bild */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("assets/img/pommes-bg-placeholder.jpg") no-repeat center center / cover,
+              linear-gradient(135deg, #fff8e1, #ffe082);
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Hauptcontainer */
+.pommes-wrapper {
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(2px);
+}
+
+/* Karte */
+.pommes-card {
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Titel */
+.pommes-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #ffb300, #ff8f00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Untertitel */
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Player */
+audio {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Download-Button */
+.download-btn {
+  display: inline-block;
+  background-color: #ffb300;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.download-btn:hover {
+  background-color: #ff8f00;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* CSS */
+.canary-btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-weight: 700;
+  font-size: 16px;
+  color: #111; /* Textfarbe */
+  background: linear-gradient(180deg, #fff176 0%, #ffd600 100%); /* Canary-Gelb */
+  box-shadow:
+    0 6px 18px rgba(255, 214, 0, 0.18),
+    inset 0 -2px 0 rgba(0,0,0,0.06);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Icon styling */
+.canary-btn .icon{ 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover / Aktiv */
+.canary-btn:hover,
+.canary-btn:focus{
+  transform: translateY(-3px);
+  box-shadow:
+    0 10px 26px rgba(255, 214, 0, 0.22),
+    inset 0 -2px 0 rgba(0,0,0,0.06);
+  filter: saturate(1.05);
+  outline: none;
+}
+
+/* Fokus sichtbar für Tastatur-Nutzer */
+.canary-btn:focus-visible{
+  box-shadow:
+    0 10px 26px rgba(255,214,0,0.22),
+    0 0 0 4px rgba(255, 235, 59, 0.25);
+}
+
+/* Optional: kleineres Display / Mobile */
+@media (max-width:420px){
+  .canary-btn{ font-size:14px; padding:9px 14px; gap:8px; }
+  .canary-btn svg{ width:18px; height:18px; }
+}
+
+
+/* Responsiv */
+@media (max-width: 480px) {
+  .pommes-card {
+    padding: 20px;
+  }
+
+  .pommes-card h1 {
+    font-size: 1.5rem;
+  }
+}
