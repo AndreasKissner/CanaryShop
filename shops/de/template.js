@@ -31,7 +31,7 @@ function getCardTemplate(info, i) {
            id="btn-${i}" 
            data-i18n="product_btn" 
            target="_blank">
-          Zum Angebot
+          Mehr Details
         </a>
       </div>
     </div>

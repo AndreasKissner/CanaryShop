@@ -1,289 +1,229 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CanaryHub Shop</title>
+    <meta
+      name="description"
+      content="Entdecke sorgfältig ausgewählte Produkte in unserem mehrsprachigen Affiliate-Shop für die Kanarischen Inseln. Finde deinen Shop in deiner Sprache."
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CanaryHub Shop</title>
-  <meta name="description"
-    content="Entdecke sorgfältig ausgewählte Produkte in unserem mehrsprachigen Affiliate-Shop für die Kanarischen Inseln. Finde deinen Shop in deiner Sprache.">
-  <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="./styles/media-quaries/index-media-quaries.css"
+    />
+    <link rel="stylesheet" href="./styles/action-card.css">
+    <link rel="stylesheet" href="./styles/language-menue.css" />
+    <link rel="stylesheet" href="./styles/cookie.css" />
+    <link rel="stylesheet" href="./styles/howfunction.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/linkwhatsapp.css" />
 
-  <link rel="stylesheet" href="./styles/cookie.css">
-  <link rel="stylesheet" href="./styles/howfunction.css">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./styles/linkwhatsapp.css">
-  <meta property="og:title" content="CanaryHub Affiliate Shop" />
-  <meta property="og:description"
-    content="Entdecke sorgfältig ausgewählte Produkte in unserem mehrsprachigen Affiliate-Shop für die Kanarischen Inseln. Finde deinen Shop in deiner Sprache." />
-  <meta property="og:image" content="https://www.yourwebsite.com/assets/img/GcanaryShop.png" />
-  <meta property="og:url" content="https://www.yourwebsite.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="de_DE" />
+    <meta property="og:title" content="CanaryHub Affiliate Shop" />
+    <meta
+      property="og:description"
+      content="Entdecke sorgfältig ausgewählte Produkte in unserem mehrsprachigen Affiliate-Shop für die Kanarischen Inseln. Finde deinen Shop in deiner Sprache."
+    />
+    <meta
+      property="og:image"
+      content="https://www.yourwebsite.com/assets/img/GcanaryShop.png"
+    />
+    <meta property="og:url" content="https://www.yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
 
-  <link rel="canonical" href="https://www.canaryhub.com/shops/de/de.html" />
-  <link rel="alternate" href="https://www.canaryhub.com/shops/de/de.html" hreflang="de-CH" />
-  <link rel="alternate" href="https://www.canaryhub.com/shops/en/en.html" hreflang="en" />
-  <link rel="alternate" href="https://www.canaryhub.com/shops/fr/fr.html" hreflang="fr" />
-  <link rel="alternate" href="https://www.canaryhub.com/shops/it/it.html" hreflang="it" />
-  <link rel="alternate" href="https://www.canaryhub.com/shops/es/es.html" hreflang="es" />
-  <link rel="alternate" href="https://www.canaryhub.com/shops/intl/intl.html" hreflang="en-x-default" />
-  <meta name="robots" content="index, follow">
-</head>
+    <link rel="canonical" href="https://www.canaryhub.com/shops/de/de.html" />
+    <link
+      rel="alternate"
+      href="https://www.canaryhub.com/shops/de/de.html"
+      hreflang="de-CH"
+    />
+    <link
+      rel="alternate"
+      href="https://www.canaryhub.com/shops/en/en.html"
+      hreflang="en"
+    />
+    <link
+      rel="alternate"
+      href="https://www.canaryhub.com/shops/fr/fr.html"
+      hreflang="fr"
+    />
+    <link
+      rel="alternate"
+      href="https://www.canaryhub.com/shops/it/it.html"
+      hreflang="it"
+    />
+    <link
+      rel="alternate"
+      href="https://www.canaryhub.com/shops/es/es.html"
+      hreflang="es"
+    />
+    <link
+      rel="alternate"
+      href="https://www.canaryhub.com/shops/intl/intl.html"
+      hreflang="en-x-default"
+    />
+    <meta name="robots" content="index, follow" />
+  </head>
 
+  <body>
+    <div id="header-content"></div>
 
-<body>
-  <header class="site-header">
-    <div class="container-header">
-      <h1 id="headline" data-i18n="headline">CanaryHub Affiliate Shop</h1>
-      <img class="logo-banner" src="./assets/img/canaryhublink.webp" alt="">
-      <p id="subheadline" data-i18n="subheadline">
-        Sprachen.
-      </p>
-      <button class="lang-button" id="lang-btn"><img class="burger-img" src="./assets/img/burger-btn.png"
-          alt="Burger Button Icon"></button>
-      <div id="lang-menue-buerger" class="d-none"></div>
-    </div>
-  </header>
+    <div id="cookie-overlay-content"></div>
 
-
-  <!-- Cookie Banner-->
-  <div id="cookie-overlay">
-    <div id="cookie-banner">
-      <p data-i18n="cookie_message">
-        Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.
-      </p>
-      <div id="cookie-buttons">
-        <button id="accept-cookies" data-i18n="cookie_accept">Akzeptieren</button>
-        <button id="decline-cookies" data-i18n="cookie_decline">Ablehnen</button>
-        <button id="more-info" data-i18n="cookie_more">Mehr Infos</button>
-      </div>
-    </div>
-  </div>
-  <!-- Overlay für Details -->
-  <div id="cookie-info-overlay" class="d-none">
-    <div id="cookie-info-box">
-      <h2 data-i18n="cookie_details_title">Cookie-Details</h2>
-      <ul>
-        <li>
-          <strong data-i18n="cookie_essential_title">Essentiell:</strong>
-          <span data-i18n="cookie_essential_text">
-            notwendig für die Nutzung der Kontaktseite (falls vorhanden) und
-            Google Translate zur Übersetzung der Seite.
-          </span>
-        </li>
-        <li>
-          <strong data-i18n="cookie_statistic_title">Statistik:</strong>
-          <span data-i18n="cookie_statistic_text">
-            für anonyme Nutzungsdaten, um die Seite zu verbessern.
-            Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).
-          </span>
-        </li>
-      </ul>
-      <p style="margin-top:15px;" data-i18n="cookie_note">
-        Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf
-        „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt.
-        Diese helfen uns, Inhalte und Funktionen zu optimieren.
-      </p>
-      <button id="close-info" data-i18n="cookie_close">Schließen</button>
-    </div>
-  </div>
-
-
-
-  <main class="container-main">
-    <section class="section">
-      <div class="link-container">
-        <a href="https://canaryhub.community" class="floating-link" target="_blank">
-          Go to CanaryHub.community
-        </a>
-        <!-- Trigger-Link (öffnet Overlay via :target, kein JS nötig) -->
-        <a href="#" class="howto-trigger  function" data-i18n="howto_trigger">So funktioniert unser Shop</a>
-
-        <!-- Overlay -->
-        <div id="howto-overlay" class="overlay" inert>
-
-          <!-- Klick auf den Hintergrund schließt das Overlay -->
-          <a href="#" class="overlay-backdrop" aria-hidden="true" tabindex="-1"></a>
-
-          <!-- Modal-Box -->
-          <div class="modal" role="dialog" aria-modal="true" aria-labelledby="howto-title">
-            <button class="close" aria-label="Close">
-              <a href="#" class="close-link" data-i18n="howto_close">Schließen</a>
-            </button>
-
-
-            <h2 id="howto-title" data-i18n="howto_title">So funktioniert unser Shop</h2>
-            <p data-i18n="howto_intro">
-              Hier findest du sorgfältig ausgewählte Produkte. So klappt der Einkauf Schritt für Schritt:
-            </p>
-
-            <ol class="steps">
-              <li data-i18n="howto_step1">
-                Sprache wählen: Klicke auf den Button mit deiner Sprache, um den Shop in deiner Sprache zu öffnen.
-              </li>
-              <li data-i18n="howto_step2">
-                Produkte ansehen: Stöbere in den Kategorien und klicke auf Artikel, die dich interessieren.
-              </li>
-              <li data-i18n="howto_step3">
-                Weiter zu Amazon: Beim Klick auf ein Produkt wirst du zu Amazon weitergeleitet. Dort kannst du in den
-                Warenkorb legen und bezahlen.
-              </li>
-              <li data-i18n="howto_step3a">
-                Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern –
-                schauen
-                Sie am besten regelmäßig bei uns vorbei.
-              </li>
-              <li data-i18n="howto_step4">
-                Amazon-Konto: Für den Kauf brauchst du ein kostenloses Amazon-Konto.
-              </li>
-            </ol>
-
-            <p class="account">
-              <span data-i18n="howto_account_text">Du hast noch kein Amazon-Konto?</span>
-              <a href="https://www.amazon.de/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2F%3F_encoding%3DUTF8%26adgrpid%3D154228170936%26gad_source%3D1%26hvadid%3D675212901583%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9056144%26hvnetw%3Dg%26hvpone%3D%26hvpos%3D%26hvptwo%3D%26hvqmt%3De%26hvrand%3D2034931995940932647%26hvtargid%3Dkwd-10573980%26hydadcr%3D10627_2211717%26language%3Den_GB%26ref%3Dpd_sl_7qhccgoot7_e%26tag%3Dgoogdeaen-21%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=deflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
-                target="_blank" rel="noopener" data-i18n="howto_account_link">Hier kostenlos erstellen</a>
-            </p>
-
-            <p class="note" data-i18n="howto_disclosure">
-              Hinweis: Wenn du über unseren Shop bei Amazon einkaufst, erhalten wir eine kleine Provision von Amazon.
-              Für dich bleibt der Preis gleich.
-            </p>
-
-            <div class="actions">
-              <a href="#" class="btn" data-i18n="howto_ok">Verstanden</a>
-            </div>
-          </div>
+    <!-- Cookie Banner-->
+    <div id="cookie-overlay">
+      <div id="cookie-banner">
+        <p data-i18n="cookie_message">
+          Diese Website verwendet Cookies, um dir das beste Erlebnis zu bieten.
+        </p>
+        <div id="cookie-buttons">
+          <button id="accept-cookies" data-i18n="cookie_accept">
+            Akzeptieren
+          </button>
+          <button id="decline-cookies" data-i18n="cookie_decline">
+            Ablehnen
+          </button>
+          <button id="more-info" data-i18n="cookie_more">Mehr Infos</button>
         </div>
       </div>
+    </div>
 
-      <!-- end modal how function -->
-      <section class="pommes-song">
-        <a href="html/pommes.html" class="pommes-link">🎵 Zu den Canary Songs</a>
+    <!-- Overlay für Details -->
+    <div id="cookie-info-overlay" class="d-none">
+      <div id="cookie-info-box">
+        <h2 data-i18n="cookie_details_title">Cookie-Details</h2>
+        <ul>
+          <li>
+            <strong data-i18n="cookie_essential_title">Essentiell:</strong>
+            <span data-i18n="cookie_essential_text">
+              notwendig für die Nutzung der Kontaktseite (falls vorhanden) und
+              Google Translate zur Übersetzung der Seite.
+            </span>
+          </li>
+          <li>
+            <strong data-i18n="cookie_statistic_title">Statistik:</strong>
+            <span data-i18n="cookie_statistic_text">
+              für anonyme Nutzungsdaten, um die Seite zu verbessern. Beispiel:
+              Google Analytics (wird nur geladen, wenn du zustimmst).
+            </span>
+          </li>
+        </ul>
+        <p style="margin-top: 15px" data-i18n="cookie_note">
+          Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf
+          „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die
+          Nutzung unserer Website gesammelt. Diese helfen uns, Inhalte und
+          Funktionen zu optimieren.
+        </p>
+        <button id="close-info" data-i18n="cookie_close">Schließen</button>
+      </div>
+    </div>
+
+    <main class="container-main">
+      <section class="section">
+        <div id="go-to-and-how-function"></div>
+
+        <section class="pommes-song">
+          <a href="html/pommes.html" class="pommes-link"
+            >🎵 Zu den Canary Songs</a
+          >
+        </section>
+
+        <p class="muted" data-i18n="video_desc">
+          Dieses Beispiel-Video ist ein Platzhalter. Hier kannst du dein MP4
+          hochladen oder einen Embed nutzen.
+        </p>
+        <video controls width="100%" poster="assets/img/logoCanary.png">
+          <source src="./assets/vids/bigvideo-VEED.mp4" type="video/mp4" />
+          Dein Browser unterstützt das Video-Tag nicht.
+        </video>
       </section>
+<div id="action-cards-content"></div>
 
-      <p class="muted" data-i18n="video_desc">
-        Dieses Beispiel-Video ist ein Platzhalter. Hier kannst du dein MP4 hochladen oder einen Embed nutzen.
-      </p>
-      <video controls width="100%" poster="assets/img/logoCanary.png">
-        <source src="./assets/vids/bigvideo-VEED.mp4" type="video/mp4">
-        Dein Browser unterstützt das Video-Tag nicht.
-      </video>
-    </section>
-
-    <!-- Shop-Auswahl -->
-    <section class="section">
-      <h2 class="your-boutique" data-i18n="choose_shop">Wähle deinen Shop</h2>
-      <div class="grid">
-
-        <a class="tile" href="../shops/de/">
-          <span class="tile-title" data-i18n="shop_de">Shop Deutsch und Schweiz</span>
-        </a>
-        <a class="tile disabled" href="/en/" data-i18n-tooltip="tooltip_en">
-          <span class="tile-title" data-i18n="shop_en">Shop English</span>
-        </a>
-        <a class="tile disabled" href="/fr/" data-i18n-tooltip="tooltip_fr">
-          <span class="tile-title" data-i18n="shop_fr">Boutique Français</span>
-        </a>
-        <a class="tile disabled" href="/it/" data-i18n-tooltip="tooltip_it">
+      <!-- Shop-Auswahl -->
+      <section class="section">
+        <div class="grid">
+          <h2 class="your-boutique" data-i18n="choose_shop">
+            Wähle deinen Shop
+          </h2>
+          <a class="tile" href="../shops/de/">
+            <span class="tile-title" data-i18n="shop_de"
+              >Shop Deutsch und Schweiz</span
+            >
+          </a>
+          <a class="tile disabled" href="/en/" data-i18n-tooltip="tooltip_en">
+            <span class="tile-title" data-i18n="shop_en">Shop English</span>
+          </a>
+          <a class="tile disabled" href="/fr/" data-i18n-tooltip="tooltip_fr">
+            <span class="tile-title" data-i18n="shop_fr"
+              >Boutique Français</span
+            >
+          </a>
+          <!--   <a class="tile disabled" href="/it/" data-i18n-tooltip="tooltip_it">
           <span class="tile-title" data-i18n="shop_it">Negozio Italiano</span>
         </a>
         <a class="tile disabled" href="/es/" data-i18n-tooltip="tooltip_es">
           <span class="tile-title" data-i18n="shop_es">Tienda Español</span>
-        </a>
-        <a class="tile disabled" href="/intl/" data-i18n-tooltip="tooltip_intl">
+        </a> -->
+          <!--   <a class="tile disabled" href="/intl/" data-i18n-tooltip="tooltip_intl">
           <span class="tile-title" data-i18n="shop_intl">International (EN)</span>
-        </a>
-      </div>
+        </a> -->
+        </div>
 
-      <!-- Whatss app channel -->
-      <section aria-labelledby="canary-whatsapp-heading" class="canary-section">
-        <h2 id="canary-whatsapp-heading" class="visually-hidden">Canary Hub WhatsApp Channel</h2>
+        <!-- Whatss app channel -->
+        <section
+          aria-labelledby="canary-whatsapp-heading"
+          class="canary-section"
+        >
+          <h2 id="canary-whatsapp-heading" class="visually-hidden" data-i18n="">
+            Canary Hub WhatsApp Channel
+          </h2>
 
-        
-        <a class="canary-link" href="https://whatsapp.com/channel/0029VbBZczpA2pL6lqTldE0d" target="_blank"
-          rel="noopener noreferrer" aria-label="Canary Hub WhatsApp Channel öffnen">
+          <a
+            class="canary-link"
+            href="https://whatsapp.com/channel/0029VbBZczpA2pL6lqTldE0d"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Canary Hub WhatsApp Channel öffnen"
+          >
+            <!-- WhatsApp Icon -->
+            <svg
+              class="canary-icon"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="M20.52 3.48A11.91 11.91 0 0012 .5C6.21.5 1.5 5.22 1.5 11c0 1.94.52 3.77 1.5 5.36L.5 23.5l7.27-2.21A11.45 11.45 0 0012 22.5c5.79 0 10.5-4.72 10.5-10.5 0-1.96-.53-3.79-1.98-5.52zM12 20.5c-1.02 0-2.02-.15-2.98-.45l-.21-.07-4.32 1.31 1.31-4.13-.07-.22A8.99 8.99 0 013 11c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9z"
+              />
+              <path
+                d="M17.1 14.92c-.31-.16-1.84-.9-2.13-1.01-.29-.12-.5-.16-.71.16-.21.31-.77 1.01-.95 1.22-.17.21-.34.24-.64.08-.31-.16-1.29-.48-2.46-1.51-.9-.79-1.51-1.77-1.69-2.08-.18-.31-.02-.47.13-.62.13-.12.31-.33.46-.5.15-.17.2-.29.31-.48.1-.19.05-.35-.02-.51-.07-.16-.71-1.7-.98-2.33-.26-.61-.53-.53-.71-.53-.18 0-.39-.02-.6-.02-.2 0-.51.08-.78.35-.27.27-1.03 1.01-1.03 2.45 0 1.44 1.05 2.83 1.2 3.03.16.2 2.08 3.3 5.04 4.5 2.96 1.2 2.96.8 3.5.75.54-.05 1.78-.72 2.03-1.42.25-.7.25-1.31.17-1.42-.08-.11-.29-.16-.6-.31z"
+              />
+            </svg>
 
-          <!-- WhatsApp Icon -->
-          <svg class="canary-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-            focusable="false">
-            <path
-              d="M20.52 3.48A11.91 11.91 0 0012 .5C6.21.5 1.5 5.22 1.5 11c0 1.94.52 3.77 1.5 5.36L.5 23.5l7.27-2.21A11.45 11.45 0 0012 22.5c5.79 0 10.5-4.72 10.5-10.5 0-1.96-.53-3.79-1.98-5.52zM12 20.5c-1.02 0-2.02-.15-2.98-.45l-.21-.07-4.32 1.31 1.31-4.13-.07-.22A8.99 8.99 0 013 11c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9z" />
-            <path
-              d="M17.1 14.92c-.31-.16-1.84-.9-2.13-1.01-.29-.12-.5-.16-.71.16-.21.31-.77 1.01-.95 1.22-.17.21-.34.24-.64.08-.31-.16-1.29-.48-2.46-1.51-.9-.79-1.51-1.77-1.69-2.08-.18-.31-.02-.47.13-.62.13-.12.31-.33.46-.5.15-.17.2-.29.31-.48.1-.19.05-.35-.02-.51-.07-.16-.71-1.7-.98-2.33-.26-.61-.53-.53-.71-.53-.18 0-.39-.02-.6-.02-.2 0-.51.08-.78.35-.27.27-1.03 1.01-1.03 2.45 0 1.44 1.05 2.83 1.2 3.03.16.2 2.08 3.3 5.04 4.5 2.96 1.2 2.96.8 3.5.75.54-.05 1.78-.72 2.03-1.42.25-.7.25-1.31.17-1.42-.08-.11-.29-.16-.6-.31z" />
-          </svg>
-
-          <span class="canary-text">Canary Hub auf WhatsApp folgen für exklusive Updates, Videos und Tipps</span>
-        </a>
+            <span class="canary-text" data-i18n="text_whatsapp"
+              >Canary Hub auf WhatsApp folgen für exklusive Updates, Videos und
+              Tipps</span
+            >
+          </a>
+        </section>
       </section>
+    </main>
 
-      <!-- Script for blocked Button -->
-      <script>
-        const translations = {
-          tooltip_de: "Bald verfügbar",
-          tooltip_en: "Coming soon",
-          tooltip_fr: "Bientôt disponible",
-          tooltip_it: "Disponibile presto",
-          tooltip_es: "Próximamente",
-          tooltip_intl: "Coming soon"
-        };
+    <div id="footer-content"></div>
 
-        document.querySelectorAll('.tile.disabled').forEach(link => {
-          // Klicks blockieren
-          link.addEventListener('click', e => e.preventDefault());
-
-          // Tooltip Text setzen
-          const key = link.getAttribute('data-i18n-tooltip');
-          link.setAttribute('data-tooltip', translations[key]);
-        });
-        /* --- */
-      </script>
-    </section>
-  </main>
-
-
-
-  <footer class="site-footer">
-
-    <div class="container-footer">
-      <p class="info-partner" data-i18n="info_partner">Als Amazon-Partner verdienen wir an qualifizierten Verkäufen</p>
-      <small>&copy; <span id="year"></span> CanaryHub Shop</small>
-
-      <nav class="footer-nav">
-        <div class="footer-links-right">
-          <a class="icon-link" href="https://www.tiktok.com/@canaryhubshop" target="_blank" title="Tik Tok">
-            <img src="./assets/img/tik-tok.png" alt="TikTok">
-          </a>
-        </div>
-        <!-- Linke Seite: Text -->
-        <div class="footer-links-left">
-          <a class="text-link" href="./html/impressum.html" data-i18n="legal_Notice">Impressum</a>
-          <div class="footer-links-right">
-            <a class="icon-link" href="https://www.facebook.com/profile.php?id=61581701555939" target="_blank"
-              title="Facebook">
-              <img src="./assets/img/facebookIcon.png" alt="TikTok">
-            </a>
-          </div>
-          <a class="text-link" href="./html/datenschutz.html" data-i18n="privacy_Policy">Datenschutz</a>
-        </div>
-
-        <!-- Rechte Seite: Icons -->
-        <div class="footer-links-right">
-          <a class="icon-link" href="https://www.instagram.com/canaryhubcommunity/" target="_blank" title="Instagram">
-            <img src="./assets/img/instargam_icon.png" alt="TikTok">
-          </a>
-        </div>
-      </nav>
-
-    </div>
-
-  </footer>
-  <script src="./templateIndex.js"></script>
-  <script src="./renderIndex.js"></script>
-  <script src="./scripts/cookie.js"></script>
-  <script src="./scripts/functionOverlay.js"></script>
-  <script src="./scripts/i18n-home.js" defer></script>
-
-</body>
-
+    <script src="./scripts/button-block-logik.js"></script>
+    <script src="./templates/action-card-template.js"></script>
+    <script src="./scripts/start-templates.js" defer></script>
+    <script src="./scripts/start-render.js" defer></script>
+    <script src="./scripts/template-lang-menue.js" defer></script>
+    <script src="./scripts/lang-menue-logik.js" defer></script>
+    <script src="./scripts/cookie.js" defer></script>
+    <script src="./scripts/functionOverlay.js" defer></script>
+    <script src="./scripts/i18n-home.js" defer></script>
+  </body>
 </html>
+

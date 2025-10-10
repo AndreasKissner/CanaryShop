@@ -44,6 +44,8 @@ async function objToArray() {
     renderCards();
 }
 
+console.log(window.cardsInfo);
+
 window.addEventListener("load", async() => {
   await objToArray();
  
