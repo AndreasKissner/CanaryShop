@@ -69,6 +69,7 @@ async function loadCards() {
 
       // Karte ins Array pushen
       window.cardsInfo.push({
+        udemy: cardEl.udemy,
         title: card.title || "Kein Titel",
         description: card.description || "",
         images: imgHTML,
@@ -82,6 +83,8 @@ async function loadCards() {
   // Karten rendern
   renderCards();
 }
+
+console.log(window.cardsInfo);
 
 /**
  * Start beim Laden der Seite

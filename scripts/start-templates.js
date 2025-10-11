@@ -1,0 +1,126 @@
+function getHeaderTemplate(){
+    return`
+    <header class="site-header">
+    <div class="container-header">
+      <h1 id="headline" data-i18n="headline">CanaryHub Affiliate Shop</h1>
+      <img class="logo-banner" src="./assets/img/canaryhublink.webp" alt="">
+      <p id="subheadline" data-i18n="subheadline">
+        Sprachen.
+      </p>
+      <button class="lang-button" id="lang-btn"><img class="burger-img" src="./assets/img/burger-btn.png"
+          alt="Burger Button Icon"></button>
+      <div id="lang-menue-buerger" class="d-none"></div>
+    </div>
+  </header>
+    `
+}
+
+function  getGoAndFuncTemplate(){
+    return`
+     <div class="link-container">
+        <a href="https://canaryhub.community" class="floating-link" target="_blank">
+          Go to CanaryHub.community
+        </a>
+        <!-- Trigger-Link (öffnet Overlay via :target, kein JS nötig) -->
+        <a href="#" class="howto-trigger  function" data-i18n="howto_trigger">So funktioniert unser Shop</a>
+
+        <!-- Overlay -->
+        <div id="howto-overlay" class="overlay" inert>
+
+          <!-- Klick auf den Hintergrund schließt das Overlay -->
+          <a href="#" class="overlay-backdrop" aria-hidden="true" tabindex="-1"></a>
+
+          <!-- Modal-Box -->
+          <div class="modal" role="dialog" aria-modal="true" aria-labelledby="howto-title">
+            <button class="close" aria-label="Close">
+              <a href="#" class="close-link" data-i18n="howto_close">Schließen</a>
+            </button>
+
+            <!-- Funktion Shop -->
+            <h2 id="howto-title" data-i18n="howto_title">So funktioniert unser Shop</h2>
+            <p data-i18n="howto_intro">
+              Hier findest du sorgfältig ausgewählte Produkte. So klappt der Einkauf Schritt für Schritt:
+            </p>
+
+            <ol class="steps">
+              <li data-i18n="howto_step1">
+                Sprache wählen: Klicke auf den Button mit deiner Sprache, um den Shop in deiner Sprache zu öffnen.
+              </li>
+              <li data-i18n="howto_step2">
+                Produkte ansehen: Stöbere in den Kategorien und klicke auf Artikel, die dich interessieren.
+              </li>
+              <li data-i18n="howto_step3">
+                Weiter zu Amazon: Beim Klick auf ein Produkt wirst du zu Amazon weitergeleitet. Dort kannst du in den
+                Warenkorb legen und bezahlen.
+              </li>
+              <li data-i18n="howto_step3a">
+                Wir suchen täglich die besten Preise für Sie. Daher kann sich der Preis von Tag zu Tag ändern –
+                schauen
+                Sie am besten regelmäßig bei uns vorbei.
+              </li>
+              <li data-i18n="howto_step4">
+                Amazon-Konto: Für den Kauf brauchst du ein kostenloses Amazon-Konto.
+              </li>
+            </ol>
+
+            <p class="account">
+              <span data-i18n="howto_account_text">Du hast noch kein Amazon-Konto?</span>
+              <a href="https://www.amazon.de/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2F%3F_encoding%3DUTF8%26adgrpid%3D154228170936%26gad_source%3D1%26hvadid%3D675212901583%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9056144%26hvnetw%3Dg%26hvpone%3D%26hvpos%3D%26hvptwo%3D%26hvqmt%3De%26hvrand%3D2034931995940932647%26hvtargid%3Dkwd-10573980%26hydadcr%3D10627_2211717%26language%3Den_GB%26ref%3Dpd_sl_7qhccgoot7_e%26tag%3Dgoogdeaen-21%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=deflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+                target="_blank" rel="noopener" data-i18n="howto_account_link">Hier kostenlos erstellen</a>
+            </p>
+
+            <p class="note" data-i18n="howto_disclosure">
+              Hinweis: Wenn du über unseren Shop bei Amazon einkaufst, erhalten wir eine kleine Provision von Amazon.
+              Für dich bleibt der Preis gleich.
+            </p>
+
+            <div class="actions">
+              <a href="#" class="btn" data-i18n="howto_ok">Verstanden</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    `
+}
+
+function getFooterTemplate(){
+    return` 
+     <footer class="site-footer">
+    <div class="container-footer">
+      <p class="info-partner" data-i18n="info_partner">Als Amazon-Partner verdienen wir an qualifizierten Verkäufen</p>
+      <small>&copy; <span id="year"></span> CanaryHub Shop</small>
+
+      <nav class="footer-nav">
+        <div class="footer-links-right">
+          <a class="icon-link" href="https://www.tiktok.com/@canaryhubshop" target="_blank" title="Tik Tok">
+            <img src="./assets/img/tik-tok.png" alt="TikTok">
+          </a>
+        </div>
+        <!-- Linke Seite: Text -->
+        <div class="footer-links-left">
+          <a class="text-link" href="./html/impressum.html" data-i18n="legal_Notice">Impressum</a>
+          <div class="footer-links-right">
+            <a class="icon-link" href="https://www.facebook.com/profile.php?id=61581701555939" target="_blank"
+              title="Facebook">
+              <img src="./assets/img/facebookIcon.png" alt="TikTok">
+            </a>
+          </div>
+          <a class="text-link" href="./html/datenschutz.html" data-i18n="privacy_Policy">Datenschutz</a>
+        </div>
+
+        <!-- Rechte Seite: Icons -->
+        <div class="footer-links-right">
+          <a class="icon-link" href="https://www.instagram.com/canaryhubcommunity/" target="_blank" title="Instagram">
+            <img src="./assets/img/instargam_icon.png" alt="TikTok">
+          </a>
+        </div>
+      </nav>
+
+    </div>
+    <section class="card-container">
+      <div id="product-cards" class="product-container"></div>
+    </section>
+  </footer>
+    `
+}

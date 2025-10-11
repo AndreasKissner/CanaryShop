@@ -1,0 +1,75 @@
+:root {
+  --canary-yellow: #63e53b;
+  --canary-dark: #fefbfb;
+  --canary-accent: #5c933f;
+  --canary-radius: 14px;
+  --canary-gap: 12px;
+  --canary-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* ====== Abschnitt ====== */
+.canary-section {
+  text-align: center;
+  margin-top:1rem;
+  padding: 1rem;
+  max-width: 420px;
+}
+
+/* ====== Link-Design ====== */
+.canary-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--canary-gap);
+  background: linear-gradient(180deg, var(--canary-yellow), var(--canary-accent));
+  color: var(--canary-dark);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: var(--canary-radius);
+  font-weight: 700;
+  font-family: var(--canary-font);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+/* ====== Icon ====== */
+.canary-icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--canary-dark);
+  flex-shrink: 0;
+}
+
+/* ====== Hover / Focus ====== */
+.canary-link:hover,
+.canary-link:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  filter: brightness(1.1);
+}
+
+/* ====== Aktiv ====== */
+.canary-link:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== Kleine Screens ====== */
+/* @media (max-width: 480px) {
+  .canary-text {
+    display: none;
+  }
+  .canary-link {
+    padding: 10px;
+    border-radius: 50%;
+  }
+} */
+
+/* ====== Screenreader Text ====== */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden; clip: rect(1px,1px,1px,1px);
+  white-space: nowrap;
+}

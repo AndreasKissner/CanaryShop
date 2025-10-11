@@ -56,8 +56,7 @@
 .product-card__slides img {
   flex: 0 0 100%;
   /* jedes Bild nimmt 100% der Slider-Breite */
-  height: 100%;
-  width: 115px;
+  height: 85%;
   object-fit: contain;
   object-position: center;
   background: #fff;
@@ -69,13 +68,14 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(49, 25, 4, 0.5);
-  color: #fff;
+  background: rgba(42, 22, 3, 0.5);
+  color: #302804;
   border: none;
   display: flex;
   font-size: 20px;
   padding: 6px 10px;
-  cursor: pointer;
+  cursor: pointer; 
+  display: flex;
   border-radius: 25%;
   transition: background .2s;
   z-index: 10;
@@ -142,6 +142,10 @@
 .product-card__btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(255, 126, 95, .4);
+}
+
+.udemy{
+  color: violet;
 }
 
 /* --- Responsive Layout --- */

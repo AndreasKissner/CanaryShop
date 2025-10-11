@@ -16,6 +16,7 @@ function getCardTemplate(info, i) {
 
     <div class="product-card__body" id="body-${i}" data-i18n="product_body">
       ${categoryLabel}
+    <h1 class="udemy">${info.udemy}</h1> 
       <h3 class="product-card__title" id="title-${i}" data-i18n="product_title">
         ${info.title}
       </h3>
@@ -35,7 +36,7 @@ function getCardTemplate(info, i) {
            id="btn-${i}" 
            data-i18n="product_btn" 
            target="_blank">
-          Zum Angebot
+          Mehr Details
         </a>
       </div>
     </div>
