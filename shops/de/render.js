@@ -14,6 +14,8 @@ function renderCards() {
   }
 }
 
+
+
 window.addEventListener("load", () => {
   renderCards();
 });
