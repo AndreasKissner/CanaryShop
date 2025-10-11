@@ -106,3 +106,33 @@ document.addEventListener("click", async (e) => {
   // Seite neu laden lassen (mit neuer Sprache)
   await loadCards();
 });
+
+
+/**
+ * Filtert die angezeigten Produktkarten nach Kategorie.
+ * Wird aufgerufen, wenn eine Kategorie im Menü angeklickt wird.
+ */
+function setupCategoryFilter() {
+  const options = document.querySelectorAll(".select-options li");
+  const lang = getCurrentLang();
+  const map = CATEGORY_MAP[lang] || CATEGORY_MAP.de;
+
+  options.forEach(option => {
+    option.addEventListener("click", () => {
+      const selectedBase = option.getAttribute("data-value");
+      const selectedTranslated = map[selectedBase] || selectedBase;
+
+      const cardsContainer = document.getElementById("product-cards");
+      cardsContainer.innerHTML = "";
+
+      const filtered = window.cardsInfo.filter(card => card.category === selectedTranslated);
+
+      for (let i = 0; i < filtered.length; i++) {
+        cardsContainer.innerHTML += getCardTemplate(filtered[i], i);
+      }
+
+      cardsContainer.querySelectorAll(".product-card").forEach(initSlider);
+    });
+  });
+}
+

@@ -26,7 +26,6 @@ async function getDatas(path = "") {
     const lang = getCurrentLang(); // holt automatisch de, en, fr, it oder es
     const fullPath = `/${lang}${path}`;
     const response = await fetch(BASE_URL + fullPath + ".json");
-console.log(fullPath);
     if (!response.ok) {
       throw new Error(`[HTTP ERROR!] Status:${response.status}`);
     }

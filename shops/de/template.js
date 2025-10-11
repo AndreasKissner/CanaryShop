@@ -5,7 +5,7 @@ function getCardTemplate(info, i) {
     : "";
 
   return `
-  <article class="product-card" id="product-card-${i}" data-i18n="product_card">
+  <article class="product-card" id="product-card-${i}"    data-category="${info.category}"  data-i18n="product_card">
     <div class="product-card__slider" id="slider-${i}" data-i18n="product_slider">
       <div class="product-card__slides" id="slides-${i}" data-i18n="product_slides">
         ${info.images}
