@@ -8,9 +8,10 @@
 .link-container-de {
     display: flex;
     gap: 20px;
-
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .howto-trigger-de {
@@ -67,7 +68,7 @@
     pointer-events: none;
 }
 
-.card-container{
+.card-container {
     width: 100%;
     max-width: 1100px;
     display: flex;

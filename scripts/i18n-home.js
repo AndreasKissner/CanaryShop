@@ -97,7 +97,10 @@ const DICT = {
     cookie_statistic_title: "Statistics:",
     cookie_statistic_text: "For anonymous usage data to improve the site. Example: Google Analytics (only loaded if you consent).",
     cookie_note: "Note: Google Analytics is only activated if you click “Accept”. Anonymous information about website usage is collected to help us improve content and features.",
-    cookie_close: "Close"
+    cookie_close: "Close",
+    text_whatsapp: "Follow Canary Hub on WhatsApp for exclusive updates, videos, and tips",
+    songs: "🎵 To the Canary Songs"
+    
 
   },
   de: {
@@ -173,7 +176,10 @@ const DICT = {
     cookie_statistic_title: "Statistik:",
     cookie_statistic_text: "für anonyme Nutzungsdaten, um die Seite zu verbessern. Beispiel: Google Analytics (wird nur geladen, wenn du zustimmst).",
     cookie_note: "Hinweis: Google Analytics wird ausschließlich aktiviert, wenn du auf „Akzeptieren“ klickst. Dabei werden anonyme Informationen über die Nutzung unserer Website gesammelt. Diese helfen uns, Inhalte und Funktionen zu optimieren.",
-    cookie_close: "Schließen"
+    cookie_close: "Schließen",
+
+    text_whatsapp: "Canary Hub auf WhatsApp folgen für exklusive Updates, Videos und Tipps",
+    songs: "🎵 Zu den Canary Songs"
 
   },
   fr: {
@@ -247,7 +253,9 @@ const DICT = {
     cookie_statistic_text: "Pour des données d’utilisation anonymes afin d’améliorer le site. Exemple : Google Analytics (chargé uniquement si vous acceptez).",
     cookie_note: "Remarque : Google Analytics est uniquement activé si vous cliquez sur « Accepter ». Des informations anonymes sur l’utilisation du site sont collectées pour nous aider à améliorer les contenus et fonctionnalités.",
     cookie_close: "Fermer",
-    cookie_more: "Plus d'infos"
+    cookie_more: "Plus d'infos",
+    text_whatsapp: "Suivez Canary Hub sur WhatsApp pour des mises à jour, vidéos et conseils exclusifs",
+    songs: "🎵 Vers les chansons Canary"
 
   },
 
@@ -325,7 +333,9 @@ const DICT = {
     cookie_note: "Nota: Google Analytics viene attivato solo se fai clic su “Accetta”. Vengono raccolte informazioni anonime sull’utilizzo del sito per aiutarci a migliorare contenuti e funzionalità.",
     cookie_close: "Chiudi",
 
-    cookie_more: "Altre info"
+    cookie_more: "Altre info",
+    text_whatsapp: "Segui Canary Hub su WhatsApp per aggiornamenti, video e consigli esclusivi",
+    songs: "🎵 Ai brani di Canary"
 
 
   },
@@ -400,7 +410,9 @@ const DICT = {
     cookie_statistic_text: "Para datos de uso anónimos con el fin de mejorar el sitio. Ejemplo: Google Analytics (solo se carga si das tu consentimiento).",
     cookie_note: "Nota: Google Analytics solo se activa si haces clic en “Aceptar”. Se recopila información anónima sobre el uso del sitio para ayudarnos a mejorar contenidos y funciones.",
     cookie_close: "Cerrar",
-    cookie_more: "Más información"
+    cookie_more: "Más información",
+    text_whatsapp: "Sigue a Canary Hub en WhatsApp para obtener actualizaciones, videos y consejos exclusivos",
+    songs: "🎵 A las canciones de Canary"
 
 
   }
@@ -440,9 +452,9 @@ function renderDetected(lang) {
 
 /** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-     const lang = getPreferredLang(); 
-   //const lang = "fr";  
- /*  const lang = "en"; */
+  const lang = getPreferredLang();
+  //const lang = "fr";  
+  /*  const lang = "en"; */
   /*  const lang = "es";  */
   /*  const lang = "it";  */
 

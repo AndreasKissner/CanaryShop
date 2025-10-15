@@ -1,73 +1,116 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canary Pommes Song</title>
+    <link rel="stylesheet" href="../styles/pommes.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canary Pommes Song</title>
-  <link rel="stylesheet" href="../styles/pommes.css">
-</head>
+  <body>
+    <main class="pommes-wrapper">
+      <!-- HTML -->
+      <a
+        class="canary-btn"
+        href="https://canaryhub.shop/"
+        aria-label="Zurück zur Startseite von Canaryhub"
+      >
+        <span class="icon" aria-hidden="true">
+          <!-- kleines Canary-SVG -->
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+          >
+            <path
+              d="M2 12c0-3.866 4.03-7 9-7s9 3.134 9 7-4.03 7-9 7S2 15.866 2 12zM15.5 9.2c.55 0 .99.44.99.99s-.44.99-.99.99-.99-.44-.99-.99.44-.99.99-.99zM8.7 14.6c1.2.7 2.8.9 4.3.4 0 0-1.1 1.4-3.6 1.6-2.5.2-4.2-1.4-4.2-1.4s1.1-.5 3.5-.6z"
+              fill="#222"
+            />
+          </svg>
+        </span>
+        <span class="text">Zurück zur Startseite</span>
+      </a>
 
-<body>
-  <main class="pommes-wrapper">
-    <!-- HTML -->
-    <a class="canary-btn" href="https://canaryhub.shop/" aria-label="Zurück zur Startseite von Canaryhub">
-      <span class="icon" aria-hidden="true">
-        <!-- kleines Canary-SVG -->
-        <svg viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg" role="img">
-          <path
-            d="M2 12c0-3.866 4.03-7 9-7s9 3.134 9 7-4.03 7-9 7S2 15.866 2 12zM15.5 9.2c.55 0 .99.44.99.99s-.44.99-.99.99-.99-.44-.99-.99.44-.99.99-.99zM8.7 14.6c1.2.7 2.8.9 4.3.4 0 0-1.1 1.4-3.6 1.6-2.5.2-4.2-1.4-4.2-1.4s1.1-.5 3.5-.6z"
-            fill="#222" />
-        </svg>
-      </span>
-      <span class="text">Zurück zur Startseite</span>
-    </a>
-
-    <section class="pommes-card" aria-label="Canary Pommes Song Player">
-      <h1>🎵 Canary Pommes Song</h1>
-      <p class="subtitle">Der offizielle Song zum goldenen Crunch!</p>
-      <figure>
-        <audio id="pommes-audio" controls preload="auto">
-          <source src="../assets/music/CanaryPommesSong.mp3" type="audio/mpeg">
-          Dein Browser unterstützt das Audio-Element nicht.
-        </audio>
-        <!--    <figcaption>
+      <section class="pommes-card" aria-label="Canary Pommes Song Player">
+        <h1>🎵 Canary Pommes Song</h1>
+        <p class="subtitle">Der offizielle Song zum goldenen Crunch!</p>
+        <figure>
+          <audio id="pommes-audio" controls preload="auto">
+            <source
+              src="../assets/music/CanaryPommesSong.mp3"
+              type="audio/mpeg"
+            />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
+          <!--    <figcaption>
           <a href="assets/music/CanaryPommesSong.mp3" class="download-btn" download>
             ⬇️ Jetzt herunterladen
           </a>
         </figcaption> -->
-        <p class="subtitle">Der offizielle Song "Call Me Right Now"</p>
-        <audio id="callme-audio" controls preload="auto">
-          <source src="../assets/music/callmerightnow.mp3" type="audio/mpeg">
-          Dein Browser unterstützt das Audio-Element nicht.
-        </audio>
+          <p class="subtitle">Der offizielle Song "Call Me Right Now"</p>
+          <audio id="callme-audio" controls preload="auto">
+            <source
+              src="../assets/music/callmerightnow.mp3"
+              type="audio/mpeg"
+            />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
 
-         <p class="subtitle">Der offizielle "CanaryHub Song"</p>
-        <audio id="canaryHubSong-audio" controls preload="auto">
-          <source src="../assets/music/canaryHubSong.mp3" type="audio/mpeg">
-          Dein Browser unterstützt das Audio-Element nicht.
-        </audio>
+          <p class="subtitle">Der offizielle "CanaryHub Song"</p>
+          <audio id="canaryHubSong-audio" controls preload="auto">
+            <source src="../assets/music/canaryHubSong.mp3" type="audio/mpeg" />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
 
-         <p class="subtitle">Der offizielle Song " DEIN WEG "</p>
-        <audio id="dein-weg-audio" controls preload="auto">
-          <source src="../assets/music/DEINWEG.mp3" type="audio/mpeg">
-          Dein Browser unterstützt das Audio-Element nicht.
-        </audio>
+          <p class="subtitle">Der offizielle Song " DEIN WEG "</p>
+          <audio id="dein-weg-audio" controls preload="auto">
+            <source src="../assets/music/DEINWEG.mp3" type="audio/mpeg" />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
 
-         <p class="subtitle">Der offizielle Song "Mega Creator"</p>
-        <audio id="mega-creator-audio" controls preload="auto">
-          <source src="../assets/music/megacreator.mp3" type="audio/mpeg">
-          Dein Browser unterstützt das Audio-Element nicht.
-        </audio>
+          <p class="subtitle">Der offizielle Song "Mega Creator"</p>
+          <audio id="mega-creator-audio" controls preload="auto">
+            <source src="../assets/music/megacreator.mp3" type="audio/mpeg" />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
 
-      </figure>
-    </section>
+          <p class="subtitle">Der offizielle Song "Game On"</p>
+          <audio id="game-on-audio" controls preload="auto">
+            <source src="../assets/music/Game_on.mp3" type="audio/mpeg" />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
 
-    <footer>
-      <p>Alle Songs sind eigentum von CanaryHUB.shop dürfen aber geteilt und benutzt werden</p>
-      <p>© 2025 CanaryHub – Pommes mit Stil 🍟</p>
-    </footer>
-  </main>
-</body>
+          <p class="subtitle">Der offizielle Song "Küchen Notfall"</p>
+          <audio id="kueche-audio" controls preload="auto">
+            <source
+              src="../assets/music/kuechennotfall.mp3"
+              type="audio/mpeg"
+            />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
 
+           <p class="subtitle">Der offizielle Song "Broken Internet"</p>
+          <audio id="internet-audio" controls preload="auto">
+            <source
+              src="../assets/music/Broken_Internet.mp3"
+              type="audio/mpeg"
+            />
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
+
+
+        </figure>
+      </section>
+
+      <footer>
+        <p>
+          Alle Songs sind eigentum von CanaryHUB.shop dürfen aber geteilt und
+          benutzt werden
+        </p>
+        <p>© 2025 CanaryHub – Pommes mit Stil 🍟</p>
+      </footer>
+    </main>
+  </body>
 </html>
