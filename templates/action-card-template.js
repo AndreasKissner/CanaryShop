@@ -1,6 +1,19 @@
 function getActionCardTemplate(){
     return`
 <article class="action-card">
+<div class="card-box">
+    <img src="assets/img/pupImg/annonce/beamerwhite.webp" class="card-image" />
+        <h1 class="action-light">Für die Filmnacht</h2>
+    <h2 class="card-title">LQWELL® Beamer</h2>
+    <p class="card-text">
+     LQWELL® Beamer, Mini Projektor, unterstützt 5G WiFi, BT5.0 mit Android OS, Auto Trapezkorrektur, 220-Grad-Winkel, 130-Zoll-Display für Phone/PC/Xbox, 4K Heimkino, hdmi, 2025 Upgrade
+    </p>
+
+    <div class="card-actions">
+         <a href="https://amzn.to/4hbh4iA" class="card-btn" target="_blank">Details</a>
+         <a href="https://amzn.to/4hbh4iA" class="highlight-btn" target="_blank">🔥 Zum Top-Angebot</a>
+    </div>
+    </div>
 
  <div class="card-box">
     <img src="assets/img/pupImg/annonce/hotspot1.webp" class="card-image" alt="Hotspot for SimCard"/>
