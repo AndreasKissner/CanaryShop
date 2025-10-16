@@ -14,7 +14,7 @@ function getCurrentLang() {
 /**
  * Basis-URL deiner Firebase Realtime Database
  */
-const BASE_URL = "https://testapiforall-default-rtdb.europe-west1.firebasedatabase.app/anzeigen";
+const BASE_URL = "https://cardscanaryhubshop-default-rtdb.europe-west1.firebasedatabase.app/anzeigen";
 
 /**
  * Holt Daten aus Firebase nach aktueller Sprache.
