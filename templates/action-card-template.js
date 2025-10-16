@@ -88,16 +88,16 @@ function getActionCardTemplate(){
   </div>
 
    <div class="card-box">
-    <img src="assets/img/pupImg/annonce/feuerdecke.webp" class="card-image" />
-        <h1 class="action-light">Für die mit Verantwortung</h2>
-    <h2 class="card-title">Feuerlöschdecke für die Küche</h2>
+    <img src="assets/img/pupImg/annonce/gpshund.webp" class="card-image" />
+        <h1 class="action-light">Für die die Ihren Hund wirklich lieben</h2>
+    <h2 class="card-title">GPS Tracker für Hunde</h2>
     <p class="card-text">
-      JVANTE Feuerlöschdecke für  die Küche 1,6x1,8m DIN EN 1869:2019 – Hochwertige Sicherheits-Fiberglas-Decke für Fettbrände, Auto, Küche, Schule, Kamin, Grill, Büro, Garage & Werkstatt
+    Tractive GPS Tracker Hund | 2025 Edition | Live-Ortung | Weglaufalarm | Aktivitätstracking | Gesundheitswarnungen | Bellverhalten | Empfohlen von Martin Rütter
     </p>
 
     <div class="card-actions">
-         <a href="https://amzn.to/478vBHz" class="card-btn" target="_blank">Details</a>
-         <a href="https://amzn.to/478vBHz" class="highlight-btn" target="_blank">🔥 Zum Top-Angebot</a>
+         <a href="https://amzn.to/4796hAT" class="card-btn" target="_blank">Details</a>
+         <a href="https://amzn.to/4796hAT" class="highlight-btn" target="_blank">🔥 Zum Top-Angebot</a>
     </div>
     </div>
 
