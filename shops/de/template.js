@@ -1,17 +1,21 @@
 function getCardTemplate(info, i) {
+  // 🟢 Kategorie-Label nur anzeigen, wenn vorhanden
+  const categoryLabel = info.category
+    ? `<div class="product-card__category">${info.category}</div>`
+    : "";
+
   return `
-  <article class="product-card" id="product-card-${i}" data-i18n="product_card">
+  <article class="product-card" id="product-card-${i}" data-category="${info.category}" data-i18n="product_card">
     <div class="product-card__slider" id="slider-${i}" data-i18n="product_slider">
       <div class="product-card__slides" id="slides-${i}" data-i18n="product_slides">
         ${info.images}
-    </div>
+      </div>
       <button class="slider-btn prev" id="prev-${i}" data-i18n="slider_prev"><img class="slider-img" src="../../assets/img/icons/left.png" alt="Left Icon"></button>
       <button class="slider-btn next" id="next-${i}" data-i18n="slider_next"><img class="slider-img" src="../../assets/img/icons/right.png" alt="Right Icon"></button>
-    </div>   
-
+    </div>
 
     <div class="product-card__body" id="body-${i}" data-i18n="product_body">
-    <h1 class="udemy">${info.udemy}</h1> 
+      ${categoryLabel}
       <h3 class="product-card__title" id="title-${i}" data-i18n="product_title">
         ${info.title}
       </h3>
@@ -31,7 +35,7 @@ function getCardTemplate(info, i) {
            id="btn-${i}" 
            data-i18n="product_btn" 
            target="_blank">
-          Mehr Details
+          Zum Angebot
         </a>
       </div>
     </div>

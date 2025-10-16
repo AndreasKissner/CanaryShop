@@ -72,11 +72,12 @@
     />
 
     <link rel="icon" type="image/png" href="../../assets/favicon/favicon.png" />
+    <link rel="stylesheet" href="./kategorie.css" />
     <link rel="stylesheet" href="../../styles/cookie.css" />
     <link rel="stylesheet" href="../../styles/howfunction.css" />
     <link rel="stylesheet" href="../../style.css" />
-    <link rel="stylesheet" href="deu.css" />
-    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="./deu.css" />
+    <link rel="stylesheet" href="./card.css" />
   </head>
 
   <body>
@@ -152,21 +153,82 @@
             Go to CanaryHub.community
           </a>
 
-           <section class="pommes-song">
-          <a href="../../html/pommes.html" class="pommes-link"
-            >🎵 Zu den Canary Songs</a
-          >
-        </section>
+          <section class="pommes-song">
+            <a href="../../html/pommes.html" class="pommes-link"
+              >🎵 Zu den Canary Songs</a
+            >
+          </section>
+        
+          <div id="lang-switcher" style="text-align: center; margin: 20px 0">
+            <button data-lang="de">🇩🇪 Deutsch</button>
+            <button data-lang="en">🇬🇧 English</button>
+            <button data-lang="fr">🇫🇷 Français</button>
+            <button data-lang="it">🇮🇹 Italiano</button>
+            <button data-lang="es">🇪🇸 Español</button>
+          </div>
 
-          <!--     <select class="dropdown-class" id="mySelect" data-i18n="select.placeholder">
-                    <option value="" disabled selected data-i18n="option_placeholder1" class="option-class">Shop
-                        Kategorien</option>
-                    <option value="1" data-i18n="option_placeholder2" class="option-class">Urlaub</option>
-                    <option value="2" data-i18n="option_placeholder3" class="option-class">Gaming</option>
-                    <option value="3" data-i18n="option_placeholder4" class="option-class">Fashion Accessories</option>
-                    <option value="4" data-i18n="option_placeholder5" class="option-class">Sport</option>
-                    <option value="1" data-i18n="option_placeholder2" class="option-class">Gemischt</option>
-                </select> -->
+            <section class="section category-select-section">
+            <div class="custom-select">
+              <button
+                type="button"
+                class="select-trigger"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+              >
+                <span class="selected-text" data-i18n="select_placeholder"
+                  >Kategorie wählen</span
+                >
+                <span class="arrow">▼</span>
+              </button>
+
+              <ul class="select-options" role="listbox">
+                <li data-value="angebote" data-i18n="category_angebote">
+                  Angebote
+                </li>
+                <li data-value="haushalt" data-i18n="category_haushalt">
+                  Haushalt
+                </li>
+                <li data-value="haushalt" data-i18n="category_handy">Handy</li>
+                <li data-value="gaming" data-i18n="category_gaming">Gaming</li>
+                <li data-value="computer" data-i18n="category_computer">
+                  Computer
+                </li>
+                <li data-value="gesundheit" data-i18n="category_gesundheit">
+                  Gesundheit
+                </li>
+                <li data-value="sport" data-i18n="category_sport">Sport</li>
+                <li data-value="mode" data-i18n="category_mode">
+                  Mode & Accessoires
+                </li>
+              </ul>
+
+              <!-- Unsichtbares echtes Select für Formular-Kompatibilität -->
+              <select name="category" id="category-select" hidden>
+                <option value="" data-i18n="select_placeholder">
+                  Kategorie wählen
+                </option>
+                <option value="angebote" data-i18n="category_angebote">
+                  Angebote
+                </option>
+                <option value="haushalt" data-i18n="category_haushalt">
+                  Haushalt
+                </option>
+                <option value="gaming" data-i18n="category_gaming">
+                  Gaming
+                </option>
+                <option value="computer" data-i18n="category_computer">
+                  Computer
+                </option>
+                <option value="gesundheit" data-i18n="category_gesundheit">
+                  Gesundheit
+                </option>
+                <option value="sport" data-i18n="category_sport">Sport</option>
+                <option value="mode" data-i18n="category_mode">
+                  Mode & Accessoires
+                </option>
+              </select>
+            </div>
+          </section>
 
           <!-- Overlay -->
           <div id="howto-overlay" class="overlay" inert>
@@ -251,6 +313,7 @@
       </div>
     </footer>
     <script src="../../scripts/firebase.js"></script>
+    <script src="./category.js" defer></script>
     <script src="../../scripts/cookie.js" defer></script>
     <script src="getData.js"></script>
     <script src="./template.js"></script>

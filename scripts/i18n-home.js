@@ -99,7 +99,18 @@ const DICT = {
     cookie_note: "Note: Google Analytics is only activated if you click “Accept”. Anonymous information about website usage is collected to help us improve content and features.",
     cookie_close: "Close",
     text_whatsapp: "Follow Canary Hub on WhatsApp for exclusive updates, videos, and tips",
-    songs: "🎵 To the Canary Songs"
+    songs: "🎵 To the Canary Songs",
+
+    
+    //Category
+    select_placeholder: "Choose a category",
+    category_angebote: "Offers",
+    category_haushalt: "Household",
+    category_gaming: "Gaming",
+    category_computer: "Computer",
+    category_gesundheit: "Health",
+    category_sport: "Sports",
+    category_mode: "Fashion & Accessories"
     
 
   },
@@ -179,7 +190,17 @@ const DICT = {
     cookie_close: "Schließen",
 
     text_whatsapp: "Canary Hub auf WhatsApp folgen für exklusive Updates, Videos und Tipps",
-    songs: "🎵 Zu den Canary Songs"
+    songs: "🎵 Zu den Canary Songs",
+
+     //category
+    select_placeholder: "Kategorie wählen",
+    category_angebote: "Angebote",
+    category_haushalt: "Haushalt",
+    category_gaming: "Gaming",
+    category_computer: "Computer",
+    category_gesundheit: "Gesundheit",
+    category_sport: "Sport",
+    category_mode: "Mode & Accessoires"
 
   },
   fr: {
@@ -255,7 +276,16 @@ const DICT = {
     cookie_close: "Fermer",
     cookie_more: "Plus d'infos",
     text_whatsapp: "Suivez Canary Hub sur WhatsApp pour des mises à jour, vidéos et conseils exclusifs",
-    songs: "🎵 Vers les chansons Canary"
+    songs: "🎵 Vers les chansons Canary",
+    //Category
+    select_placeholder: "Choisir une catégorie",
+    category_angebote: "Offres",
+    category_haushalt: "Maison",
+    category_gaming: "Jeux vidéo",
+    category_computer: "Informatique",
+    category_gesundheit: "Santé",
+    category_sport: "Sport",
+    category_mode: "Mode & Accessoires"
 
   },
 
@@ -335,7 +365,17 @@ const DICT = {
 
     cookie_more: "Altre info",
     text_whatsapp: "Segui Canary Hub su WhatsApp per aggiornamenti, video e consigli esclusivi",
-    songs: "🎵 Ai brani di Canary"
+    songs: "🎵 Ai brani di Canary",
+
+    //category
+    select_placeholder: "Scegli una categoria",
+    category_angebote: "Offerte",
+    category_haushalt: "Casa",
+    category_gaming: "Gaming",
+    category_computer: "Computer",
+    category_gesundheit: "Salute",
+    category_sport: "Sport",
+    category_mode: "Moda e accessori"
 
 
   },
@@ -412,8 +452,17 @@ const DICT = {
     cookie_close: "Cerrar",
     cookie_more: "Más información",
     text_whatsapp: "Sigue a Canary Hub en WhatsApp para obtener actualizaciones, videos y consejos exclusivos",
-    songs: "🎵 A las canciones de Canary"
+    songs: "🎵 A las canciones de Canary",
 
+    //Category
+    select_placeholder: "Elige una categoría",
+    category_angebote: "Ofertas",
+    category_haushalt: "Hogar",
+    category_gaming: "Videojuegos",
+    category_computer: "Informática",
+    category_gesundheit: "Salud",
+    category_sport: "Deportes",
+    category_mode: "Moda y accesorios"
 
   }
 };
@@ -447,21 +496,28 @@ function renderDetected(lang) {
   if (!el) return;
   const names = { de: "Deutsch", en: "English", fr: "Français", it: "Italiano", es: "Español" };
   const nice = names[lang] || "English";
-
 }
 
 /** Init on DOM ready */
+/** Init on DOM ready */
 document.addEventListener("DOMContentLoaded", () => {
-  const lang = getPreferredLang();
-  //const lang = "fr";  
-  /*  const lang = "en"; */
-  /*  const lang = "es";  */
-  /*  const lang = "it";  */
+  // 🌍 Sprache hier einmalig global definieren
+  window.currentLang = getPreferredLang(); // erkennt "de", "fr", "en", "it", "es" usw.
+ /*  if (!window.currentLang) {
+    window.currentLang = "de"; // Testweise – kann später dynamisch geändert werden
+  } */
 
+  // Übersetzungen anwenden
+  // @ts-ignore
+  applyTranslations(window.currentLang);
+  renderDetected(window.currentLang);
 
-  applyTranslations(lang);
-  renderDetected(lang);
   // Jahr im Footer setzen
   const y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
+
+  // 🟢 globale Funktion für andere Skripte
+  window.getPreferredLang = function () {
+    return window.currentLang;
+  };
 });

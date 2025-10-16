@@ -1,0 +1,121 @@
+/* ========== CUSTOM SELECT PREMIUM STYLE ========== */
+
+.custom-select {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #2c2c2c;
+}
+
+/* --- Button (Trigger) --- */
+.select-trigger {
+  width: 100%;
+  background: linear-gradient(180deg, #fff9f3 0%, #fff 100%);
+  border: 1.8px solid #d7c7a3;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+.select-trigger:hover {
+  border-color: #c7b27b;
+  box-shadow: 0 4px 10px rgba(199, 178, 123, 0.15);
+}
+
+.select-trigger:focus {
+  outline: none;
+  border-color: #c7b27b;
+  box-shadow: 0 0 0 3px rgba(199, 178, 123, 0.25);
+}
+
+/* --- Arrow --- */
+.select-trigger .arrow {
+  font-size: 0.9rem;
+  color: #a68a52;
+  transition: transform 0.25s ease;
+}
+
+.select-trigger[aria-expanded="true"] .arrow {
+  transform: rotate(180deg);
+}
+
+/* --- Dropdown Box --- */
+.select-options {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 8px 0;
+  position: absolute;
+  width: 100%;
+  background: #ffffff;
+  border: 1.6px solid #e1d4b1;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s ease;
+  z-index: 15;
+}
+
+/* --- Wenn offen --- */
+.select-options.show {
+  max-height: 300px;
+  opacity: 1;
+  pointer-events: all;
+  overflow-y: auto;
+}
+
+/* --- Optionen --- */
+.select-options li {
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.select-options li:hover {
+  background: #fff6e4;
+  color: #8a6a2d;
+}
+
+.select-options li.selected {
+  background: linear-gradient(180deg, #f8ecc6 0%, #f3e3b4 100%);
+  color: #5a4420;
+  font-weight: 600;
+  border-left: 3px solid #c7b27b;
+}
+
+/* --- Scrollbar Styling (modern browsers) --- */
+.select-options::-webkit-scrollbar {
+  width: 8px;
+}
+.select-options::-webkit-scrollbar-thumb {
+  background-color: #d9cba1;
+  border-radius: 4px;
+}
+.select-options::-webkit-scrollbar-thumb:hover {
+  background-color: #c7b27b;
+}
+
+
+/* --- Responsive --- */
+@media (max-width: 480px) {
+  .custom-select {
+    max-width: 100%;
+  }
+  .select-trigger {
+    font-size: 1rem;
+    padding: 10px 14px;
+  }
+}
