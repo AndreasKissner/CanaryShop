@@ -1,10 +1,11 @@
 const CATEGORY_MAP = {
-  de: { angebote: "angebote", haushalt: "haushalt", handy: "handy", gaming: "gaming", computer: "computer", gesundheit: "gesundheit", sport: "sport", mode: "mode", tiere: "tiere" },
-  en: { angebote: "offers", haushalt: "household", handy: "mobile", gaming: "gaming", computer: "computer", gesundheit: "health", sport: "sport", mode: "fashion", tiere: "animals" },
-  fr: { angebote: "offres", haushalt: "maison", handy: "telephone", gaming: "jeux", computer: "informatique", gesundheit: "sante", sport: "sport", mode: "mode", tiere: "animaux" },
-  it: { angebote: "offerte", haushalt: "casa", handy: "telefono", gaming: "gaming", computer: "computer", gesundheit: "salute", sport: "sport", mode: "moda", tiere: "animali" },
-  es: { angebote: "ofertas", haushalt: "hogar", handy: "movil", gaming: "juegos", computer: "informatica", gesundheit: "salud", sport: "deporte", mode: "moda", tiere: "animales" }
+  de: { angebote: "angebote", haushalt: "haushalt", handy: "handy", gaming: "gaming", computer: "computer", gesundheit: "gesundheit", sport: "sport", mode: "mode", tiere: "tiere", kurse: "kurse" },
+  en: { angebote: "offers", haushalt: "household", handy: "mobile", gaming: "gaming", computer: "computer", gesundheit: "health", sport: "sport", mode: "fashion", tiere: "animals", kurse: "courses" },
+  fr: { angebote: "offres", haushalt: "maison", handy: "telephone", gaming: "jeux", computer: "informatique", gesundheit: "sante", sport: "sport", mode: "mode", tiere: "animaux", kurse: "cours" },
+  it: { angebote: "offerte", haushalt: "casa", handy: "telefono", gaming: "gaming", computer: "computer", gesundheit: "salute", sport: "sport", mode: "moda", tiere: "animali", kurse: "corsi" },
+  es: { angebote: "ofertas", haushalt: "hogar", handy: "movil", gaming: "juegos", computer: "informatica", gesundheit: "salud", sport: "deporte", mode: "moda", tiere: "animales", kurse: "cursos" }
 };
+
 
 
 
