@@ -104,7 +104,7 @@
 
 .product-card__meta {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   /* damit es bei kleinen Screens nicht bricht */

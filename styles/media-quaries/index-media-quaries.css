@@ -44,9 +44,11 @@
   }
 
   .floating-link {
+    margin: 0 20px;
     text-align: center;
     font-size: 1.1rem;
   }
+
 
   .footer-links-left a.text-link {
     font-size: 16px;
