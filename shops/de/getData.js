@@ -83,6 +83,8 @@ async function loadCards() {
   renderCards();
 }
 
+
+
 /**
  * Start beim Laden der Seite
  */
