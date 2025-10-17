@@ -106,3 +106,6 @@ document.addEventListener("click", async (e) => {
   // Seite neu laden lassen (mit neuer Sprache)
   await loadCards();
 });
+
+
+
