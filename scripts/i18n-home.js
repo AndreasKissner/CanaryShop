@@ -110,7 +110,8 @@ const DICT = {
     category_computer: "Computer",
     category_gesundheit: "Health",
     category_sport: "Sports",
-    category_mode: "Fashion & Accessories"
+    category_mode: "Fashion & Accessories",
+    category_handwerk: "Artisanat"
     
 
   },
@@ -200,7 +201,8 @@ const DICT = {
     category_computer: "Computer",
     category_gesundheit: "Gesundheit",
     category_sport: "Sport",
-    category_mode: "Mode & Accessoires"
+    category_mode: "Mode & Accessoires",
+    category_handwerk: "Handwerk"
 
   },
   fr: {
@@ -285,7 +287,8 @@ const DICT = {
     category_computer: "Informatique",
     category_gesundheit: "Santé",
     category_sport: "Sport",
-    category_mode: "Mode & Accessoires"
+    category_mode: "Mode & Accessoires",
+    category_handwerk: "Artisanat"
 
   },
 
@@ -375,7 +378,8 @@ const DICT = {
     category_computer: "Computer",
     category_gesundheit: "Salute",
     category_sport: "Sport",
-    category_mode: "Moda e accessori"
+    category_mode: "Moda e accessori",
+    category_handwerk: "Artisanat"
 
 
   },
@@ -462,7 +466,8 @@ const DICT = {
     category_computer: "Informática",
     category_gesundheit: "Salud",
     category_sport: "Deportes",
-    category_mode: "Moda y accesorios"
+    category_mode: "Moda y accesorios",
+    category_handwerk: "Artisanat"
 
   }
 };
