@@ -1,9 +1,9 @@
 const CATEGORY_MAP = {
-  de: { angebote: "angebote", haushalt: "haushalt", handy: "handy", gaming: "gaming", computer: "computer", gesundheit: "gesundheit", sport: "sport", mode: "mode", tiere: "tiere", kurse: "kurse" },
-  en: { angebote: "offers", haushalt: "household", handy: "mobile", gaming: "gaming", computer: "computer", gesundheit: "health", sport: "sport", mode: "fashion", tiere: "animals", kurse: "courses" },
-  fr: { angebote: "offres", haushalt: "maison", handy: "telephone", gaming: "jeux", computer: "informatique", gesundheit: "sante", sport: "sport", mode: "mode", tiere: "animaux", kurse: "cours" },
-  it: { angebote: "offerte", haushalt: "casa", handy: "telefono", gaming: "gaming", computer: "computer", gesundheit: "salute", sport: "sport", mode: "moda", tiere: "animali", kurse: "corsi" },
-  es: { angebote: "ofertas", haushalt: "hogar", handy: "movil", gaming: "juegos", computer: "informatica", gesundheit: "salud", sport: "deporte", mode: "moda", tiere: "animales", kurse: "cursos" }
+  de: { angebote: "angebote", haushalt: "haushalt", handy: "handy", gaming: "gaming", computer: "computer", gesundheit: "gesundheit", sport: "sport", mode: "mode", tiere: "tiere", kurse: "kurse", fernseher: "fernseher", handwerk: "handwerk" },
+  en: { angebote: "offers", haushalt: "household", handy: "mobile", gaming: "gaming", computer: "computer", gesundheit: "health", sport: "sport", mode: "fashion", tiere: "animals", kurse: "courses", fernseher: "tv", handwerk: "crafts" },
+  fr: { angebote: "offres", haushalt: "maison", handy: "telephone", gaming: "jeux", computer: "informatique", gesundheit: "sante", sport: "sport", mode: "mode", tiere: "animaux", kurse: "cours", fernseher: "television", handwerk: "artisanat" },
+  it: { angebote: "offerte", haushalt: "casa", handy: "telefono", gaming: "gaming", computer: "computer", gesundheit: "salute", sport: "sport", mode: "moda", tiere: "animali", kurse: "corsi", fernseher: "televisore", handwerk: "artigianato" },
+  es: { angebote: "ofertas", haushalt: "hogar", handy: "movil", gaming: "juegos", computer: "informatica", gesundheit: "salud", sport: "deporte", mode: "moda", tiere: "animales", kurse: "cursos", fernseher: "televisor", handwerk: "artesania" }
 };
 
 
