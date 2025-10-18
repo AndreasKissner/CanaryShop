@@ -1,6 +1,21 @@
 function getActionCardTemplate(){
     return`
 <article class="action-card">
+
+<div class="card-box">
+    <img src="assets/img/pupImg/annonce/retro.webp" class="card-image" />
+        <h1 class="action-light">Für die Coolen</h2>
+    <h2 class="card-title">Retoo Handheld Spielkonsole Für Zwei Spieler</h2>
+    <p class="card-text">
+     Retoo Handheld Spielkonsole Für Zwei Spieler mit 500 Klassische Spielen, 3.5 Zoll LCD Bildschirm, Retro-Videospielkonsole Spieler für Kinder Spielzeug, Retro Game Console, 1200 mAh Akku
+    </p>
+
+    <div class="card-actions">
+         <a href="https://amzn.to/4hkHOxx" class="card-btn" target="_blank">Details</a>
+         <a href="https://amzn.to/4hkHOxx" class="highlight-btn" target="_blank">🔥 Zum Top-Angebot</a>
+    </div>
+    </div>
+
 <div class="card-box">
     <img src="assets/img/pupImg/annonce/beamerwhite.webp" class="card-image" />
         <h1 class="action-light">Für die Filmnacht</h2>
