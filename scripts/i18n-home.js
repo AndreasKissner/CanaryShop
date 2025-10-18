@@ -105,13 +105,17 @@ const DICT = {
     //Category
     select_placeholder: "Choose a category",
     category_angebote: "Offers",
+    category_kurse: "Courses",
     category_haushalt: "Household",
     category_gaming: "Gaming",
-    category_computer: "Computer",
+    category_fernseher: "Television",
+    category_computer: "Computers",
+    category_tiere: "Animals",
     category_gesundheit: "Health",
     category_sport: "Sports",
     category_mode: "Fashion & Accessories",
-    category_handwerk: "Artisanat"
+    category_handwerk: "Craftsmanship",
+
 
 
   },
@@ -196,13 +200,17 @@ const DICT = {
     //category
     select_placeholder: "Kategorie wählen",
     category_angebote: "Angebote",
+    category_kurse: "Kurse",
     category_haushalt: "Haushalt",
     category_gaming: "Gaming",
+    category_fernseher: "Fernseher",
     category_computer: "Computer",
+    category_tiere: "Tiere",
     category_gesundheit: "Gesundheit",
     category_sport: "Sport",
     category_mode: "Mode & Accessoires",
-    category_handwerk: "Handwerk"
+    category_handwerk: "Handwerk",
+
 
   },
   fr: {
@@ -282,9 +290,12 @@ const DICT = {
     //Category
     select_placeholder: "Choisir une catégorie",
     category_angebote: "Offres",
+    category_kurse: "Cours",
     category_haushalt: "Maison",
     category_gaming: "Jeux vidéo",
+    category_fernseher: "Télévision",
     category_computer: "Informatique",
+    category_tiere: "animaux",
     category_gesundheit: "Santé",
     category_sport: "Sport",
     category_mode: "Mode & Accessoires",
@@ -376,13 +387,17 @@ const DICT = {
     //category
     select_placeholder: "Scegli una categoria",
     category_angebote: "Offerte",
+    category_kurse: "Corsi",
     category_haushalt: "Casa",
-    category_gaming: "Gaming",
-    category_computer: "Computer",
+    category_gaming: "Videogiochi",
+    category_fernseher: "Televisore",
+    category_computer: "Informatica",
+    category_tiere: "Animali",
     category_gesundheit: "Salute",
     category_sport: "Sport",
-    category_mode: "Moda e accessori",
-    category_handwerk: "Artisanat"
+    category_mode: "Moda e Accessori",
+    category_handwerk: "Artigianato",
+
 
 
   },
@@ -464,13 +479,17 @@ const DICT = {
     //Category
     select_placeholder: "Elige una categoría",
     category_angebote: "Ofertas",
+    category_kurse: "Cursos",
     category_haushalt: "Hogar",
     category_gaming: "Videojuegos",
+    category_fernseher: "Televisor",
     category_computer: "Informática",
+    category_tiere: "Animales",
     category_gesundheit: "Salud",
     category_sport: "Deportes",
-    category_mode: "Moda y accesorios",
-    category_handwerk: "Artisanat"
+    category_mode: "Moda y Accesorios",
+    category_handwerk: "Artesanía",
+
 
   }
 };
