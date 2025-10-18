@@ -24,7 +24,14 @@ function renderCards() {
   for (let j = 0; j < cards.length; j++) {
     initSlider(cards[j]);
   }
+  // 🟢 Nach dem Rendern alle Übersetzungen anwenden
+if (window.applyTranslations && window.currentLang) {
+  window.applyTranslations(window.currentLang);
 }
+
+}
+
+
 
 /**
  * Filtert die angezeigten Produktkarten nach Kategorie.
@@ -54,9 +61,10 @@ function setupCategoryFilter() {
   });
 }
 
-
-
 window.addEventListener("DOMContentLoaded", () => {
   loadCards();
   setupCategoryFilter(); // 🟢 Kategorie-Filter aktivieren
 });
+
+
+

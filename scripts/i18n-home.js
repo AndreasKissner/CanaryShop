@@ -101,7 +101,7 @@ const DICT = {
     text_whatsapp: "Follow Canary Hub on WhatsApp for exclusive updates, videos, and tips",
     songs: "🎵 To the Canary Songs",
 
-    
+
     //Category
     select_placeholder: "Choose a category",
     category_angebote: "Offers",
@@ -112,7 +112,7 @@ const DICT = {
     category_sport: "Sports",
     category_mode: "Fashion & Accessories",
     category_handwerk: "Artisanat"
-    
+
 
   },
   de: {
@@ -193,7 +193,7 @@ const DICT = {
     text_whatsapp: "Canary Hub auf WhatsApp folgen für exklusive Updates, Videos und Tipps",
     songs: "🎵 Zu den Canary Songs",
 
-     //category
+    //category
     select_placeholder: "Kategorie wählen",
     category_angebote: "Angebote",
     category_haushalt: "Haushalt",
@@ -288,7 +288,10 @@ const DICT = {
     category_gesundheit: "Santé",
     category_sport: "Sport",
     category_mode: "Mode & Accessoires",
-    category_handwerk: "Artisanat"
+    category_handwerk: "Artisanat",
+
+    product_price: "Prix du produit",
+    product_btn: "À l'offre",
 
   },
 
@@ -508,9 +511,9 @@ function renderDetected(lang) {
 document.addEventListener("DOMContentLoaded", () => {
   // 🌍 Sprache hier einmalig global definieren
   window.currentLang = getPreferredLang(); // erkennt "de", "fr", "en", "it", "es" usw.
- /*  if (!window.currentLang) {
-    window.currentLang = "de"; // Testweise – kann später dynamisch geändert werden
-  } */
+  /*  if (!window.currentLang) {
+     window.currentLang = "de"; // Testweise – kann später dynamisch geändert werden
+   } */
 
   // Übersetzungen anwenden
   // @ts-ignore
